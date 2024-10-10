@@ -1,854 +1,846 @@
 const translations = {
   shared: {
-    next: 'ต่อไป',
-    start: 'เริ่ม',
-    copy: 'Copy',
-    info: 'Info',
-    copy_acknowledged: 'Copied!',
-    about: 'About',
-    chapter: 'Chapter',
-    chapters: 'Chapters',
-    challenge: 'Challenge',
-    challenges: 'Challenges',
-    coming_soon: 'Coming soon',
-    start_chapter: 'Start chapter',
-    back: 'Back',
-    close: 'Close',
-    poweroff: 'Back to chapter selection',
-    loading: 'Loading',
+    next: 'ดำเนินการต่อ',
+    start: 'เริ่มต้น',
+    copy: 'คัดลอก',
+    info: 'ข้อมูล',
+    copy_acknowledged: 'คัดลอกแล้ว!',
+    about: 'เกี่ยวกับ',
+    chapter: 'บท',
+    chapters: 'บทต่างๆ',
+    challenge: 'ท้าทาย',
+    challenges: 'ความท้าทาย',
+    coming_soon: 'เร็วๆ นี้',
+    start_chapter: 'เริ่มบท',
+    back: 'กลับ',
+    close: 'ปิด',
+    poweroff: 'กลับไปที่การเลือกบท',
+    loading: 'กำลังโหลด',
   },
   ///ABOUT PAGE
   about: {
-    title: 'About',
-    mobile_title: 'What it’s about',
+    title: 'เกี่ยวกับ',
+    mobile_title: 'เกี่ยวกับอะไร',
     subtitle:
-      'The year is 2139. The last bitcoin is two weeks from being mined. For months, a clock has ticked down in Satoshi Square.',
+      'ปี 2139 บิตคอยน์สุดท้ายจะถูกขุดในอีกสองสัปดาห์ สำหรับหลายเดือน นาฬิกาได้เดินถอยหลังในซาโตชิสแควร์',
     intro:
-      'The world awaits the last block. Then, suddenly, the network grinds to a halt.<br><br>You receive a holocat from someone using the name Satoshi Nakamoto. (It’s like any other e-hologram, but this one is shaped like a cat). You open the holocat by booping its nose curious to hear what it has to say...',
+      'โลกกำลังรอบล็อกสุดท้าย แล้วทันใดนั้น เครือข่ายก็หยุดชะงัก<br><br>คุณได้รับโฮโลแคทจากใครบางคนที่ใช้ชื่อซาโตชิ นากาโมโตะ (มันเหมือนกับอีโฮโลแกรมอื่นๆ แต่ตัวนี้มีรูปร่างเหมือนแมว) คุณเปิดโฮโลแคทโดยการแตะจมูกของมันด้วยความอยากรู้ว่ามันจะพูดอะไร...',
 
     project: {
-      title: 'Built with fun',
+      title: 'สร้างด้วยความสนุก',
       paragraph_one:
-        'Saving Satoshi is a light-hearted first point of contact for coders who are curious about bitcoin development. Saving Satoshi has a mix of technical text and code-based challenges, but the challenges should be doable for anyone with basic coding skills. The project is free and open source (FOSS) and all the art has been generated using text-to-image tools like Midjourney.',
+        'Saving Satoshi เป็นจุดเริ่มต้นที่เบาสำหรับนักเขียนโค้ดที่อยากรู้เกี่ยวกับการพัฒนาบิตคอยน์ Saving Satoshi มีการผสมผสานระหว่างข้อความทางเทคนิคและความท้าทายที่ใช้โค้ด แต่ความท้าทายเหล่านี้ควรทำได้สำหรับใครก็ตามที่มีทักษะการเขียนโค้ดพื้นฐาน โครงการนี้ฟรีและโอเพ่นซอร์ส (FOSS) และศิลปะทั้งหมดถูกสร้างขึ้นโดยใช้เครื่องมือแปลงข้อความเป็นภาพ เช่น Midjourney',
       paragraph_two:
-        'This project is in continuous development and takes an iterative approach to incorporate feedback as we release new chapters. There are currently ten chapters mapped out. However more may be added as the project continues to grow.',
+        'โครงการนี้อยู่ในระหว่างการพัฒนาอย่างต่อเนื่องและใช้วิธีการเชิงซ้ำเพื่อรวมข้อเสนอแนะเมื่อเราปล่อยบทใหม่ๆ ขณะนี้มีการวางแผนบทไว้สิบบท อย่างไรก็ตามอาจมีการเพิ่มบทเพิ่มเติมเมื่อโครงการเติบโตขึ้น',
     },
 
     contributing: {
-      title: 'How to contribute',
+      title: 'วิธีการมีส่วนร่วม',
       paragraph_one:
-        'We’re an open-source project, so all doors are open for you to help shape it.',
+        'เราเป็นโครงการโอเพ่นซอร์ส ดังนั้นทุกประตูเปิดกว้างสำหรับคุณในการช่วยกำหนดรูปแบบมัน',
 
       feedback: {
-        title: 'Feedback',
+        title: 'ข้อเสนอแนะ',
         paragraph_one:
-          'A great way to contribute is to go through Chapter 1 and give us any feedback on the overall experience you might have using <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform" target="_blank" rel="noreferrer">this form</a>.',
+          'วิธีที่ดีในการมีส่วนร่วมคือการผ่านบทที่ 1 และให้ข้อเสนอแนะใดๆ เกี่ยวกับประสบการณ์โดยรวมที่คุณอาจมีโดยใช้ <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform" target="_blank" rel="noreferrer">แบบฟอร์มนี้</a>',
       },
 
       contribute: {
-        title: 'Contribute',
+        title: 'มีส่วนร่วม',
         paragraph_one:
-          'All suggestions are welcome, including content changes, game mechanics – really anything. We are also always looking for help reviewing and <a href="https://leaf-singer-0fc.notion.site/How-to-QA-5177e63f65a4406da01bc57d886b5ac2" target="_blank" rel="noreferrer">QA-ing code changes</a>. For code improvements, you can directly open an issue or submit a pull request on GitHub.',
+          'ยินดีต้อนรับทุกข้อเสนอแนะ รวมถึงการเปลี่ยนแปลงเนื้อหา กลไกของเกม – จริงๆ แล้วอะไรก็ได้ เรายังมองหาความช่วยเหลือในการตรวจสอบและ <a href="https://leaf-singer-0fc.notion.site/How-to-QA-5177e63f65a4406da01bc57d886b5ac2" target="_blank" rel="noreferrer">การทดสอบโค้ด</a> สำหรับการปรับปรุงโค้ด คุณสามารถเปิดปัญหาโดยตรงหรือส่งคำขอดึงบน GitHub',
         paragraph_two:
-          'If you want to get involved with design, story, or anything else, join us in the #saving-satoshi channel in the <a href="https://discord.gg/DC8Dys4G3h" target="_blank" rel="noreferrer">Bitcoin Design Discord</a>. Mention how you’d like to contribute and we’ll help point you in the right direction.',
+          'หากคุณต้องการมีส่วนร่วมกับการออกแบบ เรื่องราว หรือสิ่งอื่นๆ เข้าร่วมกับเราในช่อง #saving-satoshi ใน <a href="https://discord.gg/DC8Dys4G3h" target="_blank" rel="noreferrer">Bitcoin Design Discord</a> ระบุว่าคุณต้องการมีส่วนร่วมอย่างไรและเราจะช่วยชี้แนะคุณไปในทิศทางที่ถูกต้อง',
       },
     },
 
     contributors: {
       title: 'Enjoy!',
-      contributions_by: 'Contributions by',
+      contributions_by: 'ผลงานโดย',
       many_more:
-        'and <a href="https://github.com/saving-satoshi/saving-satoshi/graphs/contributors" target="_blank" rel="noreferrer">many more</a>.',
+        'และ <a href="https://github.com/saving-satoshi/saving-satoshi/graphs/contributors" target="_blank" rel="noreferrer">อีกมากมาย</a>',
     },
 
-    satoshi_needs_you: 'Now be quick, Satoshi needs you.',
+    satoshi_needs_you: 'ตอนนี้รีบหน่อย ซาโตชิต้องการคุณ',
     privacy: {
-      title: 'Our commitment to privacy',
+      title: 'ความมุ่งมั่นของเราต่อความเป็นส่วนตัว',
       paragraph_one:
-        'At Saving Satoshi, we are deeply committed to ensuring the privacy and security of our users. We believe in transparency and want you to understand how and why we track app usage. To achieve this, we use a powerful tool called <Link href="https://umami.is/" className="underline" target="_blank">Umami</Link>.',
-      sub_heading_one: 'What is Umami?',
+        'ที่ Saving Satoshi เรามุ่งมั่นอย่างยิ่งที่จะรับรองความเป็นส่วนตัวและความปลอดภัยของผู้ใช้ของเรา เราเชื่อในความโปร่งใสและต้องการให้คุณเข้าใจว่าเราติดตามการใช้งานแอปอย่างไรและทำไม เพื่อให้บรรลุเป้าหมายนี้ เราใช้เครื่องมือที่มีประสิทธิภาพที่เรียกว่า <Link href="https://umami.is/" className="underline" target="_blank">Umami</Link>',
+      sub_heading_one: 'Umami คืออะไร?',
       paragraph_two:
-        'Umami is an open-source analytics platform that helps us gather essential insights about how you use our app. It allows us to make data-driven decisions and continuously enhance our product to better meet your needs.  You can view the Umami dashboard <Link className="underline" href="https://visits.bitcoindevs.xyz/share/zFmD5WIus09mDxEf/Saving%20Satoshi" target="_blank">here</Link>.',
-      sub_heading_two: 'What Data Do We Collect?',
+        'Umami เป็นแพลตฟอร์มวิเคราะห์โอเพ่นซอร์สที่ช่วยให้เรารวบรวมข้อมูลเชิงลึกที่จำเป็นเกี่ยวกับวิธีที่คุณใช้แอปของเรา มันช่วยให้เราตัดสินใจโดยใช้ข้อมูลและปรับปรุงผลิตภัณฑ์ของเราอย่างต่อเนื่องเพื่อตอบสนองความต้องการของคุณได้ดียิ่งขึ้น คุณสามารถดูแดชบอร์ด Umami ได้ <Link className="underline" href="https://visits.bitcoindevs.xyz/share/zFmD5WIus09mDxEf/Saving%20Satoshi" target="_blank">ที่นี่</Link>',
+      sub_heading_two: 'เรารวบรวมข้อมูลอะไรบ้าง?',
       paragraph_three:
-        'Rest assured, we only collect non-personal and anonymized data, such as:',
-      list_item_one_title: 'Product Improvement:',
+        'มั่นใจได้ว่าเรารวบรวมเฉพาะข้อมูลที่ไม่ใช่ข้อมูลส่วนบุคคลและไม่ระบุตัวตน เช่น:',
+      list_item_one_title: 'การปรับปรุงผลิตภัณฑ์:',
       list_item_one_text:
-        'We use the data to identify areas where our app can be improved. By understanding how you use our app, we can make it more efficient, user-friendly, and secure.',
-      list_item_two_title: 'Compatibility:',
+        'เราใช้ข้อมูลเพื่อระบุพื้นที่ที่แอปของเราสามารถปรับปรุงได้ โดยการเข้าใจวิธีที่คุณใช้แอปของเรา เราสามารถทำให้มันมีประสิทธิภาพ ใช้งานง่าย และปลอดภัยมากขึ้น',
+      list_item_two_title: 'ความเข้ากันได้:',
       list_item_two_text:
-        'Understanding the devices and platforms you use allows us to optimize our app for various configurations, ensuring it works seamlessly for you.',
-      sub_heading_three: 'Your Privacy Matters',
+        'การเข้าใจอุปกรณ์และแพลตฟอร์มที่คุณใช้ช่วยให้เราปรับแอปของเราสำหรับการกำหนดค่าต่างๆ เพื่อให้แน่ใจว่ามันทำงานได้อย่างราบรื่นสำหรับคุณ',
+      sub_heading_three: 'ความเป็นส่วนตัวของคุณสำคัญ',
       paragraph_four:
-        'We want to emphasize that your privacy is of utmost importance to us. We do not collect any personally identifiable information, and the data we gather is used solely for the purpose of improving our app. Your data is never shared or sold to third parties.',
+        'เราต้องการเน้นย้ำว่าความเป็นส่วนตัวของคุณมีความสำคัญสูงสุดสำหรับเรา เราไม่รวบรวมข้อมูลที่สามารถระบุตัวตนได้ และข้อมูลที่เรารวบรวมจะถูกใช้เพื่อวัตถุประสงค์ในการปรับปรุงแอปของเราเท่านั้น ข้อมูลของคุณจะไม่ถูกแชร์หรือขายให้กับบุคคลที่สาม',
       paragraph_five:
-        "If you have any concerns or questions about our data collection practices or privacy policies, please don't hesitate to contact us. We are committed to providing you with a transparent and secure experience while using our app.",
+        'หากคุณมีข้อกังวลหรือคำถามเกี่ยวกับแนวทางการรวบรวมข้อมูลหรือข้อกำหนดความเป็นส่วนตัวของเรา โปรดอย่าลังเลที่จะติดต่อเรา เรามุ่งมั่นที่จะให้คุณมีประสบการณ์ที่โปร่งใสและปลอดภัยขณะใช้แอปของเรา',
     },
   },
 
   ///CHAPTERS TITLE PAGE
   chapter_one: {
-    title: 'Secrets in Plain Sight',
+    title: 'ความลับที่เห็นได้ชัด',
     paragraph_one:
-      'The year is 2139. The last bitcoin is two weeks from being mined. For months, a clock has ticked down in Satoshi Square. Up until this point, every block has had some kind of bitcoin reward, a subsidy. This is the only way new bitcoins come into existence but soon, it’s about to change. After over one hundred years, the issuance schedule for bitcoin is coming to an end. The world awaits for the last block with a subsidy to be mined. It’s a historical event. The end of an era.',
-    paragraph_two: 'Suddenly, the network grinds to a halt.',
+      'ปี 2139 บิตคอยน์สุดท้ายจะถูกขุดในอีกสองสัปดาห์ สำหรับหลายเดือน นาฬิกาได้เดินถอยหลังในซาโตชิสแควร์ จนถึงจุดนี้ ทุกบล็อกมีรางวัลบิตคอยน์บางอย่าง ซึ่งเป็นเงินอุดหนุน นี่เป็นวิธีเดียวที่บิตคอยน์ใหม่จะเกิดขึ้น แต่เร็วๆ นี้มันกำลังจะเปลี่ยนแปลง หลังจากกว่าร้อยปี กำหนดการออกบิตคอยน์กำลังจะสิ้นสุดลง โลกกำลังรอบล็อกสุดท้ายที่มีเงินอุดหนุนที่จะถูกขุด มันเป็นเหตุการณ์ทางประวัติศาสตร์ สิ้นสุดยุคสมัย',
+    paragraph_two: 'ทันใดนั้น เครือข่ายก็หยุดชะงัก',
 
     ///CHAPTER 1
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Miner protest',
-      paragraph_one: `Moments later, your Hover Screen activates.`,
-      paragraph_two: `—Deborah Chunk: “Thomas Vanderpoole. As the well-dressed CEO of BitRey, you run one of the largest bitcoin mining pools in the world. You also manufacture bitcoin mining machines. What is happening? Is bitcoin dying?”`,
-      paragraph_three: `—Vanderpoole: “Let’s start from the top. Yes, I am, Deborah, and yes, I do. The Vanderpooles—my well-dressed daddy and his well-dressed daddy before him—have been mining since block 21,000. That’s why I can confidently say that miners across the world are causing these delays by turning off their machines. This is a protest. No one wants bitcoin to stop being issued at 21 million. Miners cannot survive on fees alone.”`,
-      start: 'Continue',
+      title: 'บทนำ',
+      nav_title: 'การประท้วงของนักขุด',
+      paragraph_one: `ไม่กี่นาทีต่อมา หน้าจอโฮเวอร์ของคุณเปิดใช้งาน`,
+      paragraph_two: `—เดโบราห์ ชังค์: “โทมัส แวนเดอร์พูล ในฐานะซีอีโอที่ตัวดีของ BitRey คุณบริหารหนึ่งในพูลการขุดบิตคอยน์ที่ใหญ่ที่สุดในโลก และคุณยังผลิตเครื่องขุดบิตคอยน์ด้วย เกิดอะไรขึ้น? บิตคอยน์กำลังจะตายหรือไม่?”`,
+      paragraph_three: `—แวนเดอร์พูล: “เริ่มจากจุดสูงสุด ใช่ ฉันคือ เดโบราห์ และครอบครัวแวนเดอร์พูล พ่อ และตาของฉัน ได้ขุดมาตั้งแต่บล็อกที่ 21,000 นั่นคือเหตุผลที่ฉันสามารถพูดได้อย่างมั่นใจว่านักขุดทั่วโลกกำลังทำให้เกิดความล่าช้าเหล่านี้โดยการปิดเครื่องของพวกเขา นี่คือการประท้วง ไม่มีใครต้องการให้บิตคอยน์หยุดออกที่ 21 ล้าน นักขุดไม่สามารถอยู่รอดได้ด้วยค่าธรรมเนียมเพียงอย่างเดียว”`,
+      start: 'ดำเนินการต่อ',
     },
 
     intro_two: {
-      title: 'Genesis',
-      nav_title: "Satoshi's holocat",
+      title: 'การเริ่มต้น',
+      nav_title: 'โฮโลแคทของซาโตชิ',
       paragraph_one:
-        'On your Everything Watch, you receive a WhiskerWare brand holocat from someone using the name Satoshi Nakamoto. (It’s like any other e-hologram, but this one is shaped like a cat.) You open the holocat by booping its nose.',
+        'บน Everything Watch ของคุณ คุณได้รับโฮโลแคทยี่ห้อ WhiskerWare จากใครบางคนที่ใช้ชื่อซาโตชิ นากาโมโตะ (มันเหมือนกับอีโฮโลแกรมอื่นๆ แต่ตัวนี้มีรูปร่างเหมือนแมว) คุณเปิดโฮโลแคทโดยการแตะจมูกของมัน',
       paragraph_two:
-        '—“Bitcoin is not dying, but it needs your help. Don’t forget the cat.” – Satoshi Nakamoto',
+        '—“บิตคอยน์ไม่ได้กำลังจะตาย แต่มันต้องการความช่วยเหลือจากคุณ อย่าลืมแมว” – ซาโตชิ นากาโมโตะ',
       paragraph_three:
-        '—Satoshi? The Satoshi? From the white paper? No, it couldn’t be. They’ve been presumed dead for over a century.',
-      paragraph_four: 'Haven’t they?',
+        '—ซาโตชิ? ซาโตชิคนนั้น? จากไวท์เปเปอร์? ไม่ มันเป็นไปไม่ได้ พวกเขาถูกสันนิษฐานว่าตายไปกว่าศตวรรษแล้ว',
+      paragraph_four: 'ไม่ใช่หรือ?',
       paragraph_five:
-        'Holocat: “You better get to work. I can help, but you have to start meow.”',
+        'โฮโลแคท: “คุณควรเริ่มทำงานได้แล้ว ฉันสามารถช่วยได้ แต่คุณต้องเริ่มเดี๋ยวนี้”',
     },
 
     genesis_one: {
-      title: 'Genesis',
-      nav_title: 'Genesis Secret',
-      heading: 'Your first challenge',
+      title: 'การเริ่มต้น',
+      nav_title: 'ความลับของการเริ่มต้น',
+      heading: 'ความท้าทายแรกของคุณ',
       paragraph_one:
-        'Bitcoin is censorship-resistant money. Anybody can send money by broadcasting a transaction to the network. After broadcast, transactions are packaged up into blocks by miners. Miners compete against other miners for the privilege of building on the chain. This is what keeps bitcoin decentralized.',
+        'บิตคอยน์เป็นเงินที่ต้านทานการเซ็นเซอร์ได้ ใครๆ ก็สามารถส่งเงินได้โดยการกระจายธุรกรรมไปยังเครือข่าย หลังจากการกระจาย ธุรกรรมจะถูกบรรจุเป็นบล็อกโดยนักขุด นักขุดจะแข่งขันกับนักขุดคนอื่นๆ เพื่อสิทธิ์ในการสร้างบนเชน นี่คือสิ่งที่ทำให้บิตคอยน์กระจายอำนาจ',
       paragraph_two:
-        'Satoshi Nakamoto, the pseudonymous inventor of bitcoin, also mined the first bitcoin block. He left the world a secret message in the very first bitcoin transaction that was ever made. Your first challenge is to find and decode it.',
+        'ซาโตชิ นากาโมโตะ ผู้คิดค้นบิตคอยน์ที่ใช้นามแฝง ยังได้ขุดบล็อกบิตคอยน์แรกด้วย เขาทิ้งข้อความลับให้โลกในธุรกรรมบิตคอยน์แรกที่เคยทำ ความท้าทายแรกของคุณคือการค้นหาและถอดรหัสมัน',
     },
 
     genesis_two: {
-      title: 'Genesis',
-      nav_title: 'Find the message',
-      heading: 'Find the hidden message',
+      title: 'การเริ่มต้น',
+      nav_title: 'ค้นหาข้อความ',
+      heading: 'ค้นหาข้อความที่ซ่อนอยู่',
       paragraph_one:
-        'Let’s find the very first block in the bitcoin blockchain. Click the button below to open a <Tooltip id="genesis_two_paragraph_one" content="chapter_one.genesis_two.tooltip_block_explorer" theme="bg-[#30435b]">block explorer</Tooltip>  exactly at block 0, which is called the genesis block.',
+        'มาค้นหาบล็อกแรกในบล็อกเชนของบิตคอยน์กัน คลิกปุ่มด้านล่างเพื่อเปิด <Tooltip id="genesis_two_paragraph_one" content="chapter_one.genesis_two.tooltip_block_explorer" theme="bg-[#30435b]">ตัวสำรวจบล็อก</Tooltip> ที่บล็อก 0 ซึ่งเรียกว่าบล็อกการเริ่มต้น',
       paragraph_two:
-        'Scroll down and expand the details on the one transaction that is stored in this block. Find the input called “Coinbase”. Now look for the label “SCRIPTSIG (<Tooltip id="genesis_two_paragraph_two" content="chapter_one.genesis_two.tooltip_hex" theme="bg-[#30435b]">HEX</Tooltip>)”. The value next to it is an encoded message.',
-      paragraph_three: 'Copy that value and paste it in the code block.',
+        'เลื่อนลงและขยายรายละเอียดของธุรกรรมหนึ่งที่ถูกเก็บไว้ในบล็อกนี้ ค้นหาข้อมูลที่เรียกว่า “Coinbase” ตอนนี้มองหาป้ายชื่อ “SCRIPTSIG (<Tooltip id="genesis_two_paragraph_two" content="chapter_one.genesis_two.tooltip_hex" theme="bg-[#30435b]">HEX</Tooltip>)” ค่าที่อยู่ข้างๆ คือข้อความที่ถูกเข้ารหัส',
+      paragraph_three: 'คัดลอกค่านั้นและวางในบล็อกโค้ด',
       tooltip_block_explorer:
-        'A <a  href="https://bitcoinops.org/en/topics/block-explorers/" target="_blank" rel="noreferrer">block explorer</a> is a useful tool to quickly look up information about bitcoin transactions.',
+        '<a href="https://bitcoinops.org/en/topics/block-explorers/" target="_blank" rel="noreferrer">ตัวสำรวจบล็อก</a> เป็นเครื่องมือที่มีประโยชน์ในการค้นหาข้อมูลเกี่ยวกับธุรกรรมบิตคอยน์อย่างรวดเร็ว',
       tooltip_hex:
-        'Short for hexadecimal, a numeral system that represents numbers using a base of 16.',
-      view_block_0: 'View Block 0',
-      placeholder: 'Paste the value you found here',
+        'ย่อมาจากเลขฐานสิบหก ซึ่งเป็นระบบตัวเลขที่แสดงตัวเลขโดยใช้ฐาน 16',
+      view_block_0: 'ดูบล็อก 0',
+      placeholder: 'วางค่าที่คุณพบที่นี่',
     },
 
     genesis_three: {
-      title: 'Genesis',
-      nav_title: 'Decode the message',
-      heading: "Let's decode the message",
+      title: 'การเริ่มต้น',
+      nav_title: 'ถอดรหัสข้อความ',
+      heading: 'มาถอดรหัสข้อความกันเถอะ',
       paragraph_one:
-        'The message you found was encoded in a format called HEX. Now we will run a command to turn it into ASCII, which we will be able to read.',
+        'ข้อความที่คุณพบถูกเข้ารหัสในรูปแบบที่เรียกว่า HEX ตอนนี้เราจะรันคำสั่งเพื่อแปลงมันเป็น ASCII ซึ่งเราจะสามารถอ่านได้',
       paragraph_two:
-        'Copy and paste the command below into the Terminal in the code block and press “Enter”.',
-      terminal_challenge_lines: `Enter your commands here and press Enter...\n The variable $scriptSigHex is already defined for you.\n\n var $scriptSigHex = '04fff...e6b73'`,
-      waiting_for_input: 'Waiting for you to write and run the script...',
-      success: `Great work! The decoded message references the front page of <Link href="https://en.bitcoin.it/wiki/Genesis_block" target="_blank" className="underline">The Times</Link> from January 3,2009, the same day Satoshi mined the genesis block. How cool is that?! This message also gives us some insight into his motivation for creating bitcoin.\n\n Let's keep going.`,
+        'คัดลอกและวางคำสั่งด้านล่างลงในเทอร์มินัลในบล็อกโค้ดและกด “Enter”',
+      terminal_challenge_lines: `ป้อนคำสั่งของคุณที่นี่และกด Enter...\n ตัวแปร $scriptSigHex ถูกกำหนดไว้ให้คุณแล้ว\n\n var $scriptSigHex = '04fff...e6b73'`,
+      waiting_for_input: 'รอให้คุณเขียนและรันสคริปต์...',
+      success: `ทำได้ดีมาก! ข้อความที่ถอดรหัสอ้างอิงถึงหน้าหนึ่งของ <Link href="https://en.bitcoin.it/wiki/Genesis_block" target="_blank" className="underline">The Times</Link> จากวันที่ 3 มกราคม 2009 ซึ่งเป็นวันเดียวกับที่ซาโตชิขุดบล็อกการเริ่มต้น มันเจ๋งแค่ไหน?! ข้อความนี้ยังให้ข้อมูลเชิงลึกเกี่ยวกับแรงจูงใจของเขาในการสร้างบิตคอยน์\n\n มาต่อกันเถอะ`,
     },
 
     genesis_four: {
-      title: 'Genesis',
-      nav_title: 'Your first success',
-      subtitle: 'Congrats! You completed the first challenge!',
+      title: 'การเริ่มต้น',
+      nav_title: 'ความสำเร็จครั้งแรกของคุณ',
+      subtitle: 'ยินดีด้วย! คุณทำความท้าทายแรกสำเร็จแล้ว!',
       paragraph_one:
-        'You found the secret message Satoshi Nakamoto embedded in the genesis block. It’s time to expand on what you just learned. Decode a vital clue about the story in the next challenge.',
+        'คุณพบข้อความลับที่ซาโตชิ นากาโมโตะฝังไว้ในบล็อกการเริ่มต้น ถึงเวลาขยายสิ่งที่คุณเพิ่งเรียนรู้ ถอดรหัสเบาะแสสำคัญเกี่ยวกับเรื่องราวในความท้าทายถัดไป',
     },
 
     transacting_one: {
-      title: 'Transacting',
-      nav_title: "What's in a transaction",
-      heading: 'What’s in a transaction?',
+      title: 'การทำธุรกรรม',
+      nav_title: 'อะไรอยู่ในธุรกรรม',
+      heading: 'อะไรอยู่ในธุรกรรม?',
       paragraph_one:
-        'Two main components of a transaction are inputs and outputs. In the previous exercise we decoded a secret message found inside a transaction input. This time we’ll decode a message that belongs to the output part.',
-      paragraph_two:
-        'For the following transaction, we’re going to identify the output of type OP_RETURN.',
+        'ส่วนประกอบหลักสองส่วนของธุรกรรมคืออินพุตและเอาต์พุต ในแบบฝึกหัดก่อนหน้านี้ เราได้ถอดรหัสข้อความลับที่พบในอินพุตของธุรกรรม ครั้งนี้เราจะถอดรหัสข้อความที่อยู่ในส่วนเอาต์พุต',
+      paragraph_two: 'สำหรับธุรกรรมต่อไปนี้ เราจะระบุเอาต์พุตประเภท OP_RETURN',
     },
 
     transacting_two: {
-      title: 'Transacting',
-      nav_title: 'Find the OP_RETURN',
+      title: 'การทำธุรกรรม',
+      nav_title: 'ค้นหา OP_RETURN',
       heading: 'OP_RETURN',
       paragraph_one:
-        'There’s another way to hide secret messages in transactions. Bitcoin has a special type of code called OP_RETURN that allows users to attach messages to transaction outputs. Let’s see if we can find one.',
+        'มีอีกวิธีหนึ่งในการซ่อนข้อความลับในธุรกรรม บิตคอยน์มีรหัสประเภทพิเศษที่เรียกว่า OP_RETURN ซึ่งช่วยให้ผู้ใช้สามารถแนบข้อความไปกับเอาต์พุตของธุรกรรมได้ มาดูกันว่าเราจะหามันเจอไหม',
       paragraph_two:
-        '1. Click <Link href="https://blockstream.info/tx/ff9148605a772a51cba39004df5fb042d40515967a3e38ff5294cfd017c452a9" target="_blank" className="underline">here</Link> to look at a specific transaction.',
-      paragraph_three:
-        '2. Open up the details and find the part that is of type “OP_RETURN”.',
+        '1. คลิก <Link href="https://blockstream.info/tx/ff9148605a772a51cba39004df5fb042d40515967a3e38ff5294cfd017c452a9" target="_blank" className="underline">ที่นี่</Link> เพื่อดูธุรกรรมเฉพาะ',
+      paragraph_three: '2. เปิดรายละเอียดและค้นหาส่วนที่เป็นประเภท “OP_RETURN”',
       paragraph_four:
-        '3. Now locate the “SCRIPTPUBKEY (ASM)” field. See the “OP_RETURN OP_PUSHBYTES_33" part? These are called opcodes. We’re actually interested in what comes after them.',
+        '3. ตอนนี้ค้นหาช่อง “SCRIPTPUBKEY (ASM)” เห็นส่วน “OP_RETURN OP_PUSHBYTES_33” ไหม? สิ่งเหล่านี้เรียกว่าออปโค้ด เราสนใจสิ่งที่อยู่หลังจากนั้น',
       paragraph_five:
-        '4. Copy the long string of numbers after “OP_RETURN OP_PUSHBYTES_33” and paste it in the code block. ',
-      input_challenge_label: 'Enter the OP_RETURN type',
+        '4. คัดลอกสตริงยาวของตัวเลขหลัง “OP_RETURN OP_PUSHBYTES_33” และวางในบล็อกโค้ด',
+      input_challenge_label: 'ป้อนประเภท OP_RETURN',
     },
 
     transacting_three: {
-      title: 'Transacting',
-      nav_title: 'Decode the OP_RETURN',
-      heading: 'Another secret message',
-      paragraph_one:
-        'We’ve identified the part of the transaction output that holds the message.',
+      title: 'การทำธุรกรรม',
+      nav_title: 'ถอดรหัส OP_RETURN',
+      heading: 'ข้อความลับอีกข้อความหนึ่ง',
+      paragraph_one: 'เราได้ระบุส่วนของเอาต์พุตธุรกรรมที่มีข้อความแล้ว',
       paragraph_two:
-        'All that’s left now is to decode it, just like we did in the previous exercise. You can look up the transaction again <Link href="https://blockstream.info/tx/ff9148605a772a51cba39004df5fb042d40515967a3e38ff5294cfd017c452a9?expand" className="underline">here</Link>.',
+        'สิ่งที่เหลืออยู่ตอนนี้คือการถอดรหัสมัน เหมือนที่เราทำในแบบฝึกหัดก่อนหน้านี้ คุณสามารถดูธุรกรรมอีกครั้งได้ <Link href="https://blockstream.info/tx/ff9148605a772a51cba39004df5fb042d40515967a3e38ff5294cfd017c452a9?expand" className="underline">ที่นี่</Link>',
       terminal_challenge_success:
-        'That’s correct! Nice work.\n\n As you can see, the clue is an address. Go to it.\n\n Your next challenge awaits you.',
+        'ถูกต้อง! ทำได้ดีมาก\n\n อย่างที่คุณเห็น เบาะแสคือที่อยู่ ไปที่นั่น\n\n ความท้าทายถัดไปของคุณรออยู่',
       terminal_challenge_lines:
-        'Enter your commands here and press Enter...\n\n Command: \n echo $scriptPubKeyBytes | xxd -r -p \n\n Note that $scriptPubKeyBytes is not defined for you this time. You’ll need to replace this variable in the code with the value you found in the previous page',
+        'ป้อนคำสั่งของคุณที่นี่และกด Enter...\n\n คำสั่ง: \n echo $scriptPubKeyBytes | xxd -r -p \n\n โปรดทราบว่า $scriptPubKeyBytes ไม่ได้ถูกกำหนดไว้ให้คุณในครั้งนี้ คุณจะต้องแทนที่ตัวแปรนี้ในโค้ดด้วยค่าที่คุณพบในหน้าก่อนหน้า',
       terminal_challenge_error:
-        'Almost! Remember that the variable $scriptPubKeyBytes is not set for you this time.',
+        'เกือบแล้ว! จำไว้ว่าตัวแปร $scriptPubKeyBytes ไม่ได้ถูกตั้งค่าให้คุณในครั้งนี้',
     },
 
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Adventure calls',
+      title: 'บทส่งท้าย',
+      nav_title: 'การผจญภัยเรียกหา',
       paragraph_one:
-        'You run down to your garage, step into your dad’s old Budgetcopter, punch in the coordinates, and make your way to District 21.',
+        'คุณวิ่งลงไปที่โรงรถของคุณ ก้าวเข้าไปใน Budgetcopter เก่าของพ่อคุณ ป้อนพิกัด และมุ่งหน้าไปยังเขต 21',
       paragraph_two:
-        'Despite cat allergies so intense that they apply even to holograms, the holocat comes along. You object, but cats will be cats.',
-      button_text: 'Complete chapter 1',
+        'แม้ว่าคุณจะมีอาการแพ้แมวอย่างรุนแรงจนแม้แต่โฮโลแกรมก็ยังแพ้ แต่โฮโลแคทก็มาด้วย คุณคัดค้าน แต่แมวก็คือแมว',
+      button_text: 'จบบทที่ 1',
     },
 
     outro_two: {
-      title: 'You did it!',
-      nav_title: 'Chapter complete',
+      title: 'คุณทำได้!',
+      nav_title: 'จบบท',
       description:
-        'Amazing. You completed the first chapter and learned a lot about hashes and transactions. How did it go?',
+        'น่าทึ่งมาก คุณจบบทแรกและเรียนรู้มากมายเกี่ยวกับแฮชและธุรกรรม เป็นอย่างไรบ้าง?',
     },
 
     end: {
-      save: 'Save my progress',
-      next: 'Continue without saving',
-      feedback: 'Share your feedback',
+      save: 'บันทึกความก้าวหน้าของฉัน',
+      next: 'ดำเนินการต่อโดยไม่บันทึก',
+      feedback: 'แบ่งปันข้อเสนอแนะของคุณ',
     },
     resources: {
       genesis_two: {
         scriptsig_heading: 'ScriptSig',
         scriptsig_paragraph:
-          "The 'scriptSig' is a script that you provide as part of the input in your new transaction. It is essentially your unlocking script, which proves that you have the authority to spend the bitcoin from the referenced UTXO. The 'scriptSig' is the data that goes into the input's scriptSig field.",
-        block_explorer_heading: 'Block Explorer',
+          " 'scriptSig' คือสคริปต์ที่คุณให้เป็นส่วนหนึ่งของอินพุตในธุรกรรมใหม่ของคุณ มันเป็นสคริปต์ปลดล็อกของคุณ ซึ่งพิสูจน์ว่าคุณมีอำนาจในการใช้จ่ายบิตคอยน์จาก UTXO ที่อ้างอิง 'scriptSig' คือข้อมูลที่เข้าสู่ฟิลด์ scriptSig ของอินพุต",
+        block_explorer_heading: 'ตัวสำรวจบล็อก',
         block_explorer_paragraph:
-          'A block explorer is a crucial tool for navigating and understanding blockchain networks. It acts as a user-friendly interface to inspect and analyze the data stored on a blockchain. With a block explorer, users can explore transaction histories, view account balances, and track the progress of individual blocks and transactions.',
-        tip: 'Look for the scriptSig(Hex) category nested in coinbase input after expanding the transaction within the block.',
+          'ตัวสำรวจบล็อกเป็นเครื่องมือสำคัญสำหรับการนำทางและทำความเข้าใจเครือข่ายบล็อกเชน มันทำหน้าที่เป็นอินเทอร์เฟซที่ใช้งานง่ายในการตรวจสอบและวิเคราะห์ข้อมูลที่เก็บไว้ในบล็อกเชน ด้วยตัวสำรวจบล็อก ผู้ใช้สามารถสำรวจประวัติธุรกรรม ดูยอดคงเหลือในบัญชี และติดตามความคืบหน้าของบล็อกและธุรกรรมแต่ละรายการ',
+        tip: 'มองหาหมวดหมู่ scriptSig(Hex) ที่ซ้อนอยู่ในอินพุต coinbase หลังจากขยายธุรกรรมภายในบล็อก',
       },
       genesis_three: {
-        bash_heading: 'Bash Commands',
+        bash_heading: 'คำสั่ง Bash',
         bash_paragraph:
-          'We are using some basic bash command and options to reverse the compression Satoshi did on the text put into the genesis block.',
-        tip: "The 'xxd' command turns a file into hex and adding the '-r' tag reverses it allowing hex to be translated into text. The '-p' tag then prints it to the console allowing you to read the output.",
+          'เราใช้คำสั่ง bash พื้นฐานและตัวเลือกบางอย่างเพื่อย้อนกลับการบีบอัดที่ซาโตชิทำกับข้อความที่ใส่ในบล็อกการเริ่มต้น',
+        tip: "คำสั่ง 'xxd' จะเปลี่ยนไฟล์เป็นเลขฐานสิบหกและการเพิ่มแท็ก '-r' จะย้อนกลับมันทำให้เลขฐานสิบหกถูกแปลเป็นข้อความ แท็ก '-p' จากนั้นพิมพ์มันไปที่คอนโซลทำให้คุณสามารถอ่านผลลัพธ์ได้",
       },
       transacting_two: {
-        transactions_heading: 'Transactions',
+        transactions_heading: 'ธุรกรรม',
         transactions_paragraph:
-          "A transaction in the world of cryptocurrencies is akin to a single atomic payment, where it involves the process of destroying existing coins and creating new ones. When someone initiates a cryptocurrency transaction, they're essentially instructing the blockchain to transfer a specific amount of coins from one digital wallet to another. To achieve this, the transaction consumes the sender's existing coins and generates new ones for the recipient, effectively updating the ownership ledger.",
-        bitcoin_script_heading: 'Bitcoin Script',
+          'ธุรกรรมในโลกของสกุลเงินดิจิทัลเปรียบเสมือนการชำระเงินแบบอะตอมเดียว ซึ่งเกี่ยวข้องกับกระบวนการทำลายเหรียญที่มีอยู่และสร้างเหรียญใหม่ เมื่อมีคนเริ่มธุรกรรมสกุลเงินดิจิทัล พวกเขากำลังสั่งให้บล็อกเชนโอนจำนวนเหรียญที่เฉพาะเจาะจงจากกระเป๋าเงินดิจิทัลหนึ่งไปยังอีกกระเป๋าหนึ่ง เพื่อให้บรรลุเป้าหมายนี้ ธุรกรรมจะใช้เหรียญที่มีอยู่ของผู้ส่งและสร้างเหรียญใหม่สำหรับผู้รับ ซึ่งจะอัปเดตบัญชีแยกประเภทการเป็นเจ้าของ',
+        bitcoin_script_heading: 'สคริปต์บิตคอยน์',
         bitcoin_script_paragraph:
-          'Bitcoin Script is a simple, stack-based programming language used in bitcoin transactions to define the conditions under which bitcoins can be spent. It consists of various opcodes (short for operation codes) that specify what operations should be performed on the data within the script.',
-        tip: 'Given the Op_Code: OP_Pushbytes_33 we are looking for a string 33 bytes long (66 characters total) in the OP_Return of the transaction',
+          'สคริปต์บิตคอยน์เป็นภาษาการเขียนโปรแกรมแบบสแต็กที่เรียบง่ายที่ใช้ในธุรกรรมบิตคอยน์เพื่อกำหนดเงื่อนไขที่บิตคอยน์สามารถใช้จ่ายได้ มันประกอบด้วยออปโค้ดต่างๆ (ย่อมาจากรหัสปฏิบัติการ) ที่ระบุว่าควรดำเนินการใดกับข้อมูลภายในสคริปต์',
+        tip: 'จาก Op_Code: OP_Pushbytes_33 เรากำลังมองหาสตริงยาว 33 ไบต์ (66 อักขระทั้งหมด) ใน OP_Return ของธุรกรรม',
       },
       transacting_three: {
-        secrets_heading: 'Secrets In Bitcoin',
+        secrets_heading: 'ความลับในบิตคอยน์',
         secrets_paragraph:
-          'As we saw from the previous challenge, secrets embedded into bitcoin scripts has been a part of its history since the genesis block. Whether used to simply store some information in the blockchain, to pass information through bitcoin script to give some value external to bitcoin, or to pass messages to others, people have been storing things in the blockchain other than inputs and outputs since the beginning.',
-        tip: "When decoding the string with the 'xxd' command, remember that we are not using a variable this time, we need to input the entire string",
+          'ตามที่เราเห็นจากความท้าทายก่อนหน้านี้ ความลับที่ฝังอยู่ในสคริปต์บิตคอยน์เป็นส่วนหนึ่งของประวัติศาสตร์ตั้งแต่บล็อกการเริ่มต้น ไม่ว่าจะใช้เพื่อเก็บข้อมูลบางอย่างในบล็อกเชน เพื่อส่งข้อมูลผ่านสคริปต์บิตคอยน์เพื่อให้มีค่าภายนอกบิตคอยน์ หรือเพื่อส่งข้อความถึงผู้อื่น ผู้คนได้เก็บสิ่งต่างๆ ไว้ในบล็อกเชนนอกเหนือจากอินพุตและเอาต์พุตตั้งแต่เริ่มต้น',
+        tip: "เมื่อถอดรหัสสตริงด้วยคำสั่ง 'xxd' จำไว้ว่าครั้งนี้เราไม่ได้ใช้ตัวแปร เราต้องป้อนสตริงทั้งหมด",
       },
     },
   },
 
   chapter_two: {
-    title: 'Hashing Out a Plan',
+    title: 'วางแผน',
     paragraph_one:
-      'The coordinates Satoshi gave you don’t disappoint, unfortunately: it’s a warehouse, and a scary, deserted one to boot.',
+      'พิกัดที่ซาโตชิให้คุณไม่ทำให้ผิดหวัง น่าเสียดายที่มันเป็นโกดัง และเป็นโกดังที่น่ากลัวและร้าง',
     paragraph_two:
-      'You circle the warehouse in your Budgetcopter no less than three times. Yeah, sigh, you’re probably gonna have to go in there. Your Budgetcopter’s Budget Heat Detector detects nothing but darkness. If someone knows that this place exists, it’s been a long time since they visited it in anything but their memory.',
+      'คุณวนรอบโกดังใน Budgetcopter ของคุณไม่น้อยกว่าสามครั้ง ใช่ คุณอาจจะต้องเข้าไปในนั้น Budget Heat Detector ของ Budgetcopter ของคุณตรวจไม่พบอะไรนอกจากความมืด หากมีใครรู้ว่าที่นี่มีอยู่ มันก็เป็นเวลานานแล้วที่พวกเขาเยี่ยมชมมันในความทรงจำของพวกเขาเท่านั้น',
 
     intro_one: {
-      title: 'Intro',
-      nav_title: 'The warehouse',
+      title: 'บทนำ',
+      nav_title: 'โกดัง',
       paragraph_one:
-        '—HOLOCAT: “Boy, what a dump. This place had better have some e-anchovies stored somewhere. I’d even settle for some CyberKibble.."',
+        '—โฮโลแคท: “โอ้ ที่นี่มันแย่จริงๆ ที่นี่ควรจะมี e-anchovies เก็บไว้ที่ไหนสักแห่ง ฉันยอมรับ CyberKibble ก็ได้.."',
       paragraph_two:
-        'You land, steady yourself, and search for a point of ingress. There, that broken window should do the trick. You take out what’s left of the window with a brick, and hop inside. The building is filled with thousands of dusty, well-preserved bitcoin miners.',
+        'คุณลงจอด ตั้งสติ และค้นหาจุดเข้าไป ที่นั่น หน้าต่างที่แตกน่าจะใช้ได้ คุณใช้ก้อนอิฐทุบหน้าต่างที่เหลือและกระโดดเข้าไปข้างใน อาคารเต็มไปด้วยเครื่องขุดบิตคอยน์ที่มีฝุ่นเกาะและได้รับการอนุรักษ์ไว้อย่างดีหลายพันเครื่อง',
       paragraph_three: {
-        a: '—HOLOCAT: “This isn’t a warehouse; this is a museum. I think these are old Vanderpoole family ASIC miners. In bitcoin’s early days, miners would use general purpose computers to mine bitcoin. But after a few years, miners realized they could use machines with a special chip called an Application-Specific Integrated Circuit, or ',
-        b: ' for short. These chips do only one thing: mine bitcoin. Their narrow focus increases their efficiency and allows miners to spend less energy on mining, giving them an edge. Can you believe that people mined with their laptops at one point?"',
+        a: '—โฮโลแคท: “นี่ไม่ใช่โกดัง นี่คือพิพิธภัณฑ์ ฉันคิดว่านี่คือเครื่องขุด ASIC ของครอบครัวแวนเดอร์พูล ในช่วงแรกๆ ของบิตคอยน์ นักขุดจะใช้คอมพิวเตอร์ทั่วไปในการขุดบิตคอยน์ แต่หลังจากไม่กี่ปี นักขุดก็ตระหนักว่าพวกเขาสามารถใช้เครื่องที่มีชิปพิเศษที่เรียกว่า Application-Specific Integrated Circuit หรือ ',
+        b: ' ชิปเหล่านี้ทำได้เพียงอย่างเดียว: ขุดบิตคอยน์ การมุ่งเน้นที่แคบของพวกเขาเพิ่มประสิทธิภาพและช่วยให้นักขุดใช้พลังงานน้อยลงในการขุด ทำให้พวกเขาได้เปรียบ คุณเชื่อไหมว่าครั้งหนึ่งผู้คนเคยขุดด้วยแล็ปท็อปของพวกเขา?"',
       },
       paragraph_four:
-        'This explains all the machines in the Vanderpoole family collection.',
+        'นี่อธิบายเครื่องจักรทั้งหมดในคอลเลกชันของครอบครัวแวนเดอร์พูล',
       tooltip_one: {
-        question: 'What is an ASIC miner?',
+        question: 'ASIC miner คืออะไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=What%2520is%2520an%2520ASIC%2520miner%253F',
         highlighted: 'ASIC',
       },
     },
 
     intro_two: {
-      title: 'Hashing out a plan',
-      nav_title: 'Turning on the computer',
+      title: 'วางแผน',
+      nav_title: 'เปิดคอมพิวเตอร์',
       paragraph_one:
-        'In the corner, a dim, barely working computer monitor with a note stuck to it sits blinking. The note says “Turn them on, stupid."',
-      paragraph_two: `—HOLOCAT: “How rude. Wow; a mechanical keyboard. I've heard about these things. Supposedly, they were so loud that they cost users their hearing, and were banned.”`,
+        'ในมุมหนึ่ง มีจอมอนิเตอร์คอมพิวเตอร์ที่มืดและแทบจะใช้งานไม่ได้พร้อมโน้ตติดอยู่ มันกระพริบอยู่ โน้ตบอกว่า “เปิดมันสิ เจ้าโง่"',
+      paragraph_two: `—โฮโลแคท: “หยาบคายจริงๆ ว้าว; คีย์บอร์ดกลไก ฉันเคยได้ยินเกี่ยวกับสิ่งเหล่านี้ พวกมันดังมากจนทำให้ผู้ใช้สูญเสียการได้ยินและถูกแบน”`,
       paragraph_three:
-        'Holocat jumps onto the keyboard and walks across it, showing you what keys to hit.',
+        'โฮโลแคทกระโดดขึ้นไปบนคีย์บอร์ดและเดินข้ามมัน แสดงให้คุณเห็นว่าต้องกดปุ่มไหน',
     },
 
     hashing_one: {
-      title: 'Zeroes',
-      nav_title: 'The computer hums to life',
+      title: 'ศูนย์',
+      nav_title: 'คอมพิวเตอร์เริ่มทำงาน',
       paragraph_one:
-        'Either by chance, or because Holocat actually knew what she was doing, the random letters and numbers she stepped on turn into... more random letters and numbers?',
+        'ไม่ว่าจะโดยบังเอิญหรือเพราะโฮโลแคทรู้จริงๆ ว่าเธอกำลังทำอะไร ตัวอักษรและตัวเลขสุ่มที่เธอเหยียบกลายเป็น... ตัวอักษรและตัวเลขสุ่มมากขึ้น?',
       list_one: '> QX23Y6VGECTUKSNIEUTUB[P[pihof',
       list_two:
         '> 1c31d1d9fb848a505fc0cdbea848ff1bdd46a9ed4d639d413d3a93035194eedf',
-      paragraph_two: 'The monitor displays "INCORRECT HASH. TRY AGAIN."',
+      paragraph_two: 'จอแสดงผล "แฮชไม่ถูกต้อง ลองอีกครั้ง"',
       paragraph_three:
-        'Of course whatever gibberish Holocat typed was wrong. She’s just a sassy holographic cat!',
-      paragraph_four: 'What happens if you type something different?',
+        'แน่นอนว่าอะไรก็ตามที่โฮโลแคทพิมพ์ผิด เธอเป็นแค่แมวโฮโลกราฟิกที่ซ่า!',
+      paragraph_four: 'จะเกิดอะไรขึ้นถ้าคุณพิมพ์อย่างอื่น?',
     },
 
     hashing_two: {
-      title: 'Zeroes',
-      nav_title: 'Try to hash something',
-      heading: 'Enter Anything',
-      return_hash: 'Below you will see your input converted to a hash',
-      progress_message: 'Keep going...',
-      success_message: 'Alright, nice work playing around. Let’s move on.',
+      title: 'ศูนย์',
+      nav_title: 'ลองแฮชบางอย่าง',
+      heading: 'ป้อนอะไรก็ได้',
+      return_hash: 'ด้านล่างคุณจะเห็นอินพุตของคุณถูกแปลงเป็นแฮช',
+      progress_message: 'ทำต่อไป...',
+      success_message: 'ดีมาก เล่นสนุกกันพอแล้ว ไปต่อกันเถอะ',
     },
 
     hashing_three: {
-      title: 'Zeroes',
-      nav_title: 'The power of SHA256',
-      heading: 'Did you notice anything special about the hashes?',
+      title: 'ศูนย์',
+      nav_title: 'พลังของ SHA256',
+      heading: 'คุณสังเกตเห็นอะไรพิเศษเกี่ยวกับแฮชไหม?',
       list_one:
-        'Just like fingerprints, hashes are unique. Barring some exceptional circumstances, the hashes for two different things should never be the same.',
+        'เหมือนกับลายนิ้วมือ แฮชมีความเฉพาะตัว ยกเว้นในบางกรณีพิเศษ แฮชสำหรับสองสิ่งที่แตกต่างกันไม่ควรเหมือนกัน',
       list_two:
-        'Hash functions are one way streets. You can’t reverse engineer a hash to figure out the data used to make it.',
+        'ฟังก์ชันแฮชเป็นถนนทางเดียว คุณไม่สามารถย้อนกลับแฮชเพื่อหาข้อมูลที่ใช้สร้างมันได้',
       list_three:
-        'Hashes are extremely reliable in the sense that they are deterministic. This means you can hash the same piece of data over and over again and you’ll always get the same result.',
+        'แฮชมีความน่าเชื่อถืออย่างมากในแง่ที่ว่ามันเป็นแบบกำหนดได้ ซึ่งหมายความว่าคุณสามารถแฮชข้อมูลชิ้นเดียวกันซ้ำๆ และคุณจะได้ผลลัพธ์เดียวกันเสมอ',
       paragraph_one: {
-        a: 'The function used here is called ',
-        b: 'a very popular choice.',
+        a: 'ฟังก์ชันที่ใช้ที่นี่เรียกว่า ',
+        b: 'เป็นตัวเลือกที่ได้รับความนิยมมาก',
       },
-      paragraph_two: 'Now, let’s see if you can find a specific hash.',
+      paragraph_two: 'ตอนนี้ มาดูกันว่าคุณสามารถหาแฮชที่เฉพาะเจาะจงได้หรือไม่',
       paragraph_three:
-        'Find a hash that starts with a zero (“0”). Keep typing different things below until you find a hash that we want.',
+        'ค้นหาแฮชที่ขึ้นต้นด้วยศูนย์ (“0”) พิมพ์สิ่งต่างๆ ด้านล่างจนกว่าคุณจะพบแฮชที่เราต้องการ',
       tooltip_one: {
-        question: 'How is SHA-256 used in bitcoin? ',
+        question: 'SHA-256 ใช้ในบิตคอยน์อย่างไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=how%2520is%2520SHA-256%2520used%2520in%2520bitcoin%253F',
         highlighted: 'SHA-256',
       },
     },
 
     hashing_four: {
-      title: 'Zeroes',
-      nav_title: 'Find a hash with a zero',
-      heading:
-        'Enter anything until you find a hash that starts with a zero (“0”)',
+      title: 'ศูนย์',
+      nav_title: 'ค้นหาแฮชที่มีศูนย์',
+      heading: 'ป้อนอะไรก็ได้จนกว่าคุณจะพบแฮชที่ขึ้นต้นด้วยศูนย์ (“0”)',
       hint_prompt:
-        'Need a <Tooltip id="hint_prompt" position="bottom" theme="bg-[#5e212a]" offset="-1" content="chapter_two.hashing_four.hint_tooltip">hint</Tooltip>?',
+        'ต้องการ <Tooltip id="hint_prompt" position="bottom" theme="bg-[#5e212a]" offset="-1" content="chapter_two.hashing_four.hint_tooltip">คำใบ้</Tooltip> ไหม?',
       hint_tooltip:
-        '<span className="text-m whitespace-nowrap leading-none text-white/50">Try typing:</span> <span className="whitespace-nowrap text-white">popcorn</span>',
+        '<span className="text-m whitespace-nowrap leading-none text-white/50">ลองพิมพ์:</span> <span className="whitespace-nowrap text-white">ป๊อปคอร์น</span>',
     },
 
     hashing_five: {
-      title: 'Zeroes',
-      nav_title: 'Turning up the heat',
-      heading: 'That wasn’t too hard!',
+      title: 'ศูนย์',
+      nav_title: 'เพิ่มความยาก',
+      heading: 'นั่นไม่ยากเกินไป!',
       paragraph_one:
-        'Let’s make it a bit more tricky. Try to find a hash that starts with two zeroes ("00").',
+        'มาทำให้มันยากขึ้นอีกนิด ลองหาแฮชที่ขึ้นต้นด้วยศูนย์สองตัว ("00")',
     },
 
     hashing_six: {
-      title: 'Zeroes',
-      nav_title: 'Find a hash with two zeroes',
-      heading:
-        'Enter anything until you find a hash that starts with two zeroes (“00”)',
+      title: 'ศูนย์',
+      nav_title: 'ค้นหาแฮชที่มีศูนย์สองตัว',
+      heading: 'ป้อนอะไรก็ได้จนกว่าคุณจะพบแฮชที่ขึ้นต้นด้วยศูนย์สองตัว (“00”)',
       hint_prompt:
-        'Need a <Tooltip id="hint_prompt" position="bottom" theme="bg-[#5e212a]" offset="-1" content="chapter_two.hashing_six.hint_tooltip">hint</Tooltip>?',
+        'ต้องการ <Tooltip id="hint_prompt" position="bottom" theme="bg-[#5e212a]" offset="-1" content="chapter_two.hashing_six.hint_tooltip">คำใบ้</Tooltip> ไหม?',
       hint_tooltip:
-        '<span className="text-m whitespace-nowrap leading-none text-white/50">Try typing:</span> <span className="whitespace-nowrap text-white">trigonometry</span>',
+        '<span className="text-m whitespace-nowrap leading-none text-white/50">ลองพิมพ์:</span> <span className="whitespace-nowrap text-white">ตรีโกณมิติ</span>',
     },
 
     scripting_one: {
-      title: 'Automation',
-      nav_title: 'Hashing the nonce',
-      heading: 'Let’s make the computer do this for us.',
+      title: 'การทำงานอัตโนมัติ',
+      nav_title: 'แฮช nonce',
+      heading: 'ให้คอมพิวเตอร์ทำสิ่งนี้ให้เรา',
       paragraph_one:
-        'OK, that probably took you a lot longer. Now imagine finding a hash that starts with five or ten zeroes. This is the challenge that the bitcoin network poses to miners when they want to submit new blocks with transactions.',
+        'โอเค นั่นอาจใช้เวลานานกว่าที่คุณคิด ตอนนี้ลองจินตนาการถึงการหาแฮชที่ขึ้นต้นด้วยศูนย์ห้าหรือสิบตัว นี่คือความท้าทายที่เครือข่ายบิตคอยน์กำหนดให้นักขุดเมื่อพวกเขาต้องการส่งบล็อกใหม่พร้อมธุรกรรม',
       paragraph_two:
-        'Miners gather all the information they want to put in a block such as the previous block header hash, a hash of transactions to be included in block (including the coinbase transaction), time, and combine it with a random number called a nonce (number only used once). They send all of this into the hash function to create something called the block hash.',
+        'นักขุดรวบรวมข้อมูลทั้งหมดที่ต้องการใส่ในบล็อก เช่น แฮชส่วนหัวของบล็อกก่อนหน้า แฮชของธุรกรรมที่จะรวมในบล็อก (รวมถึงธุรกรรม coinbase) เวลา และรวมกับตัวเลขสุ่มที่เรียกว่า nonce (หมายเลขที่ใช้เพียงครั้งเดียว) พวกเขาส่งทั้งหมดนี้เข้าสู่ฟังก์ชันแฮชเพื่อสร้างสิ่งที่เรียกว่าแฮชบล็อก',
       paragraph_three:
-        'When bitcoin first launched, miners would cycle through the nonce in the block header by incrementing the data in the 32-bit field by 1. However, as miners become more powerful and efficient, the difficulty rises. Soon, it became so high that it was common to exhaust all possibilities for the 32-bit field without finding a single solution below the',
+        'เมื่อบิตคอยน์เปิดตัวครั้งแรก นักขุดจะวนรอบ nonce ในส่วนหัวของบล็อกโดยเพิ่มข้อมูลในฟิลด์ 32 บิตทีละ 1 อย่างไรก็ตาม เมื่อเวลาผ่านไป นักขุดมีประสิทธิภาพและทรงพลังมากขึ้น ความยากก็เพิ่มขึ้น ไม่นานมันก็สูงมากจนเป็นเรื่องปกติที่จะใช้ความเป็นไปได้ทั้งหมดสำหรับฟิลด์ 32 บิตโดยไม่พบวิธีแก้ปัญหาเดียวที่ต่ำกว่า',
       paragraph_four:
-        'To address this, miners started to change other parts of the block header, such as the time or transactions included in the block.',
+        'เพื่อแก้ไขปัญหานี้ นักขุดเริ่มเปลี่ยนส่วนอื่นๆ ของส่วนหัวของบล็อก เช่น เวลา หรือธุรกรรมที่รวมอยู่ในบล็อก',
       paragraph_five:
-        'The bitcoin network has a difficulty setting and only accepts block hashes that start with a certain number of zeroes. We call this the “difficulty” and it is adjusted every 2016 blocks.',
+        'เครือข่ายบิตคอยน์มีการตั้งค่าความยากและยอมรับเฉพาะแฮชบล็อกที่ขึ้นต้นด้วยศูนย์จำนวนหนึ่งเท่านั้น เราเรียกสิ่งนี้ว่า “ความยาก” และจะปรับทุกๆ 2016 บล็อก',
       paragraph_six:
-        'For the next challenge, write a script that finds a hash that starts with five zeroes (00000).',
+        'สำหรับความท้าทายต่อไป เขียนสคริปต์ที่หาแฮชที่ขึ้นต้นด้วยศูนย์ห้าตัว (00000)',
       tooltip_one: {
-        question: 'What is target difficulty? ',
+        question: 'ความยากเป้าหมายคืออะไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=what%2520is%2520target%2520difficulty%253F',
-        highlighted: 'target difficulty',
+        highlighted: 'ความยากเป้าหมาย',
       },
     },
 
     scripting_two: {
-      title: 'Automation',
-      nav_title: 'Build a hash function',
+      title: 'การทำงานอัตโนมัติ',
+      nav_title: 'สร้างฟังก์ชันแฮช',
       paragraph_one:
-        'Alright, time to write and run your own code. Write a script that generates a sha256 hash that begins with five zeroes ("00000..."). Your code should repeatedly call the sha256 function with different input until the output satisfies this requirement. You should try incrementing an integer inside a loop to get different inputs. In cryptography this number may referred to as a "nonce" or "number used once".',
+        'โอเค ถึงเวลาที่จะเขียนและรันโค้ดของคุณเองแล้ว เขียนสคริปต์ที่สร้างแฮช sha256 ที่ขึ้นต้นด้วยศูนย์ห้าตัว ("00000...") โค้ดของคุณควรเรียกฟังก์ชัน sha256 ซ้ำๆ ด้วยอินพุตที่แตกต่างกันจนกว่าผลลัพธ์จะเป็นไปตามข้อกำหนดนี้ คุณควรลองเพิ่มจำนวนเต็มภายในลูปเพื่อให้ได้อินพุตที่แตกต่างกัน ในการเข้ารหัสลับ ตัวเลขนี้อาจเรียกว่า "nonce" หรือ "หมายเลขที่ใช้เพียงครั้งเดียว"',
       python: {
         paragraph_two:
-          'When you find a nonce with a hash that begins with five zeroes, return the hash to the console. We are using the hashlib library in python to help you along in creating this function, you can use the following external resources to help you write this function if needed:',
+          'เมื่อคุณพบ nonce ที่มีแฮชที่ขึ้นต้นด้วยศูนย์ห้าตัว ให้ส่งคืนแฮชไปยังคอนโซล เราใช้ไลบรารี hashlib ใน python เพื่อช่วยคุณในการสร้างฟังก์ชันนี้ คุณสามารถใช้แหล่งข้อมูลภายนอกต่อไปนี้เพื่อช่วยคุณเขียนฟังก์ชันนี้หากจำเป็น:',
         list_one:
-          '<Link href="https://docs.python.org/3/library/hashlib.html" target="_blank" className="underline">hashlib documentation</Link>',
+          '<Link href="https://docs.python.org/3/library/hashlib.html" target="_blank" className="underline">เอกสาร hashlib</Link>',
         list_two:
-          '<Link href="https://datagy.io/python-sha256/" target="_blank" className="underline">Tutorial python function</Link>',
+          '<Link href="https://datagy.io/python-sha256/" target="_blank" className="underline">บทเรียนฟังก์ชัน python</Link>',
       },
       javascript: {
         paragraph_two:
-          'When you find a nonce with a hash that begins with five zeroes, return the hash to the console. We are using the crypto library in JavaScript to help you along in creating this function, you can use the following external resources to help you write this function if needed:',
+          'เมื่อคุณพบ nonce ที่มีแฮชที่ขึ้นต้นด้วยศูนย์ห้าตัว ให้ส่งคืนแฮชไปยังคอนโซล เราใช้ไลบรารี crypto ใน JavaScript เพื่อช่วยคุณในการสร้างฟังก์ชันนี้ คุณสามารถใช้แหล่งข้อมูลภายนอกต่อไปนี้เพื่อช่วยคุณเขียนฟังก์ชันนี้หากจำเป็น:',
         list_one:
-          '<Link href="https://www.geeksforgeeks.org/node-js-crypto-createhash-method/" target="_blank" className="underline">crypto documentation</Link>',
+          '<Link href="https://www.geeksforgeeks.org/node-js-crypto-createhash-method/" target="_blank" className="underline">เอกสาร crypto</Link>',
         list_two:
-          '<Link href="https://www.educative.io/answers/what-is-node-cryptocreatehashalgorithm-options" target="_blank" className="underline">Tutorial JavaScript function</Link>',
+          '<Link href="https://www.educative.io/answers/what-is-node-cryptocreatehashalgorithm-options" target="_blank" className="underline">บทเรียนฟังก์ชัน JavaScript</Link>',
       },
-      success: 'Five zeroes! That’s it!',
+      success: 'ศูนย์ห้าตัว! นั่นแหละ!',
     },
 
     mining_one: {
-      title: 'Into the mine',
-      nav_title: 'Mining blocks',
-      heading_one: 'Now that we know how mining works, let’s see it in action',
-      heading_two: 'You’re mining now',
-      heading_three: 'Nice work!',
-      heading_four: 'Let’s get to 100 blocks',
-      heading_five: 'You did it!',
+      title: 'เข้าสู่เหมือง',
+      nav_title: 'การขุดบล็อก',
+      heading_one:
+        'ตอนนี้เรารู้แล้วว่าการขุดทำงานอย่างไร มาดูมันในการปฏิบัติกันเถอะ',
+      heading_two: 'คุณกำลังขุดอยู่ตอนนี้',
+      heading_three: 'ทำได้ดี!',
+      heading_four: 'มาขุดให้ครบ 100 บล็อกกันเถอะ',
+      heading_five: 'คุณทำได้!',
       paragraph_one:
-        'Right now, the bitcoin network requires blocks to have a hash with ten leading zeros. Let’s get to it!',
+        'ตอนนี้ เครือข่ายบิตคอยน์ต้องการให้บล็อกมีแฮชที่มีศูนย์นำหน้าสิบตัว มาลุยกันเถอะ!',
       paragraph_two:
-        'For this simple simulation, we’ll just assume that every block contains 3,500 transactions and 0.061 BTC in rewards and fees.',
-      paragraph_two_one: 'See if you can turn on the miners.',
+        'สำหรับการจำลองง่ายๆ นี้ เราจะสมมติว่าทุกบล็อกมีธุรกรรม 3,500 รายการและรางวัลและค่าธรรมเนียม 0.061 BTC',
+      paragraph_two_one: 'ดูว่าคุณสามารถเปิดเครื่องขุดได้หรือไม่',
       paragraph_three:
-        'The code you wrote in the previous lesson to compute hashes over and over again is running.',
-      paragraph_four:
-        'It will stop once it’s found a hash with ten leading zeroes.',
+        'โค้ดที่คุณเขียนในบทเรียนก่อนหน้านี้เพื่อคำนวณแฮชซ้ำๆ กำลังทำงานอยู่',
+      paragraph_four: 'มันจะหยุดเมื่อพบแฮชที่มีศูนย์นำหน้าสิบตัว',
       paragraph_five:
-        'See the nonce field incrementing? That’s how many hashes you have tried so far!',
-      paragraph_six: 'With the following nonce:',
-      paragraph_seven: 'The resulting hash is:',
+        'เห็นฟิลด์ nonce เพิ่มขึ้นไหม? นั่นคือจำนวนแฮชที่คุณลองจนถึงตอนนี้!',
+      paragraph_six: 'ด้วย nonce ต่อไปนี้:',
+      paragraph_seven: 'แฮชที่ได้คือ:',
       paragraph_eight:
-        'It has the ten leading zeros that all new blocks require. Let’s mine a few more blocks.',
-      paragraph_eight_one: 'Turn the miners back on.',
+        'มันมีศูนย์นำหน้าสิบตัวที่บล็อกใหม่ทั้งหมดต้องการ มาขุดบล็อกเพิ่มกันเถอะ',
+      paragraph_eight_one: 'เปิดเครื่องขุดอีกครั้ง',
       paragraph_nine:
-        'This might take some time. But this shows you how hard it is to mine blocks and confirm transactions.',
+        'นี่อาจใช้เวลาสักครู่ แต่นี่แสดงให้คุณเห็นว่าการขุดบล็อกและยืนยันธุรกรรมยากแค่ไหน',
       paragraph_ten:
-        'Wow! That took quite a bit of computing power to do all that hashing. Just look how many nonces were tried!  It really helped to have that boost in hash power i.e. the number of hashes your computer can try in a second.',
+        'ว้าว! นั่นใช้พลังการคำนวณมากทีเดียวในการทำแฮชทั้งหมดนั้น ลองดูจำนวน nonce ที่ถูกลอง! มันช่วยได้มากที่มีการเพิ่มพลังแฮช นั่นคือจำนวนแฮชที่คอมพิวเตอร์ของคุณสามารถลองได้ในหนึ่งวินาที',
       paragraph_eleven:
-        'As expected, since each block contains 3,500 transactions, a total of 350,000 transactions have been confirmed by the 100 blocks that were mined.',
+        'ตามที่คาดไว้ เนื่องจากแต่ละบล็อกมีธุรกรรม 3,500 รายการ ธุรกรรมทั้งหมด 350,000 รายการได้รับการยืนยันโดย 100 บล็อกที่ถูกขุด',
       paragraph_twelve:
-        'And it looks like you’ve collected a nice reward for all this mining! In addition to the block subsidy, the amount of bitcoin the network rewards for each block, you’ve also been able to collect additional income in the form of transaction fees. ',
+        'และดูเหมือนว่าคุณจะได้รับรางวัลที่ดีสำหรับการขุดทั้งหมดนี้! นอกเหนือจากเงินอุดหนุนบล็อก จำนวนบิตคอยน์ที่เครือข่ายให้รางวัลสำหรับแต่ละบล็อก คุณยังสามารถเก็บรายได้เพิ่มเติมในรูปแบบของค่าธรรมเนียมการทำธุรกรรมได้อีกด้วย',
       paragraph_thirteen:
-        'Remember, this was just a simulation, each block is supposed to take 10 minutes on average.',
+        'จำไว้ว่านี่เป็นเพียงการจำลอง แต่ละบล็อกควรใช้เวลาเฉลี่ย 10 นาที',
       paragraph_fourteen:
-        'Also, if we were really mining on the current mainnet it would take many orders of magnitude more computing power to mine these blocks.',
-      progress_bar_title: 'Blocks found',
+        'นอกจากนี้ หากเรากำลังขุดใน mainnet ปัจจุบันจริงๆ จะต้องใช้พลังการคำนวณมากกว่านี้หลายเท่าในการขุดบล็อกเหล่านี้',
+      progress_bar_title: 'บล็อกที่พบ',
       progress_bar_one: 'Nonce',
-      progress_bar_two: 'Hashes per second',
-      progress_bar_three: 'Transactions confirmed',
-      progress_bar_four: 'Bitcoin earned',
-      button_hash: '10x hash power, please',
-      ten_x_hint: 'Tap the 100x button to speed up the hashing!',
+      progress_bar_two: 'แฮชต่อวินาที',
+      progress_bar_three: 'ธุรกรรมที่ยืนยันแล้ว',
+      progress_bar_four: 'บิตคอยน์ที่ได้รับ',
+      button_hash: 'พลังแฮช 10 เท่า, กรุณา',
+      ten_x_hint: 'แตะปุ่ม 100x เพื่อเร่งการแฮช!',
     },
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Chapter complete',
-      heading: 'Great Job!',
+      title: 'บทส่งท้าย',
+      nav_title: 'บทเสร็จสมบูรณ์',
+      heading: 'ทำได้ดีมาก!',
       paragraph_one:
-        'The machines roar to life. Everything seems to be working. A map appears on the old monitor that shows the locations of other warehouses filled with ASICs that have come online across the world. Looks like they were activated when you completed the mining challenge!',
-      paragraph_two: '—HOLOCAT: “Look, there’s a message.”',
+        'เครื่องจักรเริ่มทำงาน ทุกอย่างดูเหมือนจะทำงานได้ดี แผนที่ปรากฏบนจอมอนิเตอร์เก่าที่แสดงตำแหน่งของโกดังอื่น ๆ ที่เต็มไปด้วย ASICs ที่เปิดใช้งานทั่วโลก ดูเหมือนว่าพวกมันจะถูกเปิดใช้งานเมื่อคุณทำภารกิจการขุดเสร็จสิ้น!',
+      paragraph_two: '—HOLOCAT: “ดูสิ มีข้อความมา”',
       paragraph_three:
-        '“Good work. This will help bitcoin get back to one block every ten minutes.” – Satoshi Nakamoto',
-      paragraph_four: 'Him again?',
+        '“ทำได้ดี นี่จะช่วยให้บิตคอยน์กลับมาสร้างบล็อกได้ทุก ๆ สิบนาที” – ซาโตชิ นากาโมโตะ',
+      paragraph_four: 'เขาอีกแล้วเหรอ?',
     },
     resources: {
       hashing_two: {
-        hash_functions_heading: 'Hash Functions',
+        hash_functions_heading: 'ฟังก์ชันแฮช',
         hash_functions_paragraph:
-          'A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called hashing or scatter storage addressing.',
-        tip: 'Just keep typing! Because of the SHA-256 algorithm any new input will result in a completely random hash even if the inputs are very similar',
-        spoiler: 'Try something with 8 characters.',
+          'ฟังก์ชันแฮชคือฟังก์ชันใด ๆ ที่สามารถใช้แมปข้อมูลขนาดใดก็ได้ให้เป็นค่าขนาดคงที่ ค่าที่ส่งคืนโดยฟังก์ชันแฮชเรียกว่าค่าแฮช รหัสแฮช ดิจิท หรือเพียงแค่แฮช ค่ามักจะใช้ในการจัดทำดัชนีตารางขนาดคงที่ที่เรียกว่าตารางแฮช การใช้ฟังก์ชันแฮชในการจัดทำดัชนีตารางแฮชเรียกว่าการแฮชหรือการจัดเก็บแบบกระจาย',
+        tip: 'แค่พิมพ์ต่อไป! เนื่องจากอัลกอริธึม SHA-256 อินพุตใหม่ใด ๆ จะส่งผลให้แฮชแบบสุ่มทั้งหมดแม้ว่าจะมีอินพุตที่คล้ายกันมากก็ตาม',
+        spoiler: 'ลองอะไรที่มี 8 ตัวอักษร',
       },
       hashing_four: {
-        power_of_random_heading: 'The Power of Random',
+        power_of_random_heading: 'พลังของความสุ่ม',
         power_of_random_paragraph:
-          "Like a perfectly random scenario, probability-wise the SHA-256 hash function is completely random for each addition of new data. If you hashed the novel 'War and Peace', then added just one extra letter to the original text, it would result in a completely different hash. Each new character changes the hash in a completely random manner. Considering that there are 16 possible characters in a hexadecimal system (0-9 and a-f), how likely is it to find a hash starting with '0'?",
-        tip: "Can you do the math? Based on 16 possible characters per digit, what do you think the likelihood of finding a hash starting with '00' is? How about '000'?",
-        spoiler: "Try something starting with the letter 's'.",
+          "เหมือนกับสถานการณ์ที่สุ่มอย่างสมบูรณ์ ในแง่ของความน่าจะเป็น ฟังก์ชันแฮช SHA-256 จะสุ่มอย่างสมบูรณ์สำหรับการเพิ่มข้อมูลใหม่แต่ละครั้ง หากคุณแฮชนิยาย 'War and Peace' แล้วเพิ่มตัวอักษรเพียงตัวเดียวลงในข้อความต้นฉบับ มันจะส่งผลให้แฮชแตกต่างไปอย่างสิ้นเชิง ตัวอักษรใหม่แต่ละตัวจะเปลี่ยนแฮชในลักษณะที่สุ่มอย่างสมบูรณ์ เมื่อพิจารณาว่ามีอักขระที่เป็นไปได้ 16 ตัวในระบบเลขฐานสิบหก (0-9 และ a-f) คุณคิดว่ามีโอกาสมากน้อยเพียงใดที่จะพบแฮชที่ขึ้นต้นด้วย '0'?",
+        tip: "คุณสามารถคำนวณได้หรือไม่? จากอักขระที่เป็นไปได้ 16 ตัวต่อหลัก คุณคิดว่าโอกาสที่จะพบแฮชที่ขึ้นต้นด้วย '00' เป็นอย่างไร? แล้ว '000' ล่ะ?",
+        spoiler: "ลองอะไรที่ขึ้นต้นด้วยตัวอักษร 's'",
       },
       hashing_six: {
-        collision_resistance_heading: 'SHA256 and collision resistance',
+        collision_resistance_heading: 'SHA256 และการต้านทานการชนกัน',
         collision_resistance_paragraph:
-          "SHA-256 returns a 256-bit (64-characters) hash value, which is a unique representation of the input data. It belongs to the family of hash functions based on the Merkle–Damgård construction, a method for building hash functions from simpler compression functions. In this construction, the input message is divided into fixed-size blocks, and a chaining mechanism iteratively processes these blocks, combining each block's output with the result of the previous block. This process continues until the entire message is processed, producing the final hash value. SHA-256's robust security properties and collision resistance make it a cornerstone of data integrity and authentication in modern cryptography.",
-        tip: 'No real tips in this lesson, as you continue in Saving Satoshi you will find that we hold your hand less and less and let you find the solution on your own.',
+          'SHA-256 ส่งคืนค่าแฮช 256 บิต (64 ตัวอักษร) ซึ่งเป็นการแสดงผลที่ไม่ซ้ำกันของข้อมูลอินพุต มันเป็นส่วนหนึ่งของฟังก์ชันแฮชที่ใช้การสร้าง Merkle–Damgård ซึ่งเป็นวิธีการสร้างฟังก์ชันแฮชจากฟังก์ชันการบีบอัดที่ง่ายกว่า ในการสร้างนี้ ข้อความอินพุตจะถูกแบ่งออกเป็นบล็อกขนาดคงที่ และกลไกการเชื่อมโยงจะประมวลผลบล็อกเหล่านี้ซ้ำ ๆ โดยรวมผลลัพธ์ของแต่ละบล็อกกับผลลัพธ์ของบล็อกก่อนหน้า กระบวนการนี้จะดำเนินต่อไปจนกว่าข้อความทั้งหมดจะถูกประมวลผล ทำให้ได้ค่าแฮชสุดท้าย คุณสมบัติด้านความปลอดภัยที่แข็งแกร่งและการต้านทานการชนกันของ SHA-256 ทำให้มันเป็นรากฐานของความสมบูรณ์ของข้อมูลและการตรวจสอบความถูกต้องในวิทยาการเข้ารหัสลับสมัยใหม่',
+        tip: 'ไม่มีเคล็ดลับจริง ๆ ในบทเรียนนี้ เมื่อคุณดำเนินการใน Saving Satoshi คุณจะพบว่าเราช่วยคุณน้อยลงเรื่อย ๆ และปล่อยให้คุณหาทางแก้ไขด้วยตัวเอง',
         spoiler:
-          "Knowing that each new character recalculates a completely random hash you could keep adding new characters until you start with '00' or more... or try the word trigonometry.",
+          "เมื่อรู้ว่าตัวอักษรใหม่แต่ละตัวจะคำนวณแฮชแบบสุ่มทั้งหมด คุณสามารถเพิ่มตัวอักษรใหม่ต่อไปจนกว่าคุณจะเริ่มต้นด้วย '00' หรือมากกว่า... หรือลองใช้คำว่า trigonometry",
       },
       scripting_one: {
-        hash_libraries_heading: 'Hash Functions',
+        hash_libraries_heading: 'ฟังก์ชันแฮช',
         hash_libraries_paragraph:
-          'The crypto library in Node.js and the hashlib library in python are the code libraries that implement the algorithms we will use into useful tools for developers. These libraries are thoroughly vetted to ensure their accuracy and security as many people rely on them to secure valuable and important systems.',
-        nonce_heading: 'Nonce',
+          'ไลบรารี crypto ใน Node.js และไลบรารี hashlib ใน Python เป็นไลบรารีโค้ดที่นำอัลกอริธึมที่เราจะใช้มาใช้เป็นเครื่องมือที่มีประโยชน์สำหรับนักพัฒนา ไลบรารีเหล่านี้ได้รับการตรวจสอบอย่างละเอียดเพื่อให้แน่ใจว่ามีความถูกต้องและปลอดภัย เนื่องจากหลายคนพึ่งพาไลบรารีเหล่านี้ในการรักษาความปลอดภัยของระบบที่มีค่าและสำคัญ',
+        nonce_heading: 'นอนซ์',
         nonce_paragraph:
-          "A nonce, short for (number used once) is a random or semi-random number that is employed in various cryptographic and computational processes. Its primary purpose is to introduce unpredictability and ensure that a particular operation or calculation can't be easily repeated or predicted. The nonce is critical to the security of bitcoin mining but we will learn more about that later...",
+          'นอนซ์ (ย่อมาจาก number used once) คือตัวเลขสุ่มหรือกึ่งสุ่มที่ใช้ในกระบวนการเข้ารหัสและการคำนวณต่าง ๆ วัตถุประสงค์หลักของมันคือการเพิ่มความไม่แน่นอนและทำให้แน่ใจว่าการดำเนินการหรือการคำนวณเฉพาะไม่สามารถทำซ้ำหรือคาดเดาได้ง่าย นอนซ์มีความสำคัญต่อความปลอดภัยของการขุดบิตคอยน์ แต่เราจะเรียนรู้เพิ่มเติมเกี่ยวกับเรื่องนี้ในภายหลัง...',
         tip_one:
-          'Ensure you are properly decoding the inputs. The hashing algorithms often return objects decoded in bytes, but we want to be able to read it in hex format!',
+          'ตรวจสอบให้แน่ใจว่าคุณกำลังถอดรหัสอินพุตอย่างถูกต้อง อัลกอริธึมการแฮชมักจะส่งคืนวัตถุที่ถอดรหัสในไบต์ แต่เราต้องการอ่านในรูปแบบเลขฐานสิบหก!',
         tip_two:
-          'Think about how you would create a function to keep running until that answer is equal to a specific value',
+          'คิดเกี่ยวกับวิธีที่คุณจะสร้างฟังก์ชันเพื่อให้ทำงานต่อไปจนกว่าคำตอบนั้นจะเท่ากับค่าที่เฉพาะเจาะจง',
         tip_three:
-          'Remember to log your answer with <span className="p-1 font-mono bg-[#0000004D] m-1">console.log()</span> or <span className="p-1 font-mono bg-[#0000004D] m-1">print()</span>. It is the only way our IDE will try to validate your answer.',
+          'อย่าลืมบันทึกคำตอบของคุณด้วย <span className="p-1 font-mono bg-[#0000004D] m-1">console.log()</span> หรือ <span className="p-1 font-mono bg-[#0000004D] m-1">print()</span> นี่เป็นวิธีเดียวที่ IDE ของเราจะพยายามตรวจสอบคำตอบของคุณ',
       },
       mining_one: {
-        mining_heading: 'Mining',
+        mining_heading: 'การขุด',
         mining_paragraph:
-          "Mining is where these concepts all come together. Bitcoin mining is the process by which new bitcoins are created and transactions are added to the blockchain. Miners compete to solve complex mathematical puzzles by finding a unique, valid 'nonce' in each block of transactions. This proof-of-work process demands significant computational power and energy, making it a secure and decentralized way to validate transactions. Successful miners are rewarded with newly minted bitcoins and transaction fees, and they play a critical role in maintaining the integrity of the bitcoin network.",
-        difficulty_heading: 'Difficulty',
+          'การขุดคือที่ที่แนวคิดเหล่านี้ทั้งหมดมารวมกัน การขุดบิตคอยน์เป็นกระบวนการที่สร้างบิตคอยน์ใหม่และเพิ่มธุรกรรมลงในบล็อกเชน นักขุดแข่งขันกันเพื่อแก้ปริศนาทางคณิตศาสตร์ที่ซับซ้อนโดยการหานอนซ์ที่ไม่ซ้ำกันและถูกต้องในแต่ละบล็อกของธุรกรรม กระบวนการพิสูจน์การทำงานนี้ต้องการพลังการคำนวณและพลังงานอย่างมาก ทำให้เป็นวิธีที่ปลอดภัยและกระจายอำนาจในการตรวจสอบธุรกรรม นักขุดที่ประสบความสำเร็จจะได้รับรางวัลเป็นบิตคอยน์ที่สร้างขึ้นใหม่และค่าธรรมเนียมการทำธุรกรรม และพวกเขามีบทบาทสำคัญในการรักษาความสมบูรณ์ของเครือข่ายบิตคอยน์',
+        difficulty_heading: 'ความยาก',
         difficulty_paragraph:
-          'The mining difficulty is what allows the block to remain at an average of 10 minutes between each new block.',
+          'ความยากในการขุดคือสิ่งที่ทำให้บล็อกยังคงอยู่ที่ค่าเฉลี่ย 10 นาทีระหว่างแต่ละบล็อกใหม่',
         spoiler:
-          'Nothing to spoil! Just go ahead and read through this lesson. There will be more opportunities to show off your   mining knowledge in future lessons!',
+          'ไม่มีอะไรจะสปอยล์! แค่อ่านบทเรียนนี้ต่อไป จะมีโอกาสมากขึ้นในการแสดงความรู้เกี่ยวกับการขุดของคุณในบทเรียนต่อ ๆ ไป!',
       },
     },
   },
   chapter_three: {
-    title: 'The 51% Attack',
+    title: 'การโจมตี 51%',
     paragraph_one:
-      'You enter the address of a block explorer and see that blocks are back to ten minute intervals. Somehow, Holocat sleeps through the noise from all the ASICs.',
-    paragraph_two: 'Cats. What can you do?',
+      'คุณป้อนที่อยู่ของบล็อกเอ็กซ์พลอเรอร์และเห็นว่าบล็อกกลับมาเป็นช่วงเวลาสิบนาทีอีกครั้ง อย่างไรก็ตาม Holocat กลับนอนหลับผ่านเสียงรบกวนจาก ASIC ทั้งหมด',
+    paragraph_two: 'แมว. คุณจะทำอะไรได้?',
     paragraph_three:
-      'However, something is off. The blocks are empty, and transactions aren’t processing. Did you make a mistake? Could this be a coincidence? Another message pops up on the computer screen, waking Holocat.',
-    paragraph_four: 'It’s not a coincidence.',
+      'อย่างไรก็ตาม มีบางอย่างผิดปกติ บล็อกว่างเปล่าและธุรกรรมไม่ได้รับการประมวลผล คุณทำผิดพลาดหรือไม่? นี่อาจเป็นเรื่องบังเอิญหรือไม่? ข้อความอีกข้อความหนึ่งปรากฏขึ้นบนหน้าจอคอมพิวเตอร์ ปลุก Holocat',
+    paragraph_four: 'มันไม่ใช่เรื่องบังเอิญ',
 
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Hashing it out',
+      title: 'บทนำ',
+      nav_title: 'การแฮช',
       paragraph_one:
-        '—SATOSHI NAKAMOTO: “Hey, you! Yeah, you! Remember me? Bitcoin is being targeted with a 51% attack! Vanderpoole used a backdoor on the standard ASIC firmware to bend existing mining pools to his goals. He’s using them to mine empty blocks to hold the bitcoin ecosystem hostage and force people to support increasing bitcoin’s supply. Do something, dingdong!”',
+        '—ซาโตชิ นากาโมโตะ: “เฮ้ คุณ! ใช่ คุณ! จำฉันได้ไหม? บิตคอยน์กำลังถูกโจมตีด้วยการโจมตี 51%! แวนเดอร์พูลใช้ช่องโหว่ในเฟิร์มแวร์ ASIC มาตรฐานเพื่อบิดเบือนพูลการขุดที่มีอยู่ให้เป็นไปตามเป้าหมายของเขา เขาใช้พวกมันในการขุดบล็อกว่างเปล่าเพื่อจับระบบนิเวศของบิตคอยน์เป็นตัวประกันและบังคับให้ผู้คนสนับสนุนการเพิ่มปริมาณบิตคอยน์ ทำอะไรสักอย่างสิ เจ้าบ้า!”',
       paragraph_two:
-        'The old computer coughs a cloud of dust, then produces a wad of data called a “spreadsheet” that contains contact info for some of the largest bitcoin pool operators, as well as a patch to the virus that is letting BitRey control miners. Send the file to the pool operators so that they can regain control of their machines fight BitRey.',
+        'คอมพิวเตอร์เก่าพ่นฝุ่นออกมา จากนั้นสร้างข้อมูลที่เรียกว่า “สเปรดชีต” ซึ่งมีข้อมูลติดต่อของผู้ดำเนินการพูลบิตคอยน์รายใหญ่ที่สุด รวมถึงแพตช์สำหรับไวรัสที่ทำให้ BitRey ควบคุมนักขุด ส่งไฟล์ไปยังผู้ดำเนินการพูลเพื่อให้พวกเขาสามารถควบคุมเครื่องของพวกเขาและต่อสู้กับ BitRey ได้',
       paragraph_three:
-        '—HOLOCAT: “We’ve got more work to do. Well, you do. I’m gonna run through walls and scare mice.”',
+        '—HOLOCAT: “เรามีงานต้องทำมากขึ้น เอาล่ะ คุณทำ ฉันจะวิ่งผ่านกำแพงและทำให้หนูกลัว”',
     },
 
     solo_one: {
-      title: 'You vs. Bitrey',
-      nav_title: 'Mining alone',
-      step_zero_heading: 'Let’s give it a try',
+      title: 'คุณ vs. Bitrey',
+      nav_title: 'การขุดคนเดียว',
+      step_zero_heading: 'ลองดูกันเถอะ',
       step_zero_paragraph_one:
-        'While you’re waiting for the pool operators you reached out to, you decide to see if BitRey can be fended off alone. Here’s how your hash rate stacks up. How do you think this will go?',
-      step_one_heading: 'We’re off to the races',
+        'ในขณะที่คุณกำลังรอผู้ดำเนินการพูลที่คุณติดต่อไป คุณตัดสินใจดูว่า BitRey สามารถถูกขับไล่ได้ด้วยตัวคนเดียวหรือไม่ นี่คือวิธีที่อัตราแฮชของคุณซ้อนกัน คุณคิดว่าสิ่งนี้จะเป็นอย่างไร?',
+      step_one_heading: 'เราเริ่มการแข่งขันแล้ว',
       step_one_paragraph_one:
-        'We’re now mining 100 blocks to see how many you stack up against BitRey.',
-      step_two_heading: `That didn't go well!`,
+        'ตอนนี้เรากำลังขุด 100 บล็อกเพื่อดูว่าคุณซ้อนกันกับ BitRey ได้กี่บล็อก',
+      step_two_heading: 'นั่นไม่ดีเลย!',
       step_two_paragraph_one:
-        'Yikes, we just don’t have enough hashpower to compete with BitRey and the virus-controlled pools. Let’s see if we can defeat BitRey for the next 100 blocks with the other pool operators. Bitcoin has been running for over a century and it’s not going down without a fight.',
+        'โอ้โห เราไม่มีพลังแฮชเพียงพอที่จะแข่งขันกับ BitRey และพูลที่ควบคุมด้วยไวรัส ลองดูว่าเราสามารถเอาชนะ BitRey ได้ใน 100 บล็อกถัดไปกับผู้ดำเนินการพูลคนอื่น ๆ หรือไม่ บิตคอยน์ดำเนินการมากว่าศตวรรษแล้วและจะไม่ยอมแพ้โดยไม่มีการต่อสู้',
     },
 
     pool_one: {
-      title: 'Pool vs. BitRey',
-      nav_title: 'Finding friends',
-      waiting_screen_heading: 'We need support!',
-      waiting_screen_paragraph_one: `Your miners in the warehouse don’t stand a chance. If you combine your hash power with other miners, you might be able to hold the line against BitRey's assault.`,
+      title: 'พูล vs. BitRey',
+      nav_title: 'หามิตรสหาย',
+      waiting_screen_heading: 'เราต้องการการสนับสนุน!',
+      waiting_screen_paragraph_one: `นักขุดของคุณในโกดังไม่มีโอกาสเลย หากคุณรวมพลังแฮชของคุณกับนักขุดคนอื่น ๆ คุณอาจสามารถยืนหยัดต่อสู้กับการโจมตีของ BitRey ได้`,
       waiting_screen_paragraph_two:
-        'Let’s wait until the others join your cause so we can combine forces.',
-      waiting_button: 'Waiting...',
-      continue_button: "Let's go",
+        'รอจนกว่าคนอื่น ๆ จะเข้าร่วมกับคุณเพื่อที่เราจะได้รวมพลังกัน',
+      waiting_button: 'กำลังรอ...',
+      continue_button: 'ไปกันเถอะ',
     },
 
     pool_two: {
-      title: 'Pool vs. BitRey',
-      nav_title: 'Mining together',
-      step_zero_heading: 'Here we go',
+      title: 'พูล vs. BitRey',
+      nav_title: 'การขุดร่วมกัน',
+      step_zero_heading: 'เริ่มกันเลย',
       step_zero_paragraph_one:
-        'By combining your hashrate with the other pool operators, can you stand up to BitRey?',
-      step_two_heading: 'Another defeat!',
+        'โดยการรวมอัตราแฮชของคุณกับผู้ดำเนินการพูลคนอื่น ๆ คุณสามารถยืนหยัดต่อสู้กับ BitRey ได้หรือไม่?',
+      step_two_heading: 'พ่ายแพ้อีกครั้ง!',
       step_two_paragraph_one:
-        'Something is wrong. Only Hash Hoppers found blocks. Why do you think that might be?',
+        'มีบางอย่างผิดปกติ มีเพียง Hash Hoppers เท่านั้นที่พบบล็อก คุณคิดว่าเป็นเพราะอะไร?',
     },
 
     coop_one: {
       title: 'Coop vs. BitRey',
-      nav_title: 'Something went wrong',
-      heading: 'Something is not quite right yet.',
+      nav_title: 'มีบางอย่างผิดพลาด',
+      heading: 'มีบางอย่างยังไม่ถูกต้อง',
       paragraph_one:
-        'Hash Hoppers, the one with the most hash power, is finding all your blocks but others find nothing.',
+        'Hash Hoppers ซึ่งมีพลังแฮชมากที่สุด กำลังหาบล็อกทั้งหมดของคุณ แต่คนอื่น ๆ ไม่พบอะไรเลย',
       paragraph_two:
-        'The problem is that everyone is checking the same nonces while they’re mining. How can you better coordinate?',
+        'ปัญหาคือทุกคนกำลังตรวจสอบนอนซ์เดียวกันในขณะที่พวกเขากำลังขุด คุณจะประสานงานได้ดีขึ้นอย่างไร?',
       paragraph_three:
-        ' You decide to place a unique identifier in the “extraNonce” when preparing the block data for each of you to prevent duplicate efforts.',
+        'คุณตัดสินใจใส่ตัวระบุเฉพาะใน “extraNonce” เมื่อเตรียมข้อมูลบล็อกสำหรับแต่ละคนเพื่อป้องกันความพยายามที่ซ้ำซ้อน',
     },
 
     coop_two: {
       title: 'Coop vs. BitRey',
-      nav_title: 'The extraNonce',
-      heading: 'What is the extraNonce?',
+      nav_title: 'extraNonce',
+      heading: 'extraNonce คืออะไร?',
       paragraph_one:
-        'For the Stratum mining pool protocol (not bitcoin protocol), the coinbase transaction also has something called the “extra nonce”. When providing miners with the block data, mining pools divide the extra nonce into two parts: “extranonce1” and “extranonce2”.',
-      paragraph_two:
-        'Splitting the extra nonce into two parts has several advantages:',
-      list_one: 'It prevents pool participants from doing the same work.',
+        'สำหรับโปรโตคอลพูลการขุด Stratum (ไม่ใช่โปรโตคอลบิตคอยน์) การทำธุรกรรม coinbase ยังมีสิ่งที่เรียกว่า “extra nonce” เมื่อให้ข้อมูลบล็อกแก่นักขุด พูลการขุดจะแบ่ง extra nonce ออกเป็นสองส่วน: “extranonce1” และ “extranonce2”',
+      paragraph_two: 'การแบ่ง extra nonce ออกเป็นสองส่วนมีข้อดีหลายประการ:',
+      list_one: 'มันป้องกันไม่ให้ผู้เข้าร่วมพูลทำงานเดียวกัน',
       list_two:
-        'It allows the pool to send the same transaction list to all miners that are pooling together. That means miners simply have to update “extranonce2” and not change transactions included in the block.',
+        'มันช่วยให้พูลสามารถส่งรายการธุรกรรมเดียวกันไปยังนักขุดทั้งหมดที่รวมกัน นั่นหมายความว่านักขุดเพียงแค่ต้องอัปเดต “extranonce2” และไม่ต้องเปลี่ยนธุรกรรมที่รวมอยู่ในบล็อก',
       list_three:
-        'The “extranonce1” allows pools to identify and determine share contribution because each miner gets their own “extranonce1”.',
+        '“extranonce1” ช่วยให้พูลสามารถระบุและกำหนดส่วนแบ่งการมีส่วนร่วมได้เนื่องจากนักขุดแต่ละคนจะได้รับ “extranonce1” ของตนเอง',
       paragraph_three:
-        ' Miners who contribute to a pool update the “extranonce2” and cycle through the nonce in the block header. If they don’t find a solution, they repeat the process with a different “extranonce2” until they do.',
-      paragraph_four: 'Let’s try again splitting the work using this method.',
+        'นักขุดที่มีส่วนร่วมในพูลจะอัปเดต “extranonce2” และวนผ่าน nonce ในส่วนหัวของบล็อก หากพวกเขาไม่พบวิธีแก้ปัญหา พวกเขาจะทำซ้ำกระบวนการด้วย “extranonce2” ที่แตกต่างกันจนกว่าจะพบ',
+      paragraph_four: 'ลองแบ่งงานอีกครั้งโดยใช้วิธีนี้',
     },
 
     coop_three: {
       title: 'Coop vs. BitRey',
-      nav_title: 'Mining with teamwork',
-      step_zero_heading: 'One more time...',
+      nav_title: 'การขุดด้วยทีมเวิร์ค',
+      step_zero_heading: 'อีกครั้งหนึ่ง...',
       step_zero_paragraph_one:
-        'Let’s see if we stand a chance against BitRey now with our improved strategy of dividing the nonce space.',
-      step_two_heading: 'You did it!',
+        'ลองดูว่าเรามีโอกาสต่อสู้กับ BitRey ได้หรือไม่ด้วยกลยุทธ์ที่ปรับปรุงใหม่ของการแบ่งพื้นที่นอนซ์',
+      step_two_heading: 'คุณทำได้!',
       step_two_paragraph_one:
-        'Together you and the other pool operators held back BitRey’s attempt to overtake the network.',
+        'ร่วมกันคุณและผู้ดำเนินการพูลคนอื่น ๆ ยับยั้งความพยายามของ BitRey ที่จะเข้ายึดเครือข่าย',
     },
 
     split_one: {
-      title: 'Splitting Rewards',
-      nav_title: 'Splitting the fair share',
-      heading: 'Nicely done.',
+      title: 'การแบ่งรางวัล',
+      nav_title: 'การแบ่งส่วนที่ยุติธรรม',
+      heading: 'ทำได้ดีมาก',
       paragraph_one:
-        'Not only did you defend the network against BitRey, you also earned bitcoin as a reward!',
+        'ไม่เพียงแต่คุณปกป้องเครือข่ายจาก BitRey ได้เท่านั้น แต่คุณยังได้รับบิตคอยน์เป็นรางวัลด้วย!',
       paragraph_two:
-        'For every block that is mined, the miner gets a reward in bitcoin. If more than one person worked on the block, the group of miners (mining pool) gets a reward to share.',
-      paragraph_three: 'This reward is made up of two things:',
-      list_one: 'fees for all the transactions in the block',
-      list_two: 'the block subsidy',
+        'สำหรับทุกบล็อกที่ขุดได้ นักขุดจะได้รับรางวัลเป็นบิตคอยน์ หากมีมากกว่าหนึ่งคนทำงานในบล็อกนั้น กลุ่มนักขุด (พูลการขุด) จะได้รับรางวัลเพื่อแบ่งปันกัน',
+      paragraph_three: 'รางวัลนี้ประกอบด้วยสองสิ่ง:',
+      list_one: 'ค่าธรรมเนียมสำหรับธุรกรรมทั้งหมดในบล็อก',
+      list_two: 'เงินอุดหนุนบล็อก',
       paragraph_four:
-        'You and your miner friends have earned a total of 6.1 bitcoin and are looking for a good way to split it up. It should be divided based on how much work each of you put in.',
+        'คุณและเพื่อนนักขุดของคุณได้รับบิตคอยน์รวม 6.1 บิตคอยน์และกำลังมองหาวิธีที่ดีในการแบ่งมัน ควรแบ่งตามปริมาณงานที่แต่ละคนทำ',
       paragraph_five:
-        'Mining pools solve this by tracking how many partial solutions each miner has generated. A pool assigns each miner a minimum difficulty (lower than the block difficulty) based on their hash power. Every few seconds a miner finds one of those easier solutions and notifies the pool. The pool then tracks all the submitted shares and splits up the block rewards accordingly.',
-      paragraph_six: 'Let’s take a look at this in action.',
+        'พูลการขุดแก้ปัญหานี้โดยการติดตามจำนวนวิธีแก้ปัญหาบางส่วนที่นักขุดแต่ละคนสร้างขึ้น พูลจะกำหนดความยากขั้นต่ำให้กับนักขุดแต่ละคน (ต่ำกว่าความยากของบล็อก) ตามพลังแฮชของพวกเขา ทุก ๆ สองสามวินาที นักขุดจะพบวิธีแก้ปัญหาที่ง่ายกว่าเหล่านั้นและแจ้งให้พูลทราบ จากนั้นพูลจะติดตามหุ้นที่ส่งทั้งหมดและแบ่งรางวัลบล็อกตามนั้น',
+      paragraph_six: 'ลองดูสิ่งนี้ในการดำเนินการ',
     },
 
     split_two: {
-      title: 'Splitting Rewards',
-      nav_title: 'Calculating rewards',
-      step_zero_heading: 'Let’s review everyone’s efforts',
+      title: 'การแบ่งรางวัล',
+      nav_title: 'การคำนวณรางวัล',
+      step_zero_heading: 'มาทบทวนความพยายามของทุกคนกัน',
       step_zero_paragraph:
-        'We will re-run the battle. This time we will only focus on our pool, specifically on the number of partial solutions each miner found.',
-      step_two_heading: 'Let’s do the math',
+        'เราจะทำการต่อสู้อีกครั้ง คราวนี้เราจะมุ่งเน้นไปที่พูลของเรา โดยเฉพาะจำนวนวิธีแก้ปัญหาบางส่วนที่นักขุดแต่ละคนพบ',
+      step_two_heading: 'มาคำนวณกันเถอะ',
       step_two_paragraph:
-        'Take a look at the numbers above and see if you can find a fair way to split up the rewards. Figured it out? Let’s go over it step by step.',
-      step_three_heading: 'Hash rate percentage',
+        'ดูตัวเลขข้างต้นและดูว่าคุณสามารถหาวิธีที่ยุติธรรมในการแบ่งรางวัลได้หรือไม่ คิดออกแล้วใช่ไหม? มาทบทวนกันทีละขั้นตอน',
+      step_three_heading: 'เปอร์เซ็นต์อัตราแฮช',
       step_three_paragraph:
-        'As you know, this represents the amount of work every miner has chipped in to find blocks. But the mining pool has no way of knowing or measuring this number, since miners only forward successful solutions.',
-      step_four_heading: 'Block found percentage',
+        'อย่างที่คุณทราบ นี่แสดงถึงปริมาณงานที่นักขุดแต่ละคนมีส่วนร่วมในการหาบล็อก แต่พูลการขุดไม่มีทางรู้หรือวัดตัวเลขนี้ได้ เนื่องจากนักขุดจะส่งต่อเฉพาะวิธีแก้ปัญหาที่ประสบความสำเร็จเท่านั้น',
+      step_four_heading: 'เปอร์เซ็นต์บล็อกที่พบ',
       step_four_paragraph:
-        'The chance of finding a block is very low since it has a lot to do with luck. Especially in scenarios with some extremely powerful miners, the really small miners may contribute work but never find any blocks. ',
-      step_five_heading: 'Partial solution percentage',
+        'โอกาสในการหาบล็อกมีน้อยมากเนื่องจากเกี่ยวข้องกับโชคมาก โดยเฉพาะในสถานการณ์ที่มีนักขุดที่ทรงพลังมาก นักขุดที่มีขนาดเล็กมากอาจมีส่วนร่วมในการทำงานแต่ไม่เคยหาบล็อกได้เลย',
+      step_five_heading: 'เปอร์เซ็นต์วิธีแก้ปัญหาบางส่วน',
       step_five_paragraph:
-        'Now this number will work. Miners report these solutions to easier problems regularly to pools. That allows pools to measure fairly accurately how much work each miner has provided.',
-      step_six_heading: 'Splitting the rewards',
+        'ตอนนี้ตัวเลขนี้จะใช้ได้ นักขุดรายงานวิธีแก้ปัญหาเหล่านี้ให้กับปัญหาที่ง่ายกว่าเป็นประจำกับพูล สิ่งนี้ช่วยให้พูลสามารถวัดได้อย่างแม่นยำว่ามีงานมากน้อยเพียงใดที่นักขุดแต่ละคนได้ให้ไว้',
+      step_six_heading: 'การแบ่งรางวัล',
       step_six_paragraph:
-        'Now we can take the rewards of 6.1 bitcoin and split them up according to the percentage of partial solutions of each pool. Congratulations!',
+        'ตอนนี้เราสามารถนำรางวัล 6.1 บิตคอยน์และแบ่งตามเปอร์เซ็นต์ของวิธีแก้ปัญหาบางส่วนของแต่ละพูลได้ ยินดีด้วย!',
     },
 
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Chapter complete',
-      heading: 'Take that, Vanderpoole! ',
+      title: 'บทส่งท้าย',
+      nav_title: 'บทเสร็จสมบูรณ์',
+      heading: 'เอานั่นไป, Vanderpoole!',
       paragraph_one:
-        'Great work! You and the other operators were able to fend off Vanderpoole’s 51% attack by pooling your resources. Empty blocks are no longer being submitted and it looks like he’s given up.',
+        'ทำได้ดีมาก! คุณและผู้ดำเนินการคนอื่น ๆ สามารถขับไล่การโจมตี 51% ของ Vanderpoole ได้โดยการรวมทรัพยากรของคุณ บล็อกว่างเปล่าไม่ได้ถูกส่งอีกต่อไปและดูเหมือนว่าเขาจะยอมแพ้แล้ว',
       paragraph_two:
-        'It’s time to reap your rewards! Go to the next chapter to withdraw your bitcoin.',
+        'ถึงเวลาที่จะเก็บเกี่ยวรางวัลของคุณ! ไปที่บทถัดไปเพื่อถอนบิตคอยน์ของคุณ',
     },
     resources: {
       solo: {
-        hashrate_heading: 'Mining Hashrate',
+        hashrate_heading: 'อัตราแฮชการขุด',
         hashrate_paragraph:
-          "An individual miner's hashrate refers to the computational power they contribute to the bitcoin network's mining process. It is the rate at which their mining hardware can perform the necessary mathematical calculations to attempt to mine new blocks. The hashrate of an individual miner is typically measured in hashes per second, or at scale in terahashes, one-trillion hashes per second (TH/s), depending on the scale of their mining operation and the capabilities of their mining hardware.",
+          'อัตราแฮชของนักขุดแต่ละคนหมายถึงพลังการคำนวณที่พวกเขามีส่วนร่วมในกระบวนการขุดของเครือข่ายบิตคอยน์ มันคืออัตราที่ฮาร์ดแวร์การขุดของพวกเขาสามารถทำการคำนวณทางคณิตศาสตร์ที่จำเป็นเพื่อพยายามขุดบล็อกใหม่ อัตราแฮชของนักขุดแต่ละคนมักจะวัดเป็นแฮชต่อวินาที หรือในระดับที่ใหญ่ขึ้นเป็นเทราแฮช หนึ่งล้านล้านแฮชต่อวินาที (TH/s) ขึ้นอยู่กับขนาดของการดำเนินการขุดและความสามารถของฮาร์ดแวร์การขุดของพวกเขา',
       },
       pool: {
-        pool_heading: 'Mining Pool',
+        pool_heading: 'พูลการขุด',
         pool_paragraph:
-          'A mining pool plays a pivotal role in cryptocurrency mining, offering several key benefits to individual miners. By pooling together the computational power and resources of many participants, mining pools enhance the chances of successfully mining new blocks, resulting in more predictable and consistent earnings. They also provide a platform for miners to access advanced mining equipment and expert support, reducing barriers to entry and leveling the playing field. Furthermore, mining pools help distribute rewards efficiently, ensuring that miners receive their fair share for their contributions, making cryptocurrency mining accessible, stable, and financially rewarding for a broader community of participants.',
+          'พูลการขุดมีบทบาทสำคัญในการขุดสกุลเงินดิจิทัล โดยให้ประโยชน์หลายประการแก่นักขุดแต่ละคน ด้วยการรวมพลังการคำนวณและทรัพยากรของผู้เข้าร่วมหลายคน พูลการขุดจะเพิ่มโอกาสในการขุดบล็อกใหม่ให้สำเร็จ ส่งผลให้มีรายได้ที่คาดการณ์ได้และสม่ำเสมอมากขึ้น นอกจากนี้ยังเป็นแพลตฟอร์มให้นักขุดเข้าถึงอุปกรณ์การขุดขั้นสูงและการสนับสนุนจากผู้เชี่ยวชาญ ลดอุปสรรคในการเข้าถึงและทำให้สนามแข่งขันเท่าเทียมกัน ยิ่งไปกว่านั้น พูลการขุดช่วยกระจายรางวัลอย่างมีประสิทธิภาพ ทำให้นักขุดได้รับส่วนแบ่งที่ยุติธรรมสำหรับการมีส่วนร่วมของพวกเขา ทำให้การขุดสกุลเงินดิจิทัลสามารถเข้าถึงได้ มีเสถียรภาพ และให้ผลตอบแทนทางการเงินสำหรับชุมชนผู้เข้าร่วมที่กว้างขึ้น',
       },
       coop: {
-        distribution_heading: 'Job Distribution',
+        distribution_heading: 'การกระจายงาน',
         distribution_paragraph:
-          "Mining pools take precautions to ensure that their participants do not mine the same nonce for the same block. This is important because, in the bitcoin mining process, miners compete to find a nonce that results in a valid block. If two miners in the same pool were to work on the same nonce simultaneously, it would be inefficient, and only one would receive the block reward. To prevent this, mining pools use a process called 'work assignment' or 'job distribution' to allocate work efficiently. Mining pools distribute work to individual miners or participants. When a new block needs to be mined, the pool's server (or pool operator) creates a unique 'job' for the miners. This job includes all the information needed to mine the block, such as the current list of unconfirmed transactions, the previous block's header, and the target difficulty.",
-        shares_heading: 'Submitting Shares',
+          "พูลการขุดใช้มาตรการป้องกันเพื่อให้แน่ใจว่าผู้เข้าร่วมของพวกเขาจะไม่ขุดนอนซ์เดียวกันสำหรับบล็อกเดียวกัน สิ่งนี้มีความสำคัญเนื่องจากในกระบวนการขุดบิตคอยน์ นักขุดแข่งขันกันเพื่อหานอนซ์ที่ส่งผลให้บล็อกถูกต้อง หากนักขุดสองคนในพูลเดียวกันทำงานกับนอนซ์เดียวกันพร้อมกัน จะไม่มีประสิทธิภาพและมีเพียงคนเดียวเท่านั้นที่จะได้รับรางวัลบล็อก เพื่อป้องกันสิ่งนี้ พูลการขุดใช้กระบวนการที่เรียกว่า 'การมอบหมายงาน' หรือ 'การกระจายงาน' เพื่อจัดสรรงานอย่างมีประสิทธิภาพ พูลการขุดจะแจกจ่ายงานให้นักขุดหรือผู้เข้าร่วมแต่ละคน เมื่อจำเป็นต้องขุดบล็อกใหม่ เซิร์ฟเวอร์ของพูล (หรือผู้ดำเนินการพูล) จะสร้าง 'งาน' ที่ไม่ซ้ำกันสำหรับนักขุด งานนี้รวมถึงข้อมูลทั้งหมดที่จำเป็นในการขุดบล็อก เช่น รายการธุรกรรมที่ยังไม่ได้ยืนยันในปัจจุบัน ส่วนหัวของบล็อกก่อนหน้า และความยากเป้าหมาย",
+        shares_heading: 'การส่งหุ้น',
         shares_paragraph:
-          "Miners work on these assigned jobs and continuously attempt to find the correct nonce. When a miner believes they have a solution, they submit what's called a 'share' to the pool server. This share demonstrates that the miner is actively working on solving the problem. Shares are much easier to find than the actual solution, but they serve as proof of the miner's efforts.",
+          "นักขุดทำงานกับงานที่ได้รับมอบหมายเหล่านี้และพยายามหานอนซ์ที่ถูกต้องอย่างต่อเนื่อง เมื่อมีนักขุดเชื่อว่าพวกเขามีวิธีแก้ปัญหา พวกเขาจะส่งสิ่งที่เรียกว่า 'หุ้น' ไปยังเซิร์ฟเวอร์ของพูล หุ้นนี้แสดงให้เห็นว่านักขุดกำลังทำงานเพื่อแก้ปัญหา หุ้นหาง่ายกว่าวิธีแก้ปัญหาจริงมาก แต่พวกมันทำหน้าที่เป็นหลักฐานของความพยายามของนักขุด",
       },
       split: {
-        payout_heading: 'Payout Schemes',
+        payout_heading: 'แผนการจ่ายเงิน',
         payout_subheading:
-          'A mining pool can choose to distrubute the block rewards in several ways the differ in some subtle but key ways:',
-        pps_heading: 'Pay-Per-Share (PPS)',
+          'พูลการขุดสามารถเลือกแจกจ่ายรางวัลบล็อกได้หลายวิธีที่แตกต่างกันในบางวิธีที่สำคัญ:',
+        pps_heading: 'จ่ายต่อหุ้น (PPS)',
         pps_paragraph:
-          "In PPS, miners receive a fixed payout for each valid share they submit, regardless of whether the pool successfully mines a block or not. This system provides miners with a steady and predictable income, making it a preferred choice for those who value consistency in their earnings. PPS minimizes the variance in rewards, as miners are compensated for their work on a per-share basis, offering a reliable source of income in the world of volatile cryptocurrency mining. However, PPS may deduct a fee from the miner's earnings if the pool doesn't successfully mine a block. This fee is meant to cover operational costs and mitigate the risk for the pool operator in case no blocks are mined within a certain timeframe. In traditional PPS, miners receive a reduced payout when the pool faces difficulties.",
-        pplns_heading: 'Pay-Per-Last-N-Shares (PPLNS)',
+          'ใน PPS นักขุดจะได้รับการจ่ายเงินคงที่สำหรับแต่ละหุ้นที่ถูกต้องที่พวกเขาส่ง ไม่ว่าพูลจะขุดบล็อกสำเร็จหรือไม่ก็ตาม ระบบนี้ให้นักขุดมีรายได้ที่มั่นคงและคาดการณ์ได้ ทำให้เป็นตัวเลือกที่ต้องการสำหรับผู้ที่ให้ความสำคัญกับความสม่ำเสมอในรายได้ของพวกเขา PPS ลดความแปรปรวนในรางวัล เนื่องจากนักขุดจะได้รับค่าตอบแทนสำหรับงานของพวกเขาตามหุ้นที่ส่ง ทำให้เป็นแหล่งรายได้ที่เชื่อถือได้ในโลกของการขุดสกุลเงินดิจิทัลที่มีความผันผวน อย่างไรก็ตาม PPS อาจหักค่าธรรมเนียมจากรายได้ของนักขุดหากพูลไม่สามารถขุดบล็อกได้สำเร็จ ค่าธรรมเนียมนี้มีไว้เพื่อครอบคลุมค่าใช้จ่ายในการดำเนินงานและลดความเสี่ยงสำหรับผู้ดำเนินการพูลในกรณีที่ไม่มีการขุดบล็อกภายในระยะเวลาที่กำหนด ใน PPS แบบดั้งเดิม นักขุดจะได้รับการจ่ายเงินลดลงเมื่อพูลเผชิญกับความยากลำบาก',
+        pplns_heading: 'จ่ายต่อหุ้นสุดท้าย N (PPLNS)',
         pplns_paragraph:
-          "PPLNS takes into account a miner's contribution over a specific window of the last N shares. Miners are paid based on the number and difficulty of shares they've submitted within that window. PPLNS encourages miners to stay active in the pool, as it rewards consistent participation and helps to reduce the risk of pool-hopping strategies. Miners receive payouts when the pool successfully mines a block, and the rewards are distributed proportionally to their recent contributions, providing a fair and performance-driven approach to earning in the mining ecosystem.",
-        pps_plus_heading: 'Pay Per Share + (PPS+)',
+          'PPLNS พิจารณาการมีส่วนร่วมของนักขุดในช่วงเวลาที่กำหนดของหุ้นสุดท้าย N นักขุดจะได้รับค่าตอบแทนตามจำนวนและความยากของหุ้นที่พวกเขาส่งภายในช่วงเวลานั้น PPLNS กระตุ้นให้นักขุดมีส่วนร่วมอย่างต่อเนื่องในพูล เนื่องจากมันให้รางวัลสำหรับการมีส่วนร่วมอย่างสม่ำเสมอและช่วยลดความเสี่ยงของกลยุทธ์การกระโดดพูล นักขุดจะได้รับการจ่ายเงินเมื่อพูลขุดบล็อกสำเร็จ และรางวัลจะถูกแจกจ่ายตามสัดส่วนของการมีส่วนร่วมล่าสุดของพวกเขา ทำให้เป็นวิธีการที่ยุติธรรมและขับเคลื่อนด้วยประสิทธิภาพในการหารายได้ในระบบนิเวศการขุด',
+        pps_plus_heading: 'จ่ายต่อหุ้น + (PPS+)',
         pps_plus_paragraph:
-          "PPS+ offers miners a fixed payment for each share they contribute to the pool's mining efforts. However, PPS+ typically includes an additional bonus or premium as an incentive to miners who contribute to the pool's stability and reliability. This bonus is designed to encourage miners to stay active in the pool and foster long-term participation. PPS+ provides miners with a consistent and predictable income, while the added bonus makes it an attractive option for those seeking both reliability and extra rewards in the world of cryptocurrency mining.",
-        fpps_heading: 'Full Pay Per Share (FPPS)',
+          'PPS+ เสนอนักขุดการจ่ายเงินคงที่สำหรับแต่ละหุ้นที่พวกเขามีส่วนร่วมในความพยายามในการขุดของพูล อย่างไรก็ตาม PPS+ มักจะรวมโบนัสหรือพรีเมียมเพิ่มเติมเป็นแรงจูงใจให้นักขุดที่มีส่วนร่วมในความเสถียรและความน่าเชื่อถือของพูล โบนัสนี้ออกแบบมาเพื่อกระตุ้นให้นักขุดมีส่วนร่วมอย่างต่อเนื่องในพูลและส่งเสริมการมีส่วนร่วมในระยะยาว PPS+ ให้นักขุดมีรายได้ที่สม่ำเสมอและคาดการณ์ได้ ในขณะที่โบนัสเพิ่มเติมทำให้เป็นตัวเลือกที่น่าสนใจสำหรับผู้ที่ต้องการความน่าเชื่อถือและรางวัลเพิ่มเติมในโลกของการขุดสกุลเงินดิจิทัล',
+        fpps_heading: 'จ่ายเต็มต่อหุ้น (FPPS)',
         fpps_paragraph:
-          "In Full PPS, miners receive a fixed payout for every share they submit to the pool, irrespective of whether the pool successfully mines a block or not. This approach provides miners with a steady and predictable income, making it an attractive choice for those who value reliability in their earnings. Unlike traditional PPS, Full PPS ensures that miners receive their full payout for their contributed work, without any potential deductions, even if the pool faces occasional difficulties. It's a stable and straightforward method that appeals to miners seeking consistent income in the world of cryptocurrency mining.",
+          'ใน Full PPS นักขุดจะได้รับการจ่ายเงินคงที่สำหรับทุกหุ้นที่พวกเขาส่งไปยังพูล โดยไม่คำนึงว่าพูลจะขุดบล็อกสำเร็จหรือไม่ วิธีการนี้ให้นักขุดมีรายได้ที่มั่นคงและคาดการณ์ได้ ทำให้เป็นตัวเลือกที่น่าสนใจสำหรับผู้ที่ให้ความสำคัญกับความน่าเชื่อถือในรายได้ของพวกเขา แตกต่างจาก PPS แบบดั้งเดิม Full PPS ทำให้นักขุดได้รับการจ่ายเงินเต็มจำนวนสำหรับงานที่พวกเขามีส่วนร่วม โดยไม่มีการหักใด ๆ แม้ว่าพูลจะเผชิญกับความยากลำบากเป็นครั้งคราวก็ตาม มันเป็นวิธีที่มั่นคงและตรงไปตรงมาที่ดึงดูดนักขุดที่ต้องการรายได้ที่สม่ำเสมอในโลกของการขุดสกุลเงินดิจิทัล',
       },
     },
   },
 
   chapter_four: {
-    title: 'Claiming Your 1.61 Bitcoin',
+    title: 'การเรียกร้องบิตคอยน์ 1.61 ของคุณ',
     paragraph_one:
-      'Phew, that was close! You are shaking from your battle with BitRey, but you are relieved that you won.',
+      'เฮ้อ เกือบไปแล้ว! คุณกำลังสั่นจากการต่อสู้กับ BitRey แต่คุณก็โล่งใจที่คุณชนะ',
     paragraph_two:
-      'As you settle at your desk, you take a deep breath, drift off, and replay the day’s events in your head. ',
+      'ขณะที่คุณนั่งที่โต๊ะ คุณสูดหายใจลึก ๆ แล้วหลับตาและทบทวนเหตุการณ์ในวันนี้ในหัวของคุณ',
 
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Securing the bag',
+      title: 'บทนำ',
+      nav_title: 'การรักษาความปลอดภัย',
       paragraph_one:
-        '—HOLOCAT: “One of us better sleep. You need to start contacting the mining pools. They’ll want to know even more than the world will.”',
+        '—HOLOCAT: “พวกเราคนหนึ่งควรนอน คุณต้องเริ่มติดต่อพูลการขุด พวกเขาจะต้องการรู้มากกว่าที่โลกจะรู้”',
       paragraph_two:
-        'As you settle at your ButtLift Hover Desk, you replay the day’s events. Vanderpoole. BitRey. The revelation that miners never agreed to shut down in protest. Could it all be true? Was this all staged? And how much longer are you supposed to look after this cat? (In the distance, something meows.)',
+        'ขณะที่คุณนั่งที่โต๊ะ ButtLift Hover คุณทบทวนเหตุการณ์ในวันนี้ Vanderpoole BitRey การเปิดเผยว่านักขุดไม่เคยตกลงที่จะปิดตัวลงเพื่อประท้วง ทั้งหมดนี้เป็นความจริงหรือไม่? ทั้งหมดนี้ถูกจัดฉากหรือไม่? และคุณต้องดูแลแมวตัวนี้อีกนานแค่ไหน? (ในระยะไกล มีเสียงแมวร้อง)',
       paragraph_three:
-        'Whatever happens next, you will need funds. Wait a second! You never claimed the mining rewards from your competition with BitRey! You decide to withdraw them.',
+        'ไม่ว่าจะเกิดอะไรขึ้นต่อไป คุณจะต้องใช้เงิน เดี๋ยวก่อน! คุณไม่เคยเรียกร้องรางวัลการขุดจากการแข่งขันกับ BitRey! คุณตัดสินใจถอนพวกมัน',
     },
 
     public_key_one: {
-      title: 'Public key',
-      nav_title: 'Key pairs',
-      heading: 'About key pairs',
+      title: 'กุญแจสาธารณะ',
+      nav_title: 'คู่กุญแจ',
+      heading: 'เกี่ยวกับคู่กุญแจ',
       paragraph_one:
-        'According to the mining pool, it looks like you have 1.61 bitcoin to claim from all the work you did earlier. ',
-      list_one: ' Private key',
-      list_two: 'Public key',
+        'ตามที่พูลการขุดระบุ ดูเหมือนว่าคุณมีบิตคอยน์ 1.61 ที่จะเรียกร้องจากงานทั้งหมดที่คุณทำก่อนหน้านี้',
+      list_one: 'กุญแจส่วนตัว',
+      list_two: 'กุญแจสาธารณะ',
       paragraph_two:
-        "But wait, you don’t even have a wallet! You might be wondering where you can buy one. While you can purchase hardware to build certain kinds of wallets, you can actually just make one with your computer or mobile device. Let's do it!",
+        'แต่เดี๋ยวก่อน คุณยังไม่มีวอลเล็ต! คุณอาจสงสัยว่าจะซื้อได้ที่ไหน ในขณะที่คุณสามารถซื้อฮาร์ดแวร์เพื่อสร้างวอลเล็ตบางประเภทได้ คุณสามารถสร้างวอลเล็ตด้วยคอมพิวเตอร์หรืออุปกรณ์มือถือของคุณได้ ลองทำกันเถอะ!',
       paragraph_three:
-        'If you signed up for an account at any point, you got something called a personal code. In cryptography, this is called a “private key” and it is often part of a pair:',
+        'หากคุณสมัครบัญชีในช่วงใดช่วงหนึ่ง คุณจะได้รับสิ่งที่เรียกว่ารหัสส่วนตัว ในการเข้ารหัสลับ สิ่งนี้เรียกว่า “กุญแจส่วนตัว” และมักจะเป็นส่วนหนึ่งของคู่กุญแจ:',
       paragraph_four:
-        ' A single key pair is all that’s needed to create a wallet and control the funds within it. When you want to spend bitcoin, you use the private key. When you want to receive bitcoin, you use the public key.',
+        'คู่กุญแจเดียวคือสิ่งที่จำเป็นในการสร้างวอลเล็ตและควบคุมเงินภายใน เมื่อคุณต้องการใช้จ่ายบิตคอยน์ คุณใช้กุญแจส่วนตัว เมื่อคุณต้องการรับบิตคอยน์ คุณใช้กุญแจสาธารณะ',
     },
 
     public_key_two: {
-      title: 'Public key',
-      nav_title: 'Elliptic curve cryptography',
+      title: 'กุญแจสาธารณะ',
+      nav_title: 'การเข้ารหัสลับเส้นโค้งวงรี',
       paragraph_one:
-        'So, we have the private key, it’s the personal code you got when you signed up. How do we generate a public key from it?',
+        'ดังนั้น เรามีกุญแจส่วนตัว มันคือรหัสส่วนตัวที่คุณได้รับเมื่อคุณสมัคร เราจะสร้างกุญแจสาธารณะจากมันได้อย่างไร?',
       paragraph_two:
-        'To do that, we need to take a peek at a fascinating branch of cryptography called elliptic curves. This is called Elliptic Curve Cryptography, or ECC for short.',
+        'ในการทำเช่นนั้น เราจำเป็นต้องดูสาขาที่น่าสนใจของการเข้ารหัสลับที่เรียกว่าเส้นโค้งวงรี สิ่งนี้เรียกว่าการเข้ารหัสลับเส้นโค้งวงรี หรือย่อว่า ECC',
       paragraph_three:
-        'ECC involves taking certain points on an elliptic curve and performing addition and multiplication on the points.',
+        'ECC เกี่ยวข้องกับการใช้จุดบางจุดบนเส้นโค้งวงรีและทำการบวกและคูณบนจุดเหล่านั้น',
       paragraph_four:
-        'Bitcoin uses a specific curve called secp256k1. In the image, you see a simplified version that is easier to visualize, but follows the same mathematical rules.',
-      paragraph_five:
-        'We start with a specific point on this curve, called the',
+        'บิตคอยน์ใช้เส้นโค้งเฉพาะที่เรียกว่า secp256k1 ในภาพ คุณจะเห็นเวอร์ชันที่ง่ายขึ้นซึ่งมองเห็นได้ง่ายขึ้น แต่ปฏิบัติตามกฎทางคณิตศาสตร์เดียวกัน',
+      paragraph_five: 'เราเริ่มต้นด้วยจุดเฉพาะบนเส้นโค้งนี้ที่เรียกว่า',
       tooltip_one: {
-        highlighted: 'Generator Point',
-        question: 'What is the Generator Point?',
+        highlighted: 'จุดกำเนิด',
+        question: 'จุดกำเนิดคืออะไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=What%2520is%2520the%2520Generator%2520point%253F',
       },
     },
 
     public_key_three: {
-      title: 'Public key',
-      nav_title: 'Calculate the public key',
+      title: 'กุญแจสาธารณะ',
+      nav_title: 'คำนวณกุญแจสาธารณะ',
       paragraph_one:
-        'To derive a public key from a private key, we perform an elliptic curve operation repeatedly with the generator point. The generator point is a specific point on the curve. Its value is part of the secp256k1 standard and it’s always the same:',
+        'ในการสร้างกุญแจสาธารณะจากกุญแจส่วนตัว เราทำการดำเนินการเส้นโค้งวงรีซ้ำ ๆ กับจุดกำเนิด จุดกำเนิดเป็นจุดเฉพาะบนเส้นโค้ง ค่าของมันเป็นส่วนหนึ่งของมาตรฐาน secp256k1 และมันจะเหมือนเดิมเสมอ:',
       paragraph_two:
-        'Mathematical operations on an elliptic curve are similar to addition. Therefore, repetition of those operations is similar to multiplication. We use the * symbol to describe the algorithm, where `k` is the private key and `P` is the corresponding public key:',
+        'การดำเนินการทางคณิตศาสตร์บนเส้นโค้งวงรีคล้ายกับการบวก ดังนั้น การทำซ้ำการดำเนินการเหล่านั้นจึงคล้ายกับการคูณ เราใช้สัญลักษณ์ * เพื่ออธิบายอัลกอริธึม โดยที่ `k` คือกุญแจส่วนตัวและ `P` คือกุญแจสาธารณะที่สอดคล้องกัน:',
       python: {
         paragraph_three:
-          'Complete the function <span className="text-green">privatekey_to_publickey()</span>  which accepts a private key as a hex-encoded string and returns the corresponding public key as a GE (Group Element) object.',
+          'ทำฟังก์ชัน <span className="text-green">privatekey_to_publickey()</span> ให้สมบูรณ์ ซึ่งรับกุญแจส่วนตัวเป็นสตริงที่เข้ารหัสเป็นเลขฐานสิบหกและส่งคืนกุญแจสาธารณะที่สอดคล้องกันเป็นวัตถุ GE (Group Element)',
       },
       javascript: {
         paragraph_three:
-          'Complete the function <span className="text-green">privateKeyToPublicKey()</span>  which accepts a private key as a hex-encoded string and returns the corresponding public key as a GE (Group Element) object.',
+          'ทำฟังก์ชัน <span className="text-green">privateKeyToPublicKey()</span> ให้สมบูรณ์ ซึ่งรับกุญแจส่วนตัวเป็นสตริงที่เข้ารหัสเป็นเลขฐานสิบหกและส่งคืนกุญแจสาธารณะที่สอดคล้องกันเป็นวัตถุ GE (Group Element)',
       },
-      paragraph_four: 'Here are some type-conversion hints to get you started:',
-      success:
-        'Good job! That public key is pretty long. Let’s try to compress it!',
+      paragraph_four: 'นี่คือคำแนะนำการแปลงประเภทเพื่อเริ่มต้น:',
+      success: 'ทำได้ดี! กุญแจสาธารณะนั้นค่อนข้างยาว ลองบีบอัดมันกันเถอะ!',
     },
 
     public_key_four: {
-      title: 'Public key',
-      nav_title: 'Compress the public key',
+      title: 'กุญแจสาธารณะ',
+      nav_title: 'บีบอัดกุญแจสาธารณะ',
       paragraph_one:
-        'The public key has an x and y coordinate for a total of 64 bytes. This can be compressed into 33 bytes by removing the y coordinate and prepending a single byte of metadata. That byte will indicate if the Y coordinate is even or odd. Because the elliptic curve equation only has two variables, the complete public key can be computed later by the verifier using only x and the metadata:',
+        'กุญแจสาธารณะมีพิกัด x และ y รวมเป็น 64 ไบต์ สิ่งนี้สามารถบีบอัดเป็น 33 ไบต์โดยการลบพิกัด y และเพิ่มไบต์เมตาดาต้าเดียว ไบต์นั้นจะระบุว่าพิกัด Y เป็นเลขคู่หรือคี่ เนื่องจากสมการเส้นโค้งวงรีมีเพียงสองตัวแปร กุญแจสาธารณะที่สมบูรณ์สามารถคำนวณได้ในภายหลังโดยผู้ตรวจสอบโดยใช้เพียง x และเมตาดาต้า:',
       paragraph_two_javascript:
-        'The metadata byte should be `2` if y is even and `3` if y is odd. Complete the function <span className="text-green">compressPublicKey()</span> to accept a public key and return a 33 byte hex string representing the compressed public key.',
+        'ไบต์เมตาดาต้าควรเป็น `2` หาก y เป็นเลขคู่และ `3` หาก y เป็นเลขคี่ ทำฟังก์ชัน <span className="text-green">compressPublicKey()</span> ให้สมบูรณ์เพื่อรับกุญแจสาธารณะและส่งคืนสตริงเลขฐานสิบหก 33 ไบต์ที่แสดงถึงกุญแจสาธารณะที่บีบอัด',
       paragraph_two_python:
-        'The metadata byte should be `2` if y is even and `3` if y is odd. Complete the function <span className="text-green">compress_publickey()</span> to accept a public key and return a 33 byte hex string representing the compressed public key.',
+        'ไบต์เมตาดาต้าควรเป็น `2` หาก y เป็นเลขคู่และ `3` หาก y เป็นเลขคี่ ทำฟังก์ชัน <span className="text-green">compress_publickey()</span> ให้สมบูรณ์เพื่อรับกุญแจสาธารณะและส่งคืนสตริงเลขฐานสิบหก 33 ไบต์ที่แสดงถึงกุญแจสาธารณะที่บีบอัด',
       success:
-        'Excellent. Now we have our compressed public key. Next we need to hash it and encode it in a human-friendly format.',
+        'ยอดเยี่ยม ตอนนี้เรามีกุญแจสาธารณะที่บีบอัดแล้ว ต่อไปเราต้องแฮชมันและเข้ารหัสในรูปแบบที่เป็นมิตรกับมนุษย์',
     },
 
     address_one: {
-      title: 'Address',
-      nav_title: 'A one way street',
-      heading: 'Nice work!',
+      title: 'ที่อยู่',
+      nav_title: 'ถนนทางเดียว',
+      heading: 'ทำได้ดี!',
       paragraph_one:
-        'And there you have it! Your compressed public key! There are lots of interesting things we can do with it, including generating addresses for our wallet. We’ll learn about that in the next challenge.',
+        'และนั่นคือสิ่งที่คุณมี! กุญแจสาธารณะที่บีบอัดของคุณ! มีหลายสิ่งที่น่าสนใจที่เราสามารถทำได้กับมัน รวมถึงการสร้างที่อยู่สำหรับวอลเล็ตของเรา เราจะเรียนรู้เกี่ยวกับสิ่งนั้นในความท้าทายถัดไป',
       paragraph_two:
-        'Note that generating a public key is a one way street. You can’t figure out the private key used to generate a public key unless you solve a notoriously difficult math problem called the ',
+        'โปรดทราบว่าการสร้างกุญแจสาธารณะเป็นถนนทางเดียว คุณไม่สามารถหากุญแจส่วนตัวที่ใช้ในการสร้างกุญแจสาธารณะได้ เว้นแต่คุณจะแก้ปัญหาทางคณิตศาสตร์ที่ยากมากที่เรียกว่า ',
       tooltip_one: {
-        question: 'How is the discrete log problem relevant to bitcoin?',
+        question: 'ปัญหาลอการิทึมไม่ต่อเนื่องเกี่ยวข้องกับบิตคอยน์อย่างไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=how%2520is%2520the%2520discrete%2520log%2520problem%2520relevant%2520to%2520bitcoin%253F',
-        highlighted: 'discrete log problem ',
+        highlighted: 'ปัญหาลอการิทึมไม่ต่อเนื่อง',
       },
     },
 
     address_two: {
-      title: 'Address',
-      nav_title: 'Hash the compressed public key',
+      title: 'ที่อยู่',
+      nav_title: 'แฮชกุญแจสาธารณะที่บีบอัด',
       paragraph_one:
-        'Do you remember the hashing challenge? It turns out you can generate the simplest type of bitcoin address by hashing your compressed public key. Bitcoin uses two different hashing algorithms for this: SHA-256 and RIPEMD-160.',
-      paragraph_two: 'Steps:',
+        'คุณจำความท้าทายในการแฮชได้ไหม? ปรากฎว่าคุณสามารถสร้างที่อยู่บิตคอยน์ประเภทที่ง่ายที่สุดได้โดยการแฮชกุญแจสาธารณะที่บีบอัดของคุณ บิตคอยน์ใช้สองอัลกอริธึมการแฮชที่แตกต่างกันสำหรับสิ่งนี้: SHA-256 และ RIPEMD-160',
+      paragraph_two: 'ขั้นตอน:',
       paragraph_three:
-        '<span className="indent-48">1. Perform a SHA-256 hash on your compressed public key.</span>',
+        '<span className="indent-48">1. ทำการแฮช SHA-256 บนกุญแจสาธารณะที่บีบอัดของคุณ</span>',
       paragraph_four:
-        '<span className="indent-48">2. Perform a RIPEMD-160 hash on that SHA-256 output digest. The final result will be 20 bytes encoded as a hex string.</span>',
+        '<span className="indent-48">2. ทำการแฮช RIPEMD-160 บนผลลัพธ์ SHA-256 นั้น ผลลัพธ์สุดท้ายจะเป็น 20 ไบต์ที่เข้ารหัสเป็นสตริงเลขฐานสิบหก</span>',
       paragraph_five:
-        'Complete a function that accepts a 33-byte compressed public key as a hex string and returns a 20-byte public key hash as a hex string.',
+        'ทำฟังก์ชันให้สมบูรณ์ที่รับกุญแจสาธารณะที่บีบอัด 33 ไบต์เป็นสตริงเลขฐานสิบหกและส่งคืนแฮชกุญแจสาธารณะ 20 ไบต์เป็นสตริงเลขฐานสิบหก',
       paragraph_six:
-        'Here is the documentation for the hashing libraries we imported for you:\n' +
+        'นี่คือเอกสารสำหรับไลบรารีการแฮชที่เรานำเข้าให้คุณ:\n' +
         '<Link href="https://nodejs.org/api/crypto.html#class-hash" target="_blank" className="underline">JavaScript: crypto</Link>\n' +
         '<Link href="https://docs.python.org/3/library/hashlib.html#usage" target="_blank" className="underline">Python: hashlib</Link>',
-      success: 'Great. One more step and you will have your wallet address.',
+      success: 'เยี่ยมมาก อีกขั้นตอนเดียวคุณก็จะมีที่อยู่วอลเล็ตของคุณแล้ว',
     },
 
     address_three: {
-      title: 'Address',
-      nav_title: 'Get a P2WPKH address',
+      title: 'ที่อยู่',
+      nav_title: 'รับที่อยู่ P2WPKH',
       paragraph_one:
-        'There are multiple types of bitcoin addresses. In the previous exercise, we created a 20-byte compressed public key hash. Now, we would like to encode that hash into a Pay-to-Witness-Public-Key-Hash (p2wpkh) address on the Testnet network.',
+        'มีที่อยู่บิตคอยน์หลายประเภท ในแบบฝึกหัดก่อนหน้านี้ เราได้สร้างแฮชกุญแจสาธารณะที่บีบอัด 20 ไบต์ ตอนนี้เราต้องการเข้ารหัสแฮชนั้นเป็นที่อยู่ Pay-to-Witness-Public-Key-Hash (p2wpkh) บนเครือข่าย Testnet',
       paragraph_two:
-        'First we need to append a witness version number of `0` to the hash. These resulting 21 bytes are known as the <span className="font-bold">witness program</span>.',
+        'ก่อนอื่นเราต้องเพิ่มหมายเลขเวอร์ชันพยาน `0` ลงในแฮช ผลลัพธ์ 21 ไบต์นี้เรียกว่า <span className="font-bold">โปรแกรมพยาน</span>',
       paragraph_three:
-        'Then, the witness program is encoded into a human-friendly format called <Link href="https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki#user-content-Specification" target="_blank" className="underline">bech32</Link>. Doing this appends a human-readable prefix and a checksum to the data.',
-      paragraph_four: 'The prefix is determined by the network:',
+        'จากนั้นโปรแกรมพยานจะถูกเข้ารหัสในรูปแบบที่เป็นมิตรกับมนุษย์ที่เรียกว่า <Link href="https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki#user-content-Specification" target="_blank" className="underline">bech32</Link> การทำเช่นนี้จะเพิ่มคำนำหน้าที่อ่านได้โดยมนุษย์และการตรวจสอบความถูกต้องลงในข้อมูล',
+      paragraph_four: 'คำนำหน้าจะถูกกำหนดโดยเครือข่าย:',
       table_heading: {
-        item_one: 'Network',
-        item_two: 'Human-Readable Prefix',
+        item_one: 'เครือข่าย',
+        item_two: 'คำนำหน้าที่อ่านได้โดยมนุษย์',
       },
       table_rows: {
         key_one: 'Mainnet',
@@ -859,440 +851,435 @@ const translations = {
         value_three: 'bcrt',
       },
       paragraph_five:
-        "Since we're making a Testnet address, we will be using the 'tb' prefix.",
+        "เนื่องจากเรากำลังสร้างที่อยู่ Testnet เราจะใช้คำนำหน้า 'tb'",
       paragraph_six:
-        'After the data has been encoded to bech32, we are left with a bitcoin address!',
+        'หลังจากที่ข้อมูลถูกเข้ารหัสเป็น bech32 เราจะได้ที่อยู่บิตคอยน์!',
       paragraph_seven:
-        'Complete the function to create a bech32 address from a compressed public key hash. Start by making the witness program, then convert the program to an address by using the bech32 library that has already been imported for you.',
+        'ทำฟังก์ชันให้สมบูรณ์เพื่อสร้างที่อยู่ bech32 จากแฮชกุญแจสาธารณะที่บีบอัด เริ่มต้นด้วยการสร้างโปรแกรมพยาน จากนั้นแปลงโปรแกรมเป็นที่อยู่โดยใช้ไลบรารี bech32 ที่นำเข้าให้คุณแล้ว',
       paragraph_eight:
-        'You may need to dig into the bech32 library and read the code to find the right functions to use:\n',
+        'คุณอาจต้องค้นหาในไลบรารี bech32 และอ่านโค้ดเพื่อหาฟังก์ชันที่เหมาะสมในการใช้:\n',
       paragraph_eight_javascript:
         '<Link href="https://github.com/saving-satoshi/bech32js/blob/main/bech32.js" target="_blank" className="underline">JavaScript: @savingsatoshi/bech32js</Link>\n',
       paragraph_eight_python:
         '<Link href="https://github.com/saving-satoshi/bech32py/blob/main/bech32py/bech32.py" target="_blank" className="underline">Python: savingsatoshi_bech32py</Link>',
-      success: 'Now you have an address that mined bitcoin can be sent to.',
+      success: 'ตอนนี้คุณมีที่อยู่ที่สามารถส่งบิตคอยน์ที่ขุดได้แล้ว',
     },
 
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Chapter complete',
-      heading: 'Success!',
-      paragraph_one: 'You created your very own bitcoin wallet!',
+      title: 'บทส่งท้าย',
+      nav_title: 'บทเสร็จสมบูรณ์',
+      heading: 'สำเร็จ!',
+      paragraph_one: 'คุณสร้างวอลเล็ตบิตคอยน์ของคุณเอง!',
       paragraph_two:
-        'You withdraw the bitcoin from the mining pool into the wallet you just created. You are now fully funded and ready for whatever Vanderpoole and BitRey throw at you next.',
+        'คุณถอนบิตคอยน์จากพูลการขุดเข้าสู่วอลเล็ตที่คุณเพิ่งสร้าง ตอนนี้คุณมีเงินทุนเต็มที่และพร้อมสำหรับทุกสิ่งที่ Vanderpoole และ BitRey จะโยนใส่คุณต่อไป',
     },
     resources: {
       public_key_three: {
-        generator_point_heading: 'Generator point',
+        generator_point_heading: 'จุดกำเนิด',
         generator_point_paragraph:
-          'A specific point on the secp256k1 curve. Its value is part of the secp256k1 standard and it’s always the same. This point is not different from other points on the curve, but it is agreed up on as the standard starting point for calculations. No one really knows why this particular point was chosen.',
-        elliptic_curve_operations_heading: 'Elliptic curve operations',
+          'จุดเฉพาะบนเส้นโค้ง secp256k1 ค่าของมันเป็นส่วนหนึ่งของมาตรฐาน secp256k1 และมันจะเหมือนเดิมเสมอ จุดนี้ไม่แตกต่างจากจุดอื่น ๆ บนเส้นโค้ง แต่ตกลงกันว่าเป็นจุดเริ่มต้นมาตรฐานสำหรับการคำนวณ ไม่มีใครรู้จริง ๆ ว่าทำไมจุดนี้ถึงถูกเลือก',
+        elliptic_curve_operations_heading: 'การดำเนินการเส้นโค้งวงรี',
         elliptic_curve_operations_paragraph:
-          'Elliptic curves have their own mathematical rules, so simple operations like addition and multiplication work differently. For simplicity and brevity, established symbols are re-used, like using a “*” for operations that are similar to multiplication.',
-        discrete_log_heading: 'Discrete logarithm',
+          'เส้นโค้งวงรีมีข้อกำหนดทางคณิตศาสตร์ของตัวเอง ดังนั้นการดำเนินการง่าย ๆ เช่น การบวกและการคูณจึงทำงานแตกต่างกัน เพื่อความเรียบง่ายและกระชับ สัญลักษณ์ที่กำหนดไว้จะถูกนำมาใช้ซ้ำ เช่น การใช้ “*” สำหรับการดำเนินการที่คล้ายกับการคูณ',
+        discrete_log_heading: 'ลอการิทึมไม่ต่อเนื่อง',
         discrete_log_paragraph:
-          'A mathematical system where you can, for example, multiply but cannot divide. A simple metaphor for this is looking at a clock. Three hours past 11 o’clock is 2 o’clock. So we could say “11+3=2”. However if wanted to perform “2-x=11” and solve for x, you would have infinite possible answers (3, 15, 27, 39...). More on <Link href="https://en.wikipedia.org/wiki/Discrete_logarithm" className="underline">wikipedia</Link>.',
+          'ระบบทางคณิตศาสตร์ที่คุณสามารถคูณได้ แต่ไม่สามารถหารได้ ตัวอย่างง่าย ๆ สำหรับสิ่งนี้คือการดูนาฬิกา สามชั่วโมงหลังจาก 11 นาฬิกาคือ 2 นาฬิกา ดังนั้นเราสามารถพูดได้ว่า “11+3=2” อย่างไรก็ตาม หากต้องการทำ “2-x=11” และแก้สมการสำหรับ x คุณจะมีคำตอบที่เป็นไปได้ไม่สิ้นสุด (3, 15, 27, 39...) อ่านเพิ่มเติมได้ที่ <Link href="https://en.wikipedia.org/wiki/Discrete_logarithm" className="underline">wikipedia</Link>',
         tip_one:
-          'Multiplication with elliptic curve points is not the same as the kind of multiplication you are used to, the one with regular numbers. So how do you perform multiplication? Notice that the generator point, <span className="p-1 font-mono bg-[#0000004D] m-1">G</span> is of the type <span className="p-1 font-mono bg-[#0000004D] m-1">secp256k1.GE</span>. Have a look at that class to see what methods you can invoke on it.',
+          'การคูณกับจุดเส้นโค้งวงรีไม่เหมือนกับการคูณที่คุณคุ้นเคยกับตัวเลขปกติ แล้วคุณจะทำการคูณได้อย่างไร? สังเกตว่าจุดกำเนิด, <span className="p-1 font-mono bg-[#0000004D] m-1">G</span> เป็นประเภท <span className="p-1 font-mono bg-[#0000004D] m-1">secp256k1.GE</span> ดูที่คลาสนั้นเพื่อดูว่าคุณสามารถเรียกใช้เมธอดใดได้บ้าง',
         tip_two:
-          'While the private key is accepted in hex format, it needs to be converted to a number (BigInt if you’re using JS) before multiplying with the generator point.',
+          'ในขณะที่กุญแจส่วนตัวได้รับการยอมรับในรูปแบบเลขฐานสิบหก มันจำเป็นต้องถูกแปลงเป็นตัวเลข (BigInt หากคุณใช้ JS) ก่อนที่จะคูณกับจุดกำเนิด',
       },
       public_key_four: {
-        y_coordinate_compression_heading: 'Public Key Compression',
+        y_coordinate_compression_heading: 'การบีบอัดกุญแจสาธารณะ',
         y_coordinate_compression_paragraph:
-          'When you calculate a point addition on an elliptic curve, you use the coordinates of two points to find the coordinates of a third point that lies on the curve. However, there are usually two possible y-coordinates for any given x-coordinate (except for certain special cases). When compressing a public key, you choose one of these y-coordinates and include only the x-coordinate along with an indicator of which y-coordinate to use, in this case we use the appended metadata to indicate the y-coordinate.',
-        tip: 'This challenge is actually quite simple, we are only really trying to determine whether the y-coordinate is even or odd so that we can prepend that metadata to the front of our public key.',
+          'เมื่อคุณคำนวณการบวกจุดบนเส้นโค้งวงรี คุณใช้พิกัดของสองจุดเพื่อหาพิกัดของจุดที่สามที่อยู่บนเส้นโค้ง อย่างไรก็ตาม โดยปกติจะมีพิกัด y สองค่าที่เป็นไปได้สำหรับพิกัด x ที่กำหนด (ยกเว้นกรณีพิเศษบางกรณี) เมื่อบีบอัดกุญแจสาธารณะ คุณเลือกหนึ่งในพิกัด y เหล่านี้และรวมเฉพาะพิกัด x พร้อมกับตัวบ่งชี้ว่าควรใช้พิกัด y ใด ในกรณีนี้เราใช้เมตาดาต้าที่เพิ่มเข้ามาเพื่อระบุพิกัด y',
+        tip: 'ความท้าทายนี้ค่อนข้างง่าย เราเพียงแค่พยายามกำหนดว่าพิกัด y เป็นเลขคู่หรือคี่เพื่อที่เราจะสามารถเพิ่มเมตาดาต้านั้นไปที่ด้านหน้าของกุญแจสาธารณะของเรา',
       },
       address_two: {
         hash_algo_heading: 'SHA-256, RIPEMD-160',
         hash_algo_paragraph:
-          'Hash functions digest any amount of any kind of data and always return a result of the same size. For SHA256, it’s 32 bytes. For RIPEMD-160, it’s 20 bytes. The output is deterministic (always the same output for the same input) but otherwise, indistinguishable from random. Hash functions effectively reduce data to a small consistent fingerprint.',
+          'ฟังก์ชันแฮชจะย่อยข้อมูลทุกชนิดและทุกขนาดและจะคืนผลลัพธ์ที่มีขนาดเท่ากันเสมอ สำหรับ SHA256 คือ 32 ไบต์ สำหรับ RIPEMD-160 คือ 20 ไบต์ ผลลัพธ์จะเป็นแบบกำหนด (ผลลัพธ์เดียวกันเสมอสำหรับอินพุตเดียวกัน) แต่ไม่สามารถแยกแยะได้จากการสุ่ม ฟังก์ชันแฮชจะลดข้อมูลให้เป็นลายนิ้วมือที่สม่ำเสมอและขนาดเล็ก',
         tip_one:
-          'When calculating the SHA-256 hash you will need to make sure to hash your compressed key as bytes not hex. If you are using JavaScript, this will require converting the hex string to a buffer.',
-        tip_two:
-          'Make sure you are doing the hashing algorithms in the correct order!',
+          'เมื่อคำนวณแฮช SHA-256 คุณจะต้องแน่ใจว่าได้แฮชคีย์ที่บีบอัดของคุณเป็นไบต์ไม่ใช่เฮกซ์ หากคุณใช้ JavaScript คุณจะต้องแปลงสตริงเฮกซ์เป็นบัฟเฟอร์',
+        tip_two: 'ตรวจสอบให้แน่ใจว่าคุณทำอัลกอริธึมการแฮชในลำดับที่ถูกต้อง!',
       },
       address_three: {
-        wpkh_heading: 'Witness Public Key Hash (wpkh) address',
+        wpkh_heading: 'ที่อยู่ Witness Public Key Hash (wpkh)',
         wpkh_paragraph:
-          'A bitcoin address is a string of characters that is designed for users to handle. It is short, easy to copy and paste, and has some kind of built-in checksum to ensure that it is always copied correctly. It safely encodes a Bitcoin output script that the recipient can spend from. There are several types of output scripts and several encoding mechanisms. In this challenge we encode a compressed public key with bech32 to create what is called a witness public key hash address.',
-        network_heading: 'Mainnet, Testnet, Signet, and Regtest',
+          'ที่อยู่บิตคอยน์คือสตริงของอักขระที่ออกแบบมาให้ผู้ใช้จัดการได้ มันสั้น ง่ายต่อการคัดลอกและวาง และมีการตรวจสอบความถูกต้องในตัวเพื่อให้แน่ใจว่าคัดลอกได้ถูกต้องเสมอ มันเข้ารหัสสคริปต์เอาต์พุตของบิตคอยน์อย่างปลอดภัยที่ผู้รับสามารถใช้จ่ายได้ มีหลายประเภทของสคริปต์เอาต์พุตและหลายกลไกการเข้ารหัส ในความท้าทายนี้ เราเข้ารหัสคีย์สาธารณะที่บีบอัดด้วย bech32 เพื่อสร้างสิ่งที่เรียกว่าที่อยู่แฮชคีย์สาธารณะพยาน',
+        network_heading: 'Mainnet, Testnet, Signet, และ Regtest',
         network_paragraph:
-          'When developing bitcoin software, it is important to test your code before you trust real money with it! One of the simplest ways to test bitcoin software is to use a different blockchain with a new genesis block where the coins don’t matter, mining is free and easy, and everything can be reset at any time. These chains are supported by a unique network of nodes that does not interfere with the real coins and nodes on Mainnet. Testnet and Signet are the names of two such alternate bitcoin blockchains that are maintained in parallel with Mainnet on a global scale. Regtest is a developer mode designed to be run locally with no network connections needed at all.',
-        tip: 'Make sure you take a close look at the bech32 library to find the exact methods you can use.',
+          'เมื่อพัฒนาซอฟต์แวร์บิตคอยน์ สิ่งสำคัญคือต้องทดสอบโค้ดของคุณก่อนที่คุณจะไว้วางใจเงินจริงกับมัน! หนึ่งในวิธีที่ง่ายที่สุดในการทดสอบซอฟต์แวร์บิตคอยน์คือการใช้บล็อกเชนที่แตกต่างกันด้วยบล็อกกำเนิดใหม่ที่เหรียญไม่สำคัญ การขุดฟรีและง่าย และทุกอย่างสามารถรีเซ็ตได้ตลอดเวลา เชนเหล่านี้ได้รับการสนับสนุนโดยเครือข่ายโหนดที่ไม่รบกวนเหรียญจริงและโหนดบน Mainnet Testnet และ Signet เป็นชื่อของบล็อกเชนบิตคอยน์ทางเลือกสองแบบที่ได้รับการดูแลควบคู่ไปกับ Mainnet ในระดับโลก Regtest เป็นโหมดนักพัฒนาที่ออกแบบมาให้ทำงานในเครื่องโดยไม่ต้องเชื่อมต่อเครือข่ายเลย',
+        tip: 'ตรวจสอบให้แน่ใจว่าคุณดูไลบรารี bech32 อย่างละเอียดเพื่อค้นหาวิธีการที่แน่นอนที่คุณสามารถใช้ได้',
       },
     },
   },
 
   chapter_five: {
-    title: 'Will the Real Satoshi Please Stand Up',
+    title: 'ซาโตชิ ตัวจริง โปรดลุกขึ้นยืน',
     paragraph_one:
-      'It’s late, and you’re tired, but as you shut your eyes for a moment, a double dose of bad news arrives.',
-    paragraph_two: '1) Vanderpoole is back on TV.',
-    paragraph_three:
-      '2) He is claiming to be the great-grandson of Satoshi Nakamoto.',
-    paragraph_four: 'He looks sleep-deprived.',
+      'มันดึกแล้ว และคุณเหนื่อย แต่เมื่อคุณหลับตาลงชั่วขณะ ข่าวร้ายสองเรื่องก็มาถึง',
+    paragraph_two: '1) แวนเดอร์พูลกลับมาออกทีวีอีกครั้ง',
+    paragraph_three: '2) เขาอ้างว่าเป็นเหลนของซาโตชิ นากาโมโตะ',
+    paragraph_four: 'เขาดูเหมือนคนอดนอน',
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Don’t trust, verify',
+      title: 'บทนำ',
+      nav_title: 'อย่าเชื่อ ตรวจสอบ',
       paragraph_one:
-        '—DEBORAH CHUNK: “Mr. Vanderpoole. You recently made a staggering claim on anti-social media that you are the great-grandson of Satoshi Nakamoto. Is that correct? Is this true?”',
+        '—เดโบราห์ ชังค์: “คุณแวนเดอร์พูล คุณเพิ่งอ้างอย่างน่าตกใจบนโซเชียลมีเดียว่า คุณเป็นเหลนของซาโตชิ นากาโมโตะ ถูกต้องไหม? เป็นความจริงหรือไม่?”',
       paragraph_two:
-        '—VANDERPOOLE: “It darn tootin’ is, Deborah. I have harbored this secret for a long, long time. You see, my family has passed an inconspicuous looking CD-ROM down for generations. To keep it secret, we labeled it <span className="italic">Creed – My Own Prison</span>. It contains the private keys to my great-grandfather Satoshi Nakamoto’s enormous bitcoin trove. So when I speak for miners, know that I also speak for Satoshi Nakamoto.”',
+        '—แวนเดอร์พูล: “มันเป็นความจริงแน่นอน เดโบราห์ ฉันเก็บความลับนี้มานานมาก คุณเห็นไหม ครอบครัวของฉันได้ส่งต่อซีดีรอมที่ดูไม่เด่นชัดลงมาหลายชั่วอายุคน เพื่อเก็บเป็นความลับ เราติดป้ายว่า <span className="italic">Creed – My Own Prison</span> มันมีคีย์ส่วนตัวของบิตคอยน์จำนวนมหาศาลของซาโตชิ นากาโมโตะ ดังนั้นเมื่อฉันพูดแทนนักขุด รู้ไว้ว่าฉันก็พูดแทนซาโตชิ นากาโมโตะด้วย”',
       paragraph_three:
-        '—DEBORAH CHUNK: “Is there any way we can verify that you actually own the private keys to Satoshi Nakamoto’s bitcoin?”',
+        '—เดโบราห์ ชังค์: “มีวิธีใดที่เราสามารถตรวจสอบได้ว่าคุณเป็นเจ้าของคีย์ส่วนตัวของบิตคอยน์ของซาโตชิ นากาโมโตะจริงหรือไม่?”',
       paragraph_four:
-        '—VANDERPOOLE: “Indeed there is. It is a simple matter of public key cryptography.”',
+        '—แวนเดอร์พูล: “แน่นอนว่ามี มันเป็นเรื่องง่ายของการเข้ารหัสคีย์สาธารณะ”',
       paragraph_five:
-        '—DEBORAH CHUNK: But why wait so long to make this earth-shattering disclosure?',
+        '—เดโบราห์ ชังค์: “แต่ทำไมต้องรอนานขนาดนี้เพื่อเปิดเผยข้อมูลที่น่าตกใจนี้?”',
     },
     intro_two: {
-      nav_title: "Vanderpoole's bold claim",
+      nav_title: 'คำกล่าวอ้างที่กล้าหาญของแวนเดอร์พูล',
       paragraph_one:
-        '—VANDERPOOLE: “I didn’t have the courage. There have always been rumors about my family’s history, ones that I could have easily confirmed. But I wasn’t ready for that much publicity. After all, I live a humble, secluded life in a 14th century castle on a dude ranch on my favorite of all my private islands, doing 5–6 interviews like this one from my hot tub every week.”',
+        '—แวนเดอร์พูล: “ฉันไม่มีความกล้า มีข่าวลือเกี่ยวกับประวัติครอบครัวของฉันเสมอ ข่าวลือที่ฉันสามารถยืนยันได้ง่ายๆ แต่ฉันไม่พร้อมสำหรับการเปิดเผยมากขนาดนั้น ท้ายที่สุด ฉันใช้ชีวิตอย่างถ่อมตนและสันโดษในปราสาทศตวรรษที่ 14 บนฟาร์มปศุสัตว์บนเกาะส่วนตัวที่ฉันชื่นชอบที่สุด ทำการสัมภาษณ์แบบนี้ 5-6 ครั้งต่อสัปดาห์จากอ่างน้ำร้อนของฉัน”',
       paragraph_two:
-        '—VANDERPOOLE: “But now that bitcoin’s future is on the line, I knew it was time to face the music, specifically, the music from Creed’s debut album, My Own Prison.” *Vanderpoole hums the melody from the 20th century album’s namesake song*',
+        '—แวนเดอร์พูล: “แต่ตอนนี้อนาคตของบิตคอยน์อยู่ในสาย ฉันรู้ว่าถึงเวลาต้องเผชิญกับความจริง โดยเฉพาะเพลงจากอัลบั้มเปิดตัวของ Creed, My Own Prison” *แวนเดอร์พูลฮัมทำนองเพลงจากอัลบั้มชื่อเดียวกันในศตวรรษที่ 20*',
       paragraph_three:
-        '—VANDERPOOLE: "I can only say that I’m sorry for not coming forth sooner because the CD-ROM also contains Satoshi’s Nakamoto’s revised plans for bitcoin. You see, my great-grandfather always regretted limiting the supply of bitcoin to 21 million coins, which is why I plan to fulfill my great-grandfather’s dream of hard forking bitcoin in favor of perpetual bitcoin issuance."',
+        '—แวนเดอร์พูล: "ฉันขอโทษที่ไม่ได้ออกมาเปิดเผยเร็วกว่านี้เพราะซีดีรอมยังมีแผนการปรับปรุงของซาโตชิ นากาโมโตะสำหรับบิตคอยน์ คุณเห็นไหม เหล่าของฉันเสียใจเสมอที่จำกัดจำนวนบิตคอยน์ไว้ที่ 21 ล้านเหรียญ ซึ่งเป็นเหตุผลที่ฉันวางแผนที่จะทำตามความฝันของเหล่าของฉันในการฮาร์ดฟอร์กบิตคอยน์เพื่อการออกบิตคอยน์อย่างต่อเนื่อง"',
     },
     intro_three: {
-      nav_title: 'A message from Satoshi',
+      nav_title: 'ข้อความจากซาโตชิ',
       paragraph_one:
-        'Your TXM4H-A Hover Screen chirps to life. You have a new message.',
-      paragraph_two: '—HOLOCAT: Don’t forget to boop my nose.',
-      paragraph_three: 'You boop her nose',
-      paragraph_four: `—SATOSHI NAKAMOTO: “Vanderpoole is not who he claims to be. You can expose him. Ask him to prove ownership of Satoshi’s bitcoin by signing a message using that wallet's private keys.”`,
+        'หน้าจอ TXM4H-A Hover ของคุณส่งเสียงดังขึ้น คุณมีข้อความใหม่',
+      paragraph_two: '—HOLOCAT: อย่าลืมแตะจมูกของฉัน',
+      paragraph_three: 'คุณแตะจมูกของเธอ',
+      paragraph_four: `—ซาโตชิ นากาโมโตะ: “แวนเดอร์พูลไม่ใช่คนที่เขาอ้างว่าเป็น คุณสามารถเปิดโปงเขาได้ ขอให้เขาพิสูจน์การเป็นเจ้าของบิตคอยน์ของซาโตชิโดยการลงนามข้อความโดยใช้คีย์ส่วนตัวของกระเป๋าเงินนั้น”`,
     },
     derive_message_one: {
-      title: 'Derive the message',
-      nav_title: 'The message in question',
-      heading: 'Vanderpoole says he signed a message with Satoshi’s keys:',
-      code_one: `-----BEGIN BITCOIN SIGNED MESSAGE----- \n \n I am Vanderpoole and I have control of the private key Satoshi used to sign the first-ever bitcoin transaction confirmed in block #170. This message is signed with the same private key. \n \n -----BEGIN BITCOIN SIGNATURE----- \n \n`,
+      title: 'สร้างข้อความ',
+      nav_title: 'ข้อความที่เป็นปัญหา',
+      heading: 'แวนเดอร์พูลบอกว่าเขาได้ลงนามข้อความด้วยคีย์ของซาโตชิ:',
+      code_one: `-----BEGIN BITCOIN SIGNED MESSAGE----- \n \n ฉันคือแวนเดอร์พูลและฉันควบคุมคีย์ส่วนตัวที่ซาโตชิใช้ลงนามในการทำธุรกรรมบิตคอยน์ครั้งแรกที่ยืนยันในบล็อก #170 ข้อความนี้ลงนามด้วยคีย์ส่วนตัวเดียวกัน \n \n -----BEGIN BITCOIN SIGNATURE----- \n \n`,
       code_two:
         '<span className="break-all"> H4vQbVD0pLK7pkzPto8BHourzsBrHMB3Qf5oYVmr741pPwdU2m6FaZZmxh4ScHxFoDelFC9qG0PnAUl5qMFth8k= </span>',
       code_three: '\n \n-----END BITCOIN SIGNATURE-----',
-      paragraph_two: 'What does this even mean?',
+      paragraph_two: 'นี่หมายความว่าอย่างไร?',
     },
     derive_message_two: {
-      nav_title: 'Finding the public key',
+      nav_title: 'การค้นหาคีย์สาธารณะ',
       paragraph_one:
-        'We learned in chapter 4 that private keys are huge random numbers kept secret by whomever generated them. We can use Elliptic Curve math to derive a public key from that private key.',
+        'เราได้เรียนรู้ในบทที่ 4 ว่าคีย์ส่วนตัวเป็นตัวเลขสุ่มขนาดใหญ่ที่ถูกเก็บเป็นความลับโดยผู้ที่สร้างมันขึ้นมา เราสามารถใช้คณิตศาสตร์ Elliptic Curve เพื่อสร้างคีย์สาธารณะจากคีย์ส่วนตัวนั้น',
       paragraph_two:
-        'The public key can be shared as a unique identifier and the private key is used to prove a person has control of that identifier. That proof is called a SIGNATURE. To create a signature you need a message and a private key. Anyone can verify the signature with a copy of the message and the corresponding public key.',
+        'คีย์สาธารณะสามารถแชร์เป็นตัวระบุที่ไม่ซ้ำกันและคีย์ส่วนตัวใช้เพื่อพิสูจน์ว่าบุคคลนั้นควบคุมตัวระบุนั้นได้ การพิสูจน์นั้นเรียกว่าลายเซ็น ในการสร้างลายเซ็นคุณต้องมีข้อความและคีย์ส่วนตัว ใครๆ ก็สามารถตรวจสอบลายเซ็นได้ด้วยสำเนาของข้อความและคีย์สาธารณะที่สอดคล้องกัน',
       paragraph_three:
-        'Vanderpoole has provided a signature and a message. Where is the public key?',
+        'แวนเดอร์พูลได้ให้ลายเซ็นและข้อความแล้ว คีย์สาธารณะอยู่ที่ไหน?',
     },
     derive_message_three: {
-      nav_title: "Find Satoshi's signature",
-      heading: 'Let’s start with finding Satoshi’s signature',
-      paragraph_one: `Block #170 contains the <link href="https://bitcointalk.org/index.php?topic=155054.0" target="_blank" className="underline">first bitcoin transaction</link> made from Satoshi to Hal Finney. That transaction only has <Link href="https://blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16?expand" target="_blank" className="underline">one input</Link>. Retrieve the scriptSig from that input. It contains Satoshi's signature!`,
-      placeholder: 'Paste the data here',
+      nav_title: 'ค้นหาลายเซ็นของซาโตชิ',
+      heading: 'เริ่มต้นด้วยการค้นหาลายเซ็นของซาโตชิ',
+      paragraph_one: `บล็อก #170 มี <link href="https://bitcointalk.org/index.php?topic=155054.0" target="_blank" className="underline">การทำธุรกรรมบิตคอยน์ครั้งแรก</link> ที่ทำจากซาโตชิถึง Hal Finney การทำธุรกรรมนั้นมีเพียง <Link href="https://blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16?expand" target="_blank" className="underline">อินพุตเดียว</Link> ดึง scriptSig จากอินพุตนั้น มันมีลายเซ็นของซาโตชิ!`,
+      placeholder: 'วางข้อมูลที่นี่',
       success:
-        'Nicely done! This is actually Satoshi’s signature, authorizing the transfer of his bitcoin to Hal Finney.',
+        'ทำได้ดีมาก! นี่คือลายเซ็นของซาโตชิจริงๆ ที่อนุญาตให้โอนบิตคอยน์ของเขาไปยัง Hal Finney',
     },
     derive_message_four: {
-      nav_title: "Find Satoshi's public key",
-      heading: 'So where is his public key?',
+      nav_title: 'ค้นหาคีย์สาธารณะของซาโตชิ',
+      heading: 'แล้วคีย์สาธารณะของเขาอยู่ที่ไหน?',
       paragraph_one:
-        'It’s actually stored along with the bitcoin Satoshi generated by mining block #9.',
+        'มันถูกเก็บไว้พร้อมกับบิตคอยน์ที่ซาโตชิสร้างขึ้นโดยการขุดบล็อก #9',
       paragraph_two:
-        '<Link href="https://blockstream.info/tx/0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9?output:0&expand" target="_blank" className="underline">Follow the link</Link> to the source transaction at the top of the input #0 section. This is the transaction Satoshi created by mining block #9. The transaction creates 50 BTC and locks them under control of... a public key! Find the data beginning with 0411... in the scriptPubKey.',
+        '<Link href="https://blockstream.info/tx/0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9?output:0&expand" target="_blank" className="underline">ติดตามลิงก์</Link> ไปยังธุรกรรมต้นทางที่ด้านบนของส่วนอินพุต #0 นี่คือธุรกรรมที่ซาโตชิสร้างขึ้นโดยการขุดบล็อก #9 ธุรกรรมนี้สร้าง 50 BTC และล็อคไว้ภายใต้การควบคุมของ... คีย์สาธารณะ! ค้นหาข้อมูลที่เริ่มต้นด้วย 0411... ใน scriptPubKey',
       paragraph_three:
-        'The public key lives between the script commands OP_PUSHBYTES and OP_CHECKSIG. Paste it below:',
-      placeholder: 'Paste the data here',
-      success: 'That’s it!',
+        'คีย์สาธารณะอยู่ระหว่างคำสั่งสคริปต์ OP_PUSHBYTES และ OP_CHECKSIG วางข้อมูลด้านล่าง:',
+      placeholder: 'วางข้อมูลที่นี่',
+      success: 'นั่นแหละ!',
     },
     derive_message_five: {
-      nav_title: 'Verifiying the signature next',
-      paragraph_one: `In the previous exercise we saw Satoshi got 50 BTC for mining block #9. He used that as input for his transaction to Hal Finney (in block #170), sending 10 BTC to Hal Finney’s public key and returning 40 BTC back to himself as change. Satoshi's private key was used to create a signature authorizing the transfer of those funds.`,
+      nav_title: 'การตรวจสอบลายเซ็นต่อไป',
+      paragraph_one: `ในแบบฝึกหัดก่อนหน้านี้เราเห็นว่าซาโตชิได้รับ 50 BTC จากการขุดบล็อก #9 เขาใช้สิ่งนั้นเป็นอินพุตสำหรับการทำธุรกรรมของเขากับ Hal Finney (ในบล็อก #170) โดยส่ง 10 BTC ไปยังคีย์สาธารณะของ Hal Finney และคืน 40 BTC กลับไปยังตัวเองเป็นเงินทอน คีย์ส่วนตัวของซาโตชิถูกใช้เพื่อสร้างลายเซ็นที่อนุญาตให้โอนเงินเหล่านั้น`,
       paragraph_two:
-        'Next we need to learn how to verify a signature. But something is still missing... what is the message Satoshi signed to authorize the transaction for Hal?',
+        'ต่อไปเราต้องเรียนรู้วิธีการตรวจสอบลายเซ็น แต่ยังมีบางอย่างที่ขาดหายไป... ข้อความที่ซาโตชิลงนามเพื่ออนุญาตการทำธุรกรรมสำหรับ Hal คืออะไร?',
     },
     derive_message_six: {
-      nav_title: 'Derive the message',
-      heading: 'Derive the message from the transaction',
+      nav_title: 'สร้างข้อความ',
+      heading: 'สร้างข้อความจากการทำธุรกรรม',
       paragraph_one:
-        'It should be clear by just looking at the block explorer web page that a bitcoin transaction has many different parts. Some parts are just small numbers and some parts are larger chunks of data. The bitcoin protocol has a very specific algorithm for creating messages from transactions, so those messages can be signed by private keys.',
+        'ควรจะชัดเจนเมื่อดูที่หน้าเว็บบล็อกเอ็กซ์พลอเรอร์ว่าการทำธุรกรรมบิตคอยน์มีหลายส่วน บางส่วนเป็นเพียงตัวเลขเล็กๆ และบางส่วนเป็นชิ้นส่วนข้อมูลขนาดใหญ่ โปรโตคอลบิตคอยน์มีอัลกอริธึมเฉพาะสำหรับการสร้างข้อความจากการทำธุรกรรม เพื่อให้ข้อความเหล่านั้นสามารถลงนามโดยคีย์ส่วนตัวได้',
       paragraph_two:
-        'We will summarize the process outlined <Link href="https://en.bitcoin.it/wiki/OP_CHECKSIG" target="_blank" className="underline">here</Link>. It conveniently uses <Link href="https://en.bitcoin.it/wiki/OP_CHECKSIG#Code_samples_and_raw_dumps" target="_blank" className="underline">this exact same transaction from block #170</Link> as an example.',
+        'เราจะสรุปกระบวนการที่ระบุไว้ <Link href="https://en.bitcoin.it/wiki/OP_CHECKSIG" target="_blank" className="underline">ที่นี่</Link> มันใช้ <Link href="https://en.bitcoin.it/wiki/OP_CHECKSIG#Code_samples_and_raw_dumps" target="_blank" className="underline">ธุรกรรมเดียวกันนี้จากบล็อก #170</Link> เป็นตัวอย่าง',
       paragraph_three:
-        'To begin, we need the raw bytes that make up the complete transaction. <Link href="https://blockstream.info/api/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16/hex" target="_blank" className="underline">Our block explorer</Link> can help with this. Use the "hex" API endpoint and paste the entire blob of data.',
-      input_challenge_label: 'Paste the transaction blob',
+        'ในการเริ่มต้น เราต้องการไบต์ดิบที่ประกอบขึ้นเป็นการทำธุรกรรมทั้งหมด <Link href="https://blockstream.info/api/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16/hex" target="_blank" className="underline">บล็อกเอ็กซ์พลอเรอร์ของเรา</Link> สามารถช่วยได้ ใช้ API endpoint "hex" และวางข้อมูลทั้งหมด',
+      input_challenge_label: 'วางข้อมูลการทำธุรกรรม',
       success_message_line_one:
-        'This is the raw transaction with each component labeled:',
-      success_message_line_two: 'version:',
-      success_message_line_three: 'number of inputs:',
-      success_message_line_four: 'hash of the tx that input #0 came from:',
-      success_message_line_five:
-        'index of input #0 in the funding transaction:',
-      success_message_line_six: 'scriptSig to authorize spending input #0:',
-      success_message_line_seven: 'input #0 sequence:',
-      success_message_line_eight: 'number of outputs:',
+        'นี่คือการทำธุรกรรมดิบพร้อมส่วนประกอบแต่ละส่วนที่ติดป้ายกำกับ:',
+      success_message_line_two: 'เวอร์ชัน:',
+      success_message_line_three: 'จำนวนอินพุต:',
+      success_message_line_four: 'แฮชของธุรกรรมที่อินพุต #0 มาจาก:',
+      success_message_line_five: 'ดัชนีของอินพุต #0 ในธุรกรรมการระดมทุน:',
+      success_message_line_six: 'scriptSig เพื่ออนุญาตการใช้จ่ายอินพุต #0:',
+      success_message_line_seven: 'ลำดับอินพุต #0:',
+      success_message_line_eight: 'จำนวนเอาต์พุต:',
       success_message_line_nine:
-        'output #0 value (10 BTC or 1,000,000,000 satoshis):',
+        'ค่าเอาต์พุต #0 (10 BTC หรือ 1,000,000,000 ซาโตชิ):',
       success_message_line_ten:
-        'output #0 scriptPubKey (Hal Finney’s public key plus OP_CHECKSIG):',
+        'scriptPubKey ของเอาต์พุต #0 (คีย์สาธารณะของ Hal Finney บวก OP_CHECKSIG):',
       success_message_line_eleven:
-        'outut #1 value (40 BTC or 4,000,000,000 satoshis):',
+        'ค่าเอาต์พุต #1 (40 BTC หรือ 4,000,000,000 ซาโตชิ):',
       success_message_line_twelve:
-        'output #1 scriptPubKey (Satoshi’s own public key again, for change):',
-      success_message_line_thirteen: 'locktime:',
+        'scriptPubKey ของเอาต์พุต #1 (คีย์สาธารณะของซาโตชิเองอีกครั้งสำหรับเงินทอน):',
+      success_message_line_thirteen: 'เวลาล็อก:',
     },
     derive_message_seven: {
-      nav_title: 'Build the message to sign',
+      nav_title: 'สร้างข้อความเพื่อเซ็น',
       paragraph_one:
-        "It's impossible to sign a message containing it's own signature, so the scriptSig needs to be removed. In the bitcoin protocol it is actually replaced by the scriptPubKey of the transaction output we are spending.",
+        'เป็นไปไม่ได้ที่จะเซ็นข้อความที่มีลายเซ็นของตัวเอง ดังนั้น scriptSig ต้องถูกลบออก ในโปรโตคอลบิตคอยน์มันจะถูกแทนที่ด้วย scriptPubKey ของเอาต์พุตการทำธุรกรรมที่เรากำลังใช้จ่าย',
       paragraph_two:
-        'We already found the scriptPubKey in the previous step, you can paste that in the first blank.',
+        'เราได้พบ scriptPubKey ในขั้นตอนก่อนหน้านี้แล้ว คุณสามารถวางลงในช่องว่างแรก',
       paragraph_three: {
-        a: 'The last thing we need for our transaction message is a',
-        b: '. We\'ll cover this more in the next chapter but for now we\'ll just add the value <span className="font-bold">01000000</span> to the end of the message.',
+        a: 'สิ่งสุดท้ายที่เราต้องการสำหรับข้อความการทำธุรกรรมของเราคือ',
+        b: 'เราจะครอบคลุมเรื่องนี้เพิ่มเติมในบทต่อไป แต่ตอนนี้เราจะเพิ่มค่า <span className="font-bold">01000000</span> ลงท้ายข้อความ',
       },
       tooltip_one: {
-        question: 'What are sighash flags?',
+        question: 'sighash flags คืออะไร?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=what%2520are%2520sighash%2520flags%253F',
         highlighted: 'sighash type flag',
       },
-      success: "Nice! You've constructed a message to sign.",
+      success: 'เยี่ยม! คุณได้สร้างข้อความเพื่อเซ็นแล้ว',
     },
     verify_signature_one: {
-      title: 'Verify the signature',
-      nav_title: 'Verifying the signature',
-      heading: 'Finally we have a message!',
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'การตรวจสอบลายเซ็น',
+      heading: 'ในที่สุดเราก็มีข้อความ!',
       paragraph_one:
-        'We also have a signature we know Satoshi created with his own private keys, and we have his public key. Let’s learn how to verify the signature and then we can try to verify Vanderpoole’s signature.',
+        'เรายังมีลายเซ็นที่เรารู้ว่าซาโตชิสร้างขึ้นด้วยคีย์ส่วนตัวของเขาเอง และเรามีคีย์สาธารณะของเขา มาดูวิธีการตรวจสอบลายเซ็นกัน แล้วเราจะลองตรวจสอบลายเซ็นของแวนเดอร์พูล',
     },
     verify_signature_two: {
-      title: 'Verify the signature',
-      nav_title: 'Hash the message',
-      heading: 'Hash the transaction digest',
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'แฮชข้อความ',
+      heading: 'แฮชการย่อยธุรกรรม',
       paragraph_one:
-        'The serialized transaction data we compiled in the last step is actually too long to sign or verify with ECDSA.',
+        'ข้อมูลการทำธุรกรรมที่เรารวบรวมในขั้นตอนสุดท้ายนั้นยาวเกินไปที่จะเซ็นหรือยืนยันด้วย ECDSA',
       paragraph_two:
-        'Do we know any way to compress large chunks of data into more consistent, manageable pieces? We sure do: hashing.',
+        'เรารู้วิธีใดในการบีบอัดข้อมูลขนาดใหญ่ให้เป็นชิ้นส่วนที่สม่ำเสมอและจัดการได้มากขึ้นหรือไม่? แน่นอนว่าเรารู้: การแฮช',
       paragraph_three: {
-        a: 'The bitcoin protocol uses a ',
-        b: ' to compress a transaction into a signable message.',
+        a: 'โปรโตคอลบิตคอยน์ใช้ ',
+        b: ' เพื่อบีบอัดการทำธุรกรรมให้เป็นข้อความที่สามารถเซ็นได้',
       },
       paragraph_four:
-        'Once we have a 32-byte hash, that data is re-interpreted as an integer. Yes, a 32-byte integer (that is a truly enormous number)!',
+        'เมื่อเราได้แฮชขนาด 32 ไบต์ ข้อมูลนั้นจะถูกตีความใหม่เป็นจำนวนเต็ม ใช่แล้ว จำนวนเต็มขนาด 32 ไบต์ (ซึ่งเป็นตัวเลขที่ใหญ่มากจริงๆ)!',
       tooltip_one: {
-        question: 'Why does everything in bitcoin use double hash (HASH256)?',
+        question: 'ทำไมทุกอย่างในบิตคอยน์ถึงใช้แฮชคู่ (HASH256)?',
         link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=Why%2520does%2520everything%2520in%2520bitcoin%2520use%2520double%2520hash%2520%28HASH256%29%253F',
-        highlighted: 'double SHA256 digest',
+        highlighted: 'การย่อย SHA256 คู่',
       },
-      success: 'Nicely done!',
+      success: 'ทำได้ดีมาก!',
     },
     verify_signature_three: {
-      nav_title: 'Decode the signature',
-      heading: 'Decode the Signature',
-      label_one: 'Paste the R value',
-      label_two: 'Paste the S value',
+      nav_title: 'ถอดรหัสลายเซ็น',
+      heading: 'ถอดรหัสลายเซ็น',
+      label_one: 'วางค่า R',
+      label_two: 'วางค่า S',
       paragraph_one:
-        "Satoshi's signature is encoded in a system called DER which is a subset of ASN.1.",
+        'ลายเซ็นของซาโตชิถูกเข้ารหัสในระบบที่เรียกว่า DER ซึ่งเป็นชุดย่อยของ ASN.1',
       paragraph_two:
-        'There are two 32-byte numbers we need to extract. They are referred to as R and S respectively and are each prefixed by the bytes 0220 in the DER sequence. Instead of fully decoding the DER blob, just look for the prefixes and paste the R and S values.',
+        'มีตัวเลขขนาด 32 ไบต์สองตัวที่เราต้องดึงออกมา พวกมันถูกเรียกว่า R และ S ตามลำดับ และแต่ละตัวมีคำนำหน้าเป็นไบต์ 0220 ในลำดับ DER แทนที่จะถอดรหัส DER ทั้งหมด ให้มองหาคำนำหน้าและวางค่า R และ S',
       paragraph_three:
-        "# Satoshi's signature, from the input scriptSig of the tx to Hal Finney (block 170)",
+        '# ลายเซ็นของซาโตชิ จาก scriptSig อินพุตของธุรกรรมไปยัง Hal Finney (บล็อก 170)',
     },
     verify_signature_four: {
-      nav_title: 'Decode the public key',
-      heading: 'Decode the Public Key',
-      label_one: 'Paste the x coordinate',
-      label_two: 'Paste the y coordinate',
+      nav_title: 'ถอดรหัสคีย์สาธารณะ',
+      heading: 'ถอดรหัสคีย์สาธารณะ',
+      label_one: 'วางพิกัด x',
+      label_two: 'วางพิกัด y',
       paragraph_one:
-        'We learned in chapter 4 that public keys are really points in the ECDSA curve, meaning they have an x and y value. The first byte 04 means "uncompressed" (as opposed to 02 and 03 like we learned in chapter 4). Remove that first byte and the remaining data are 32-byte x and y coordinates. Copy and paste again.',
+        'เราได้เรียนรู้ในบทที่ 4 ว่าคีย์สาธารณะจริงๆ แล้วเป็นจุดในเส้นโค้ง ECDSA หมายความว่าพวกมันมีค่า x และ y ไบต์แรก 04 หมายถึง "ไม่บีบอัด" (ตรงข้ามกับ 02 และ 03 อย่างที่เราเรียนรู้ในบทที่ 4) ลบไบต์แรกนั้นออกและข้อมูลที่เหลือคือพิกัด x และ y ขนาด 32 ไบต์ คัดลอกและวางอีกครั้ง',
       paragraph_two:
-        "# Satoshi's public key, from the block 9 coinbase output scriptPubKey",
+        '# คีย์สาธารณะของซาโตชิ จาก scriptPubKey ของบล็อก 9 coinbase output',
     },
     verify_signature_five: {
-      title: 'Verify the signature',
-      nav_title: 'Test the signature',
-      heading: 'Verify the signature!',
-      success: "You've done it! You've verified Satoshi's signature!",
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'ทดสอบลายเซ็น',
+      heading: 'ตรวจสอบลายเซ็น!',
+      success: 'คุณทำได้แล้ว! คุณได้ตรวจสอบลายเซ็นของซาโตชิ!',
       paragraph_one:
-        'At this point we have everything we need to do some ECDSA math.',
+        'ณ จุดนี้เรามีทุกอย่างที่เราต้องการเพื่อทำคณิตศาสตร์ ECDSA',
       paragraph_two:
-        'The ECDSA signature verification algorithm is explained <Link className="underline" href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm#Signature_verification_algorithm" target="_blank">here</Link> and <Link className="underline" href="https://www.secg.org/sec1-v2.pdf#page=52" target="_blank">here</Link>.',
+        'อัลกอริธึมการตรวจสอบลายเซ็น ECDSA อธิบายไว้ <Link className="underline" href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm#Signature_verification_algorithm" target="_blank">ที่นี่</Link> และ <Link className="underline" href="https://www.secg.org/sec1-v2.pdf#page=52" target="_blank">ที่นี่</Link>',
       paragraph_three:
-        'We created a Group Element object from the public key X and Y elements for you. You need to finish implementing the ECDSA signature verification function <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">verify()</span> that should only return True if everything is valid!',
+        'เราได้สร้างวัตถุ Group Element จากองค์ประกอบคีย์สาธารณะ X และ Y สำหรับคุณ คุณต้องทำการติดตั้งฟังก์ชันการตรวจสอบลายเซ็น ECDSA <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">verify()</span> ที่ควรคืนค่า True เท่านั้นหากทุกอย่างถูกต้อง!',
       paragraph_four:
-        "We know Satoshi's signature is valid, it has been checked by every bitcoin full node since 2010! If your program does not return True something is wrong.",
+        'เรารู้ว่าลายเซ็นของซาโตชิถูกต้อง มันถูกตรวจสอบโดยโหนดบิตคอยน์เต็มทุกโหนดตั้งแต่ปี 2010! หากโปรแกรมของคุณไม่คืนค่า True แสดงว่ามีบางอย่างผิดพลาด',
       python: {
         paragraph_five_part_one:
-          'Hint: the <span className="text-green">pow()</span>',
+          'คำแนะนำ: เมธอด <span className="text-green">pow()</span>',
         paragraph_five_part_two:
-          'method can accept negative exponents and a modulus as arguments. More on the <Link className="underline" href="https://docs.python.org/3/library/functions.html#pow" target="_blank">documentation</Link>.',
+          'สามารถยอมรับเลขชี้กำลังลบและโมดูลัสเป็นอาร์กิวเมนต์ได้ อ่านเพิ่มเติมใน <Link className="underline" href="https://docs.python.org/3/library/functions.html#pow" target="_blank">เอกสาร</Link>',
       },
       javascript: {
         paragraph_five_part_one:
-          'We have provided a helper function <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">invert()</span>',
+          'เราได้จัดเตรียมฟังก์ชันช่วยเหลือ <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">invert()</span>',
         paragraph_five_part_two:
-          'which you will need in lieu of a JavaScript native modular exponentiation function.',
+          'ซึ่งคุณจะต้องใช้แทนฟังก์ชันการยกกำลังแบบโมดูลาร์ของ JavaScript',
       },
     },
     validate_signature_one: {
-      title: 'Validate the signature',
-      nav_title: 'Prepare the message',
-      heading: "Prepare Vanderpoole's message for verification",
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'เตรียมข้อความ',
+      heading: 'เตรียมข้อความของแวนเดอร์พูลสำหรับการตรวจสอบ',
       paragraph_one:
-        'Vanderpoole used a <Link href="https://github.com/bitcoin/bips/blob/master/bip-0137.mediawiki" target="_blank" className="underline">bitcoin message signing protocol</Link> for his stunt. The computation uses the same algorithm we\'ve already defined, but the preparation of the data is a bit different.',
+        'แวนเดอร์พูลใช้ <Link href="https://github.com/bitcoin/bips/blob/master/bip-0137.mediawiki" target="_blank" className="underline">โปรโตคอลการลงนามข้อความบิตคอยน์</Link> สำหรับการแสดงของเขา การคำนวณใช้วิธีการเดียวกับที่เราได้กำหนดไว้แล้ว แต่การเตรียมข้อมูลจะแตกต่างกันเล็กน้อย',
       paragraph_two:
-        'First, we need to encode his message into an array of bytes corresponding to the following template:',
+        'ก่อนอื่นเราต้องเข้ารหัสข้อความของเขาเป็นอาร์เรย์ของไบต์ตามเทมเพลตต่อไปนี้:',
       paragraph_three: {
-        pre_link: 'Then we will',
-        highlighted: 'double SHA-256 hash',
-        question: 'Why do we double hash in bitcoin?',
+        pre_link: 'จากนั้นเราจะ',
+        highlighted: 'แฮช SHA-256 คู่',
+        question: 'ทำไมเราถึงแฮชคู่ในบิตคอยน์?',
         post_link:
-          'that blob of data, and convert that hash into an integer. Complete the function <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">encode_message()</span>. It should return a 32-byte hex value.',
+          'ข้อมูลนั้น และแปลงแฮชนั้นเป็นจำนวนเต็ม ทำฟังก์ชัน <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">encode_message()</span> ให้สมบูรณ์ มันควรคืนค่าเป็นค่าเฮกซ์ขนาด 32 ไบต์',
       },
-      success: 'Nicely Done',
+      success: 'ทำได้ดีมาก',
     },
     validate_signature_two: {
-      nav_title: 'Prepare the signature',
-      heading: 'Prepare Vanderpoole’s signature for verification',
+      nav_title: 'เตรียมลายเซ็น',
+      heading: 'เตรียมลายเซ็นของแวนเดอร์พูลสำหรับการตรวจสอบ',
       paragraph_one:
-        'The bitcoin message signing protocol Vanderpoole used specifies base64 for the signature. We need to decode that base64 string into a 65 byte sequence. For now, we can disregard the first byte of metadata. The remainder of the data are the 32-byte r and s values we learned about in step 6.',
+        'โปรโตคอลการลงนามข้อความบิตคอยน์ที่แวนเดอร์พูลใช้ระบุว่าใช้ base64 สำหรับลายเซ็น เราจำเป็นต้องถอดรหัสสตริง base64 นั้นเป็นลำดับ 65 ไบต์ สำหรับตอนนี้ เราสามารถละเว้นไบต์แรกของเมตาดาต้า ข้อมูลที่เหลือคือค่า r และ s ขนาด 32 ไบต์ที่เราเรียนรู้ในขั้นตอนที่ 6',
       javascript: {
         paragraph_two: {
           post_link:
-            'Complete the function <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">decode_sig()</span>.',
-          return:
-            'It should return an array with the [r, s] values as BigInts.',
+            'ทำฟังก์ชัน <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm">decode_sig()</span> ให้สมบูรณ์',
+          return: 'มันควรคืนค่าเป็นอาร์เรย์ที่มีค่า [r, s] เป็น BigInts',
         },
       },
       python: {
         paragraph_two: {
           post_link:
-            'Complete the function <span className=" text-green">decode_sig()</span>.',
-          return: 'It should return a tuple with the (r, s) values.',
+            'ทำฟังก์ชัน <span className=" text-green">decode_sig()</span> ให้สมบูรณ์',
+          return: 'มันควรคืนค่าเป็นทูเพิลที่มีค่า (r, s)',
         },
       },
     },
     validate_signature_three: {
-      title: 'Validate the signature',
-      nav_title: 'See if Vanderpoole was lying',
-      heading: 'So, is Vanderpoole a liar?!',
-      paragraph_one: `Let's gather all the necessary components for the program and verify if Vanderpoole's signature actually originated from the private key linked to Satoshi's public key! Please fill in the missing parameters needed to execute the <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm"> verify()</span> function using the provided code.`,
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'ดูว่าแวนเดอร์พูลโกหกหรือไม่',
+      heading: 'ดังนั้น แวนเดอร์พูลเป็นคนโกหกหรือไม่?!',
+      paragraph_one: `มารวบรวมส่วนประกอบที่จำเป็นทั้งหมดสำหรับโปรแกรมและตรวจสอบว่าลายเซ็นของแวนเดอร์พูลมาจากคีย์ส่วนตัวที่เชื่อมโยงกับคีย์สาธารณะของซาโตชิหรือไม่! โปรดกรอกพารามิเตอร์ที่ขาดหายไปเพื่อเรียกใช้ฟังก์ชัน <span className="text-green p-1 font-mono bg-[#0000004D] m-0.5 text-sm"> verify()</span> โดยใช้โค้ดที่ให้มา`,
       paragraph_two:
-        'Then we can run the program to see if Vanderpoole was lying. Drumroll please...',
+        'จากนั้นเราสามารถเรียกใช้โปรแกรมเพื่อดูว่าแวนเดอร์พูลโกหกหรือไม่ ตีกลองหน่อย...',
       success:
-        "This message indicates that the signature did not originate from Satoshi's public key, as the verification failed.",
+        'ข้อความนี้บ่งชี้ว่าลายเซ็นไม่ได้มาจากคีย์สาธารณะของซาโตชิ เนื่องจากการตรวจสอบล้มเหลว',
     },
     validate_signature_four: {
-      title: 'Validate the signature',
-      nav_title: 'Find the correct key',
-      heading: 'How did Vanderpoole even create that signature?',
+      title: 'ตรวจสอบลายเซ็น',
+      nav_title: 'ค้นหาคีย์ที่ถูกต้อง',
+      heading: 'แวนเดอร์พูลสร้างลายเซ็นนั้นได้อย่างไร?',
       paragraph_one:
-        'Holocat chimes in and says a defector in BitRey has sent us a list of public keys Vanderpoole commonly uses, maybe he used one of these keys to sign the message.',
+        'Holocat พูดแทรกและบอกว่าผู้แปรพักตร์ใน BitRey ได้ส่งรายการคีย์สาธารณะที่แวนเดอร์พูลใช้บ่อยมาให้เรา บางทีเขาอาจใช้คีย์เหล่านี้เซ็นข้อความ',
       paragraph_two:
-        'Please provide the key that successfully completes the verification process, allowing us to identify the public key Vanderpoole used to sign this message.',
+        'โปรดระบุคีย์ที่ทำให้กระบวนการตรวจสอบเสร็จสมบูรณ์สำเร็จ เพื่อให้เราสามารถระบุคีย์สาธารณะที่แวนเดอร์พูลใช้เซ็นข้อความนี้',
       paragraph_three:
-        "Let's see if you can verify Vanderpoole's message and signature using one of THESE keys?",
+        'ลองดูว่าคุณสามารถตรวจสอบข้อความและลายเซ็นของแวนเดอร์พูลโดยใช้คีย์เหล่านี้ได้หรือไม่?',
       success:
-        "The signature is valid for this public key of Vanderpoole's, this was not Satoshi!",
+        'ลายเซ็นถูกต้องสำหรับคีย์สาธารณะนี้ของแวนเดอร์พูล นี่ไม่ใช่ซาโตชิ!',
     },
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Chapter complete',
-      heading: 'Vanderpoole lied!',
+      title: 'บทส่งท้าย',
+      nav_title: 'บทเสร็จสมบูรณ์',
+      heading: 'แวนเดอร์พูลโกหก!',
       paragraph_one:
-        "You learned one of the most important lessons in bitcoin. You didn't trust, you verified.<br><br>In doing so, you discovered that Vanderpoole didn’t use Satoshi’s keys to sign the message, casting a big shadow on his family story, on his credibility, and the credibility of BitRey.<br><br>Now if only you could get that song out of your head.",
+        'คุณได้เรียนรู้บทเรียนที่สำคัญที่สุดบทหนึ่งในบิตคอยน์ คุณไม่ได้เชื่อ คุณได้ตรวจสอบ<br><br>ในการทำเช่นนั้น คุณพบว่าแวนเดอร์พูลไม่ได้ใช้คีย์ของซาโตชิในการเซ็นข้อความ ทำให้เรื่องราวครอบครัวของเขา ความน่าเชื่อถือของเขา และความน่าเชื่อถือของ BitRey ถูกตั้งคำถาม<br><br>ตอนนี้ถ้าคุณสามารถเอาเพลงนั้นออกจากหัวได้ก็คงดี',
     },
     resources: {
       derive_message_three: {
         op_pushdata_heading: 'OP_PUSHDATA',
         op_pushdata_paragraph_one:
-          'OP_PUSHDATA in bitcoin script plays a crucial role in facilitating the insertion of arbitrary pieces of data into the blockchain. It is actually a whole category of opcodes that allow for the inclusion of data elements of varying sizes, making Bitcoin’s scripting language more versatile. This opcode is particularly significant in enabling the implementation of various smart contract functionalities and custom transaction types. Given that we know this is supposed to push 71 bytes of data onto the stack, can you work out how this opcode might be represented in hex? You can read more about some of these OP_CODES and more <Link href="https://en.bitcoin.it/wiki/Script#Constants" target="_blank" className="underline">here</Link>.',
+          'OP_PUSHDATA ในสคริปต์บิตคอยน์มีบทบาทสำคัญในการอำนวยความสะดวกในการแทรกชิ้นส่วนข้อมูลใดๆ ลงในบล็อกเชน มันเป็นหมวดหมู่ทั้งหมดของรหัสปฏิบัติการที่อนุญาตให้รวมองค์ประกอบข้อมูลที่มีขนาดแตกต่างกัน ทำให้ภาษาสคริปต์ของบิตคอยน์มีความหลากหลายมากขึ้น รหัสปฏิบัติการนี้มีความสำคัญอย่างยิ่งในการเปิดใช้งานการใช้งานฟังก์ชันสมาร์ทคอนแทร็กต์ต่างๆ และประเภทการทำธุรกรรมที่กำหนดเอง เนื่องจากเรารู้ว่าสิ่งนี้ควรจะดันข้อมูล 71 ไบต์ลงในสแต็ก คุณสามารถหาวิธีที่รหัสปฏิบัติการนี้อาจแสดงในรูปแบบเฮกซ์ได้หรือไม่? คุณสามารถอ่านเพิ่มเติมเกี่ยวกับ OP_CODES เหล่านี้และอื่นๆ ได้ <Link href="https://en.bitcoin.it/wiki/Script#Constants" target="_blank" className="underline">ที่นี่</Link>',
       },
       derive_message_four: {
         op_checksig_heading: 'OP_CHECKSIG',
         op_checksig_paragraph_one:
-          'OP_CHECKSIG in bitcoin script is critically important to ensuring that the correct private key is able to spend a given transaction. In almost every bitcoin script there will be an OP_CHECKSIG to ensure that the person attempting to spend the bitcoin is able to do so with the given key. You can read about some of these OP_CODES and more <Link href="https://en.bitcoin.it/wiki/Script#Constants" target="_blank" className="underline">here</Link>.',
+          'OP_CHECKSIG ในสคริปต์บิตคอยน์มีความสำคัญอย่างยิ่งในการตรวจสอบให้แน่ใจว่าคีย์ส่วนตัวที่ถูกต้องสามารถใช้จ่ายการทำธุรกรรมที่กำหนดได้ ในเกือบทุกสคริปต์บิตคอยน์จะมี OP_CHECKSIG เพื่อให้แน่ใจว่าบุคคลที่พยายามใช้จ่ายบิตคอยน์สามารถทำได้ด้วยคีย์ที่กำหนด คุณสามารถอ่านเกี่ยวกับ OP_CODES เหล่านี้และอื่นๆ ได้ <Link href="https://en.bitcoin.it/wiki/Script#Constants" target="_blank" className="underline">ที่นี่</Link>',
       },
       derive_message_six: {
-        transaction_parts_heading: 'Transaction Parts',
+        transaction_parts_heading: 'ส่วนประกอบของการทำธุรกรรม',
         transaction_parts_one:
-          'Version: This version indicates how the the transaction will be organized.',
-        transaction_parts_two:
-          'Number of inputs: The number of inputs in this transaction.',
+          'เวอร์ชัน: เวอร์ชันนี้บ่งชี้ว่าการทำธุรกรรมจะถูกจัดระเบียบอย่างไร',
+        transaction_parts_two: 'จำนวนอินพุต: จำนวนอินพุตในการทำธุรกรรมนี้',
         transaction_parts_three:
-          'Input #0 TXID: This is the hash of the transaction that input #0 spends from.',
+          'TXID อินพุต #0: นี่คือแฮชของการทำธุรกรรมที่อินพุต #0 ใช้จ่าย',
         transaction_parts_four:
-          'Input #0 index: This is the output index of the transaction identified by the above TXID that provides a source of funds.',
+          'ดัชนีอินพุต #0: นี่คือดัชนีเอาต์พุตของการทำธุรกรรมที่ระบุโดย TXID ข้างต้นที่ให้แหล่งเงินทุน',
         transaction_parts_five:
-          'Scriptsig: This is the data that authorizes the spending of the output specified above. Typically consists of signatures.',
+          'Scriptsig: นี่คือข้อมูลที่อนุญาตให้ใช้จ่ายเอาต์พุตที่ระบุไว้ข้างต้น โดยทั่วไปประกอบด้วยลายเซ็น',
         transaction_parts_six:
-          'Input #0 sequence: This is the sequence number for the spending input.',
+          'ลำดับอินพุต #0: นี่คือลำดับหมายเลขสำหรับอินพุตการใช้จ่าย',
         transaction_parts_seven:
-          'Number of outputs: This indicates how many outputs the tx has.',
+          'จำนวนเอาต์พุต: นี่บ่งชี้ว่าการทำธุรกรรมมีเอาต์พุตกี่รายการ',
         transaction_parts_eight:
-          'Output #0 value: This is the amount that is spent by the first output, expressed as a little-endian integer.',
+          'ค่าเอาต์พุต #0: นี่คือจำนวนเงินที่ใช้จ่ายโดยเอาต์พุตแรก แสดงเป็นจำนวนเต็มเล็กน้อย',
         transaction_parts_nine:
-          'Output #0 scriptPubKey: This is the script that determines what is required to spend the funds. Typically consists of a public key and other opcodes that form a challenge.',
+          'scriptPubKey เอาต์พุต #0: นี่คือสคริปต์ที่กำหนดสิ่งที่จำเป็นในการใช้จ่ายเงิน โดยทั่วไปประกอบด้วยคีย์สาธารณะและรหัสปฏิบัติการอื่นๆ ที่สร้างความท้าทาย',
         transaction_parts_ten:
-          'Output #1 value: This is the amount that is spent by the second output, expressed as a little-endian integer.',
+          'ค่าเอาต์พุต #1: นี่คือจำนวนเงินที่ใช้จ่ายโดยเอาต์พุตที่สอง แสดงเป็นจำนวนเต็มเล็กน้อย',
         transaction_parts_eleven:
-          'Output #1 scriptPubKey: This is the script that determines what is required to spend the funds. Typically consists of a public key and other opcodes that form a challenge.',
+          'scriptPubKey เอาต์พุต #1: นี่คือสคริปต์ที่กำหนดสิ่งที่จำเป็นในการใช้จ่ายเงิน โดยทั่วไปประกอบด้วยคีย์สาธารณะและรหัสปฏิบัติการอื่นๆ ที่สร้างความท้าทาย',
         transaction_parts_twelve:
-          'Locktime: A block height before which this transaction is not valid for confirmation.',
+          'เวลาล็อก: ความสูงของบล็อกก่อนที่การทำธุรกรรมนี้จะไม่ถูกต้องสำหรับการยืนยัน',
       },
       derive_message_seven: {
         sighash_type_flag_heading: 'SigHash Type Flag',
         sighash_type_flag_paragraph_one:
-          'SigHash flags are a mechanism in bitcoin that define which parts of a transaction are included in the hash that is signed by a private key. Essentially, they determine the scope of commitment by the signer to specific parts of the transaction data. The SigHash flag is a single byte appended to each signature and can vary between inputs within the same transaction. There are several types of SigHash flags you can learn about <Link href="https://river.com/learn/terms/s/sighash-flag" target="_blank" className="underline">here</Link>.',
+          'SigHash flags เป็นกลไกในบิตคอยน์ที่กำหนดว่าส่วนใดของการทำธุรกรรมที่จะรวมอยู่ในแฮชที่ลงนามโดยคีย์ส่วนตัว โดยพื้นฐานแล้วพวกมันกำหนดขอบเขตของความมุ่งมั่นโดยผู้ลงนามต่อส่วนเฉพาะของข้อมูลการทำธุรกรรม SigHash flag เป็นไบต์เดียวที่ต่อท้ายแต่ละลายเซ็นและสามารถแตกต่างกันระหว่างอินพุตภายในธุรกรรมเดียวกัน มีหลายประเภทของ SigHash flags ที่คุณสามารถเรียนรู้เพิ่มเติมได้ <Link href="https://river.com/learn/terms/s/sighash-flag" target="_blank" className="underline">ที่นี่</Link>',
       },
       verify_signature_two: {
         tip_one:
-          'JavaScript hint: You can convert a hex string to a buffer of bytes using <span className="p-1 font-mono bg-[#0000004D] m-1">Buffer.from(someString, \'hex\');</span>',
-        signature_verification_heading: 'Signature Verification',
+          'คำแนะนำ JavaScript: คุณสามารถแปลงสตริงเฮกซ์เป็นบัฟเฟอร์ของไบต์โดยใช้ <span className="p-1 font-mono bg-[#0000004D] m-1">Buffer.from(someString, \'hex\');</span>',
+        signature_verification_heading: 'การตรวจสอบลายเซ็น',
         signature_verification_paragraph_one:
-          'Signature verification is a mathematical algorithm in which one party provides a piece of data (the signature) that could only be generated if that party knows a secret number (the private key). Verification involves comparing the signature, the public key, and a given message. If the algorithm outputs a TRUE boolean, then the signature is considered authentic.',
+          'การตรวจสอบลายเซ็นเป็นอัลกอริธึมทางคณิตศาสตร์ที่ฝ่ายหนึ่งให้ข้อมูลชิ้นหนึ่ง (ลายเซ็น) ที่สามารถสร้างได้ก็ต่อเมื่อฝ่ายนั้นรู้ตัวเลขลับ (คีย์ส่วนตัว) การตรวจสอบเกี่ยวข้องกับการเปรียบเทียบลายเซ็น คีย์สาธารณะ และข้อความที่กำหนด หากอัลกอริธึมส่งออกค่า TRUE boolean แสดงว่าลายเซ็นนั้นถือว่าถูกต้อง',
       },
       verify_signature_three: {
-        signature_encoding_heading: 'Signature Encoding',
+        signature_encoding_heading: 'การเข้ารหัสลายเซ็น',
         signature_encoding_paragraph_one:
-          'A (DER) signature or Distinguished Encoding Rules is simply a format used to encode an ECDSA signature in bitcoin. An ECDSA signature is generated using a private key and a hash of the signed message. It consists of two 32-byte numbers (r,s). It has multiple components you can learn more about <Link href="https://technicaldifficulties.io/2020/07/22/bip-66-unpacking-der-signatures/" target="_blank" className="underline">here</Link>.',
+          'ลายเซ็น (DER) หรือ Distinguished Encoding Rules เป็นเพียงรูปแบบที่ใช้ในการเข้ารหัสลายเซ็น ECDSA ในบิตคอยน์ ลายเซ็น ECDSA ถูกสร้างขึ้นโดยใช้คีย์ส่วนตัวและแฮชของข้อความที่ลงนาม มันประกอบด้วยตัวเลขขนาด 32 ไบต์สองตัว (r,s) มีหลายส่วนประกอบที่คุณสามารถเรียนรู้เพิ่มเติมได้ <Link href="https://technicaldifficulties.io/2020/07/22/bip-66-unpacking-der-signatures/" target="_blank" className="underline">ที่นี่</Link>',
       },
       verify_signature_four: {
         eliptic_curve_heading:
-          'Elliptic Curve Digital Signature Algorithm (ECDSA)',
+          'อัลกอริธึมลายเซ็นดิจิทัลแบบเส้นโค้งวงรี (ECDSA)',
         eliptic_curve_paragraph_one:
-          "ECDSA is a cryptographic algorithm used by bitcoin to ensure that funds can only be spent by their rightful owners. A public key is derived from a private key through elliptic curve multiplication, which is computationally straightforward. However, reversing this process to derive the private key from the public key is computationally unfeasible. This one-way function is a cornerstone of Bitcoin's security.",
-        public_private_key_heading: 'Public and Private Keys',
+          'ECDSA เป็นอัลกอริธึมการเข้ารหัสที่ใช้โดยบิตคอยน์เพื่อให้แน่ใจว่าเงินสามารถใช้จ่ายได้โดยเจ้าของที่ถูกต้องเท่านั้น คีย์สาธารณะได้มาจากคีย์ส่วนตัวผ่านการคูณเส้นโค้งวงรี ซึ่งคำนวณได้ง่าย อย่างไรก็ตาม การย้อนกลับกระบวนการนี้เพื่อให้ได้คีย์ส่วนตัวจากคีย์สาธารณะนั้นไม่สามารถทำได้ทางคณิตศาสตร์ ฟังก์ชันทางเดียวนี้เป็นรากฐานของความปลอดภัยของบิตคอยน์',
+        public_private_key_heading: 'คีย์สาธารณะและคีย์ส่วนตัว',
         public_private_key_paragraph_one:
-          'In bitcoin, a pair of keys is used to ensure secure transactions. The private key, kept secret, is used to sign transactions and prove ownership of a bitcoin address. The public key, derived from the private key, can be shared and is used to verify that a signature is made by the private key holder, without revealing the private key.',
+          'ในบิตคอยน์ คู่ของคีย์ถูกใช้เพื่อให้แน่ใจว่าการทำธุรกรรมมีความปลอดภัย คีย์ส่วนตัวที่เก็บเป็นความลับใช้ในการลงนามการทำธุรกรรมและพิสูจน์ความเป็นเจ้าของที่อยู่บิตคอยน์ คีย์สาธารณะที่ได้มาจากคีย์ส่วนตัวสามารถแชร์ได้และใช้ในการตรวจสอบว่าลายเซ็นถูกสร้างโดยผู้ถือคีย์ส่วนตัวโดยไม่เปิดเผยคีย์ส่วนตัว',
       },
       verify_signature_five: {
-        finite_field_arithmetic_heading: 'Finite Field Arithmetic',
+        finite_field_arithmetic_heading: 'เลขคณิตฟิลด์จำกัด',
         finite_field_arithmetic_paragraph_one:
-          "This type of arithmetic, used in ECDSA, involves numbers within a fixed range or field. Operations such as addition, subtraction, multiplication, and finding modular inverses are performed with respect to the size of this field. This is essential for the elliptic curve calculations in bitcoin's cryptography.",
-        ge_and_fe_heading: 'Group Elements (GE) and Field Elements (FE)',
+          'เลขคณิตประเภทนี้ที่ใช้ใน ECDSA เกี่ยวข้องกับตัวเลขภายในช่วงหรือฟิลด์ที่กำหนด การดำเนินการเช่นการบวก การลบ การคูณ และการหาผกผันโมดูลาร์จะดำเนินการตามขนาดของฟิลด์นี้ ซึ่งเป็นสิ่งสำคัญสำหรับการคำนวณเส้นโค้งวงรีในวิทยาการเข้ารหัสลับของบิตคอยน์',
+        ge_and_fe_heading: 'องค์ประกอบกลุ่ม (GE) และองค์ประกอบฟิลด์ (FE)',
         ge_and_fe_paragraph_one:
-          "In the context of elliptic curve cryptography, a group element typically represents a point on the elliptic curve. In the challenge, GE refers to such a point with specific x and y coordinates. FE represents an element of the finite field, used for calculations within the field's constraints.",
-        modular_inverse_heading: 'Modular Inverse',
+          'ในบริบทของการเข้ารหัสลับเส้นโค้งวงรี องค์ประกอบกลุ่มมักจะแทนจุดบนเส้นโค้งวงรี ในความท้าทายนี้ GE หมายถึงจุดดังกล่าวที่มีพิกัด x และ y เฉพาะ FE หมายถึงองค์ประกอบของฟิลด์จำกัดที่ใช้สำหรับการคำนวณภายในข้อจำกัดของฟิลด์',
+        modular_inverse_heading: 'ผกผันโมดูลาร์',
         modular_inverse_paragraph_one:
-          "The modular inverse of a number a modulo m is a number b such that (a * b) % m = 1. Finding the modular inverse is a critical step in ECDSA signature verification. It's used in the calculation of u1 and u2 during the verification process.",
+          'ผกผันโมดูลาร์ของตัวเลข a โมดูล m คือตัวเลข b ที่ทำให้ (a * b) % m = 1 การหาผกผันโมดูลาร์เป็นขั้นตอนสำคัญในการตรวจสอบลายเซ็น ECDSA มันถูกใช้ในการคำนวณ u1 และ u2 ระหว่างกระบวนการตรวจสอบ',
       },
       validate_signature_one: {
-        message_verification_heading: 'Importance of Message Verification',
+        message_verification_heading: 'ความสำคัญของการตรวจสอบข้อความ',
         message_verification_paragraph_one:
-          'Message verification enhances the security of communications within the bitcoin ecosystem. It allows parties to verify the authenticity and integrity of messages, which is valuable in situations where trust and verification are essential, such as in peer-to-peer transactions or communication between parties in a smart contract. Furthermore, message verification serves as a foundation for various applications, including identity verification and the attestation of ownership of a particular bitcoin address. It adds a layer of cryptographic assurance, reinforcing the trustless and decentralized nature of the bitcoin network.',
+          'การตรวจสอบข้อความช่วยเพิ่มความปลอดภัยของการสื่อสารภายในระบบนิเวศของบิตคอยน์ มันช่วยให้ฝ่ายต่างๆ สามารถตรวจสอบความถูกต้องและความสมบูรณ์ของข้อความ ซึ่งมีคุณค่าในสถานการณ์ที่ความไว้วางใจและการตรวจสอบมีความสำคัญ เช่น ในการทำธุรกรรมแบบเพียร์ทูเพียร์หรือการสื่อสารระหว่างฝ่ายต่างๆ ในสมาร์ทคอนแทร็กต์ นอกจากนี้ การตรวจสอบข้อความยังเป็นรากฐานสำหรับแอปพลิเคชันต่างๆ รวมถึงการตรวจสอบตัวตนและการรับรองความเป็นเจ้าของที่อยู่บิตคอยน์เฉพาะ มันเพิ่มชั้นของการรับรองการเข้ารหัสลับ เสริมสร้างธรรมชาติที่ไม่ต้องเชื่อถือและกระจายอำนาจของเครือข่ายบิตคอยน์',
       },
       validate_signature_two: {
-        base64_encoding_heading: 'Base64 Encoding',
+        base64_encoding_heading: 'การเข้ารหัส Base64',
         base64_encoding_paragraph_one:
-          "Base64 is a basic byte to text encoding scheme that just allows for the data to be convereted to bytes which can then be used in buffers or from bytes to text in such a way that it avoids any problems with url paths and query params. This differs from the base58 encoding scheme in that it still includes the similar characters (zero, uppercase 'O', uppercase 'I', and lowercase 'l') that may otherwise be confusing to a user when trying to copy or dictate the encoded message.",
+          'Base64 เป็นโครงร่างการเข้ารหัสไบต์เป็นข้อความพื้นฐานที่ช่วยให้ข้อมูลถูกแปลงเป็นไบต์ซึ่งสามารถใช้ในบัฟเฟอร์หรือจากไบต์เป็นข้อความในลักษณะที่หลีกเลี่ยงปัญหาเกี่ยวกับเส้นทาง URL และพารามิเตอร์การค้นหา สิ่งนี้แตกต่างจากโครงร่างการเข้ารหัส base58 ตรงที่ยังคงรวมอักขระที่คล้ายกัน (ศูนย์, ตัวอักษร O ตัวใหญ่, ตัวอักษร I ตัวใหญ่ และตัวอักษร l ตัวเล็ก) ที่อาจทำให้ผู้ใช้สับสนเมื่อพยายามคัดลอกหรือบอกข้อความที่เข้ารหัส',
       },
       validate_signature_three: {
-        signing_and_ownership_heading: 'Message Signing and Ownership',
+        signing_and_ownership_heading: 'การลงนามข้อความและความเป็นเจ้าของ',
         signing_and_ownership_paragraph_one:
-          "Based on bitcoin's psuedo-anonymity we are limited in what we are able to definitively prove because the owner of a key can refuse to sign a message or sign a message with an incorrect key on purpose. The only thing we can prove is that the key that creates an invalid signature is not one that matches a key that can sign a message.",
+          'จากการไม่เปิดเผยตัวตนของบิตคอยน์ เราถูกจำกัดในสิ่งที่เราสามารถพิสูจน์ได้อย่างแน่ชัด เพราะเจ้าของคีย์สามารถปฏิเสธที่จะลงนามในข้อความหรือจงใจลงนามในข้อความด้วยคีย์ที่ไม่ถูกต้อง สิ่งเดียวที่เราสามารถพิสูจน์ได้คือคีย์ที่สร้างลายเซ็นที่ไม่ถูกต้องไม่ใช่คีย์ที่สามารถลงนามในข้อความได้',
       },
       validate_signature_four: {
-        one_for_one_heading: 'One for One',
+        one_for_one_heading: 'หนึ่งต่อหนึ่ง',
         one_for_one_paragraph_one:
-          'To ensure the reliability and security of ECDSA, a signature created by a private key can only be verified by the corresponding public key. If different private keys could produce the same public key or signature, it would undermine the security and reliability of ECDSA. Through this we can know that the public key that was able to sign this message has ownership of this bitcoin.',
+          'เพื่อให้แน่ใจว่าความน่าเชื่อถือและความปลอดภัยของ ECDSA ลายเซ็นที่สร้างโดยคีย์ส่วนตัวสามารถตรวจสอบได้โดยคีย์สาธารณะที่สอดคล้องกันเท่านั้น หากคีย์ส่วนตัวต่างๆ สามารถสร้างคีย์สาธารณะหรือลายเซ็นเดียวกันได้ จะทำลายความปลอดภัยและความน่าเชื่อถือของ ECDSA ผ่านสิ่งนี้เราสามารถรู้ได้ว่าคีย์สาธารณะที่สามารถลงนามในข้อความนี้มีความเป็นเจ้าของบิตคอยน์นี้',
       },
     },
   },
