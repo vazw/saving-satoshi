@@ -2479,319 +2479,315 @@ const translations = {
       paragraph_two: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
     },
     opcodes_nine: {
-      title: 'OpCodes',
-      nav_title: 'Wait to unlock',
-      heading: 'Time Locks',
+      title: 'รหัสคำสั่ง',
+      nav_title: 'รอการปลดล็อก',
+      heading: 'การล็อกเวลา',
       paragraph_one:
-        "Way back in the last century a document entitled BIP 65 proposed a new opcode to bitcoin which was eventually added to the consensus rules. It is used to require that the nLocktime of a transaction is at or above a value specified by the script. Bitcoin's consensus rules already prohibit including a transaction in a block if that block's height is greater than the transaction's nLocktime. In other words, this opcode makes a transaction unspendable until a the blockchain reaches a certain height some time in the future. Because it was added with a soft fork, it does NOT actually pop anything off the stack, meaning most uses will also require an <span className=\"text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm\">OP_DROP</span> as well.. If the opcode determines it is too early to include this transaction in a block, script evaluation stops immediately with an error.",
-      subheading_one: 'Opcodes that do block timelocks',
+        'ย้อนกลับไปในศตวรรษที่แล้ว เอกสารที่มีชื่อว่า BIP 65 ได้เสนอรหัสคำสั่งใหม่ให้กับบิตคอยน์ซึ่งในที่สุดก็ถูกเพิ่มเข้าไปในกฎฉันทามติ มันถูกใช้เพื่อกำหนดให้ nLocktime ของธุรกรรมต้องเท่ากับหรือสูงกว่าค่าที่ระบุโดยสคริปต์ กฎฉันทามติของบิตคอยน์ห้ามไม่ให้รวมธุรกรรมในบล็อกหากความสูงของบล็อกนั้นมากกว่าค่า nLocktime ของธุรกรรม กล่าวอีกนัยหนึ่ง รหัสคำสั่งนี้ทำให้ธุรกรรมไม่สามารถใช้จ่ายได้จนกว่าเครือข่ายบล็อกเชนจะถึงความสูงที่กำหนดในอนาคต เนื่องจากมันถูกเพิ่มเข้ามาด้วยซอฟต์ฟอร์ก มันจึงไม่ได้ลบอะไรออกจากสแต็กจริงๆ ซึ่งหมายความว่าการใช้งานส่วนใหญ่จะต้องใช้ <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_DROP</span> ด้วย หากรหัสคำสั่งกำหนดว่ามันเร็วเกินไปที่จะรวมธุรกรรมนี้ในบล็อก การประเมินสคริปต์จะหยุดทันทีด้วยข้อผิดพลาด',
+      subheading_one: 'รหัสคำสั่งที่ทำการล็อกเวลาบล็อก',
       optimelock_list_one_heading:
-        '<span className="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_DROP</span>',
-      optimelock_list_one_paragraph: 'Pops one item off the stack, ignores it.',
+        '<span class="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_DROP</span>',
+      optimelock_list_one_paragraph: 'ลบรายการหนึ่งออกจากสแต็กและละเลยมัน',
       optimelock_list_two_heading:
-        '<span className="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKLOCKTIMEVERIFY</span>',
+        '<span class="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKLOCKTIMEVERIFY</span>',
       optimelock_list_two_paragraph:
-        'Reads (does not pop) the top stack item and interprets it as a block height. If the height argument consumed by the opcode is not at least equal to the NEXT block height, the operation is invalid.',
-      paragraph_two: 'Provide the initial stack to spend from the script.',
+        'อ่าน (ไม่ลบ) รายการบนสุดของสแต็กและตีความมันเป็นความสูงของบล็อก หากอาร์กิวเมนต์ความสูงที่ใช้โดยรหัสคำสั่งไม่เท่ากับหรือสูงกว่าความสูงของบล็อกถัดไป การดำเนินการจะไม่ถูกต้อง',
+      paragraph_two: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
     },
     opcodes_ten: {
-      title: 'OpCodes',
-      nav_title: 'Build some logic',
-      heading: 'Conditionals',
+      title: 'รหัสคำสั่ง',
+      nav_title: 'สร้างตรรกะบางอย่าง',
+      heading: 'เงื่อนไข',
       paragraph_one:
-        'Just like any other good programming language, bitcoin script has logic branches! The path through the branches is typically chosen by the spender to pick which combination of authentication conditions they need to satisfy,',
+        'เช่นเดียวกับภาษาโปรแกรมที่ดีอื่น ๆ สคริปต์บิตคอยน์มีสาขาตรรกะ! เส้นทางผ่านสาขามักจะถูกเลือกโดยผู้ใช้จ่ายเพื่อเลือกชุดเงื่อนไขการตรวจสอบสิทธิ์ที่พวกเขาต้องปฏิบัติตาม',
       paragraph_two:
-        '<span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> Logic branches.',
+        '<span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> สาขาตรรกะ',
       paragraph_three:
-        '<span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> pops one value off the stack and evaluates it as a boolean. If it is true, code execution continues up to <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> then skips to <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span>, otherwise it skips to <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> and continues executing to <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span>. Logic branches may be nested but every <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> must be paired with an <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> to close each branch, otherwise a the interpreter will throw an error and the script will fail.',
-      paragraph_four: 'Provide the initial stack to spend from the script.',
+        '<span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> ลบค่าหนึ่งออกจากสแต็กและประเมินเป็นบูลีน หากเป็นจริง การดำเนินการโค้ดจะดำเนินต่อไปจนถึง <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> จากนั้นข้ามไปที่ <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> มิฉะนั้นจะข้ามไปที่ <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ELSE</span> และดำเนินการต่อไปที่ <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> สาขาตรรกะอาจซ้อนกันได้ แต่ทุก <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_IF</span> ต้องจับคู่กับ <span class="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_ENDIF</span> เพื่อปิดแต่ละสาขา มิฉะนั้นตัวแปลจะโยนข้อผิดพลาดและสคริปต์จะล้มเหลว',
+      paragraph_four: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
     },
     proposal_one: {
-      title: 'Advanced',
-      nav_title: 'Back to The Story',
-      heading: 'Back to The Story!',
-      paragraph_one: `Nice Work! We've gone over most of the basic opcodes you will need when building the scripts for basic transactions. Now let's put them to the test in some scenarios.`,
-      paragraph_two: `For each contract proposal you discuss, provide a bitcoin script and one valid spending stack.`,
+      title: 'ขั้นสูง',
+      nav_title: 'กลับไปที่เรื่องราว',
+      heading: 'กลับไปที่เรื่องราว!',
+      paragraph_one: `ทำได้ดีมาก! เราได้กล่าวถึงรหัสคำสั่งพื้นฐานส่วนใหญ่ที่คุณจะต้องใช้เมื่อสร้างสคริปต์สำหรับธุรกรรมพื้นฐาน ตอนนี้มาทดสอบพวกมันในบางสถานการณ์กันเถอะ`,
+      paragraph_two: `สำหรับข้อเสนอแต่ละสัญญาที่คุณพูดคุย ให้จัดเตรียมสคริปต์บิตคอยน์และสแต็กการใช้จ่ายที่ถูกต้องหนึ่งรายการ`,
     },
     proposal_two: {
-      title: 'Advanced Challenge 1',
-      nav_title: 'Sign cooperatively',
-      heading: 'Advanced Challenge 1',
-      paragraph_one: `The first thing Vanderpoole suggests is a 2-of-2 multisig. All funds that get donated will be split by you and him 50/50, which will be managed by you both signing all spending transactions from the donation address, so you will have to agree on all "withdraws"`,
-      paragraph_two: `Vanderpoole hands you his public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
-      paragraph_three: 'Provide the initial stack to spend from the script.',
-      next_step_message: 'Looks good! Now lets try with your own signature.',
+      title: 'ความท้าทายขั้นสูง 1',
+      nav_title: 'ลงนามร่วมกัน',
+      heading: 'ความท้าทายขั้นสูง 1',
+      paragraph_one: `สิ่งแรกที่แวนเดอร์พูลแนะนำคือหลายลายเซ็น 2-of-2 เงินทั้งหมดที่ได้รับบริจาคจะถูกแบ่งระหว่างคุณและเขา 50/50 ซึ่งจะจัดการโดยคุณทั้งคู่ลงนามในธุรกรรมการใช้จ่ายทั้งหมดจากที่อยู่บริจาค ดังนั้นคุณจะต้องตกลงกันในเรื่อง "การถอนเงิน" ทั้งหมด`,
+      paragraph_two: `แวนเดอร์พูลยื่นคีย์สาธารณะของเขาให้คุณ มันคือ PUBKEY(vanderpoole) และของคุณคือ PUBKEY(me)`,
+      paragraph_three: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
+      next_step_message: 'ดูดี! ตอนนี้ลองใช้ลายเซ็นของคุณเอง',
     },
     proposal_three: {
-      title: 'Advanced Challenge 2',
-      nav_title: 'Make him wait',
-      heading: 'Advanced Challenge 2',
-      paragraph_one: `Wait a minute, that doesn't make sense -- you don't want to deal with him forever! The new deal is, you get all donations for the next two hours while you are still on TV. After that, he can have whatever else trickles in. You take a look at The Bitcoin Block Clock on the wall in the studio and agree that block height 6930300 will be probably be mined in about two hours`,
-      paragraph_two: `Remember Vanderpoole's public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
-      paragraph_three: 'Provide the initial stack to spend from the script.',
-      next_step_message: 'Looks good! Now lets try with your own signature.',
+      title: 'ความท้าทายขั้นสูง 2',
+      nav_title: 'ทำให้เขารอ',
+      heading: 'ความท้าทายขั้นสูง 2',
+      paragraph_one: `เดี๋ยวก่อน นั่นไม่สมเหตุสมผล -- คุณไม่ต้องการจัดการกับเขาตลอดไป! ข้อตกลงใหม่คือ คุณจะได้รับเงินบริจาคทั้งหมดในอีกสองชั่วโมงข้างหน้าขณะที่คุณยังอยู่ในทีวี หลังจากนั้นเขาสามารถรับสิ่งอื่น ๆ ที่เข้ามาได้ คุณดูนาฬิกาบล็อกบิตคอยน์บนผนังในสตูดิโอและตกลงว่าความสูงบล็อก 6930300 น่าจะถูกขุดในเวลาประมาณสองชั่วโมง`,
+      paragraph_two: `จำคีย์สาธารณะของแวนเดอร์พูลได้ มันคือ PUBKEY(vanderpoole) และของคุณคือ PUBKEY(me)`,
+      paragraph_three: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
+      next_step_message: 'ดูดี! ตอนนี้ลองใช้ลายเซ็นของคุณเอง',
     },
     proposal_four: {
-      title: 'Advanced Challenge 3',
-      nav_title: 'Work with an oracle',
-      heading: 'Advanced Challenge 3',
+      title: 'ความท้าทายขั้นสูง 3',
+      nav_title: 'ทำงานกับออราเคิล',
+      heading: 'ความท้าทายขั้นสูง 3',
       paragraph_one:
-        "Vanderpoole changes his mind again. He doesn't like that deal because of the unknowns. He decides he wants the first 1.0 BTC of total donations, and then you can spend the rest after that.",
+        'แวนเดอร์พูลเปลี่ยนใจอีกครั้ง เขาไม่ชอบข้อตกลงนั้นเพราะความไม่แน่นอน เขาตัดสินใจว่าเขาต้องการเงินบริจาคทั้งหมด 1.0 BTC แรก และหลังจากนั้นคุณสามารถใช้จ่ายส่วนที่เหลือได้',
       paragraph_two:
-        'There is no way to check a total balance across multiple UTXOs in bitcoin script so you agree on an unbiased third-party oracle: Deborah Chunk! She will monitor the total donation amount on the blockchain and once they add up to at least 1.0 BTC she will announce, live on TV, the preimage to a hash value you will commit to in the script.',
+        'ไม่มีทางตรวจสอบยอดคงเหลือทั้งหมดในหลาย UTXO ในสคริปต์บิตคอยน์ ดังนั้นคุณจึงตกลงกับออราเคิลบุคคลที่สามที่ไม่มีอคติ: เดโบราห์ ชังค์! เธอจะตรวจสอบจำนวนเงินบริจาคทั้งหมดบนบล็อกเชนและเมื่อพวกมันรวมกันได้อย่างน้อย 1.0 BTC เธอจะประกาศสดทางทีวีภาพล่วงหน้าของค่าแฮชที่คุณจะยอมรับในสคริปต์',
       paragraph_three:
-        'She generates a secure random nonce in private, then hands you the hash digest: <span className="text-[#3DCFEF] w-fit rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">HASH256(FD3771E8)</span>. You can spend all the coins you receive once she reveals this secret, and not one satoshi one second earlier!',
-      paragraph_four: `Remember Vanderpoole's public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
-      paragraph_five: 'Provide the initial stack to spend from the script.',
+        'เธอสร้าง nonce แบบสุ่มที่ปลอดภัยในที่ส่วนตัว จากนั้นส่งค่าแฮชไดเจสต์ให้คุณ: <span class="text-[#3DCFEF] w-fit rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">HASH256(FD3771E8)</span> คุณสามารถใช้จ่ายเหรียญทั้งหมดที่คุณได้รับเมื่อเธอเปิดเผยความลับนี้ และไม่ใช่ซาโตชิหนึ่งวินาทีก่อนหน้านั้น!',
+      paragraph_four: `จำคีย์สาธารณะของแวนเดอร์พูลได้ มันคือ PUBKEY(vanderpoole) และของคุณคือ PUBKEY(me)`,
+      paragraph_five: 'จัดเตรียมสแต็กเริ่มต้นเพื่อใช้จ่ายจากสคริปต์',
       next_step_message:
-        "Let's see if we used our signature with the preimage correctly.",
+        'มาดูกันว่าเราใช้ลายเซ็นของเรากับภาพล่วงหน้าอย่างถูกต้องหรือไม่',
     },
     outro_one: {
-      title: 'Outro',
-      nav_title: 'Chapter Complete',
-      heading: 'Coming to terms',
+      title: 'บทส่งท้าย',
+      nav_title: 'บทเสร็จสมบูรณ์',
+      heading: 'การทำความเข้าใจ',
       paragraph_one:
-        "Nice, you were able to come to an agreement that seems to make everyone happy. Let's go ahead and broadcast this transaction to set it in stone.",
+        'ดีมาก คุณสามารถบรรลุข้อตกลงที่ดูเหมือนจะทำให้ทุกคนพอใจ ไปข้างหน้าและออกอากาศธุรกรรมนี้เพื่อตั้งค่าให้เป็นหิน',
     },
 
     resources: {
       opcodes_five: {
-        arithmetic_heading: 'Arithmetic opcodes',
+        arithmetic_heading: 'รหัสคำสั่งเลขคณิต',
         arithmetic_paragraph:
-          'In bitcoin script arithmetic operations like in math take in some inputs to conduct math operations on. In actual bitcoin script the inputs are limited to signed 32-bit integers but the output may overflow.',
-        spoiler: `Put in two integers that give the sum of 3 in the initial stack`,
+          'ในการดำเนินการเลขคณิตของสคริปต์บิตคอยน์ เช่นเดียวกับในคณิตศาสตร์ จะรับอินพุตบางอย่างเพื่อดำเนินการคณิตศาสตร์ ในสคริปต์บิตคอยน์จริง อินพุตถูกจำกัดไว้ที่จำนวนเต็ม 32 บิตที่ลงนามแล้ว แต่ผลลัพธ์อาจล้นได้',
+        spoiler: `ใส่จำนวนเต็มสองจำนวนที่ให้ผลรวมเป็น 3 ในสแต็กเริ่มต้น`,
       },
       opcodes_six: {
-        cryptography_heading: 'Cryptographic opcodes',
+        cryptography_heading: 'รหัสคำสั่งการเข้ารหัส',
         cryptography_paragraph:
-          'These opcodes are important in everyday transactions as they ensure the outputs can only be spent with the signature of the owner of that utxo. Note that there are no formal categories of opcodes and that they are only organzied by their hex code representation.',
-        spoiler: `The script checks a signature against a hashed public key. Put a signature key first then a public key`,
+          'รหัสคำสั่งเหล่านี้มีความสำคัญในธุรกรรมประจำวัน เนื่องจากพวกเขามั่นใจว่าผลลัพธ์สามารถใช้จ่ายได้ด้วยลายเซ็นของเจ้าของ utxo เท่านั้น โปรดทราบว่าไม่มีหมวดหมู่รหัสคำสั่งอย่างเป็นทางการและพวกเขาจัดระเบียบตามการแสดงรหัสฐานสิบหกเท่านั้น',
+        spoiler: `สคริปต์ตรวจสอบลายเซ็นกับแฮชคีย์สาธารณะ ใส่คีย์ลายเซ็นก่อนแล้วคีย์สาธารณะ`,
       },
       opcodes_eight: {
-        multisig_heading: 'Multisig opcodes',
+        multisig_heading: 'รหัสคำสั่งหลายลายเซ็น',
         multisig_paragraph:
-          '<span className="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> has a notable bug that requires the stack to include another unused value on the top of the stack unrelated to the actual multisig.',
-        spoiler: `It's a multisig script requiring two signatures, and the first value on the stack is a placeholder for a quirk in the CHECKMULTISIG operation.`,
+          '<span class="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> มีบั๊กที่น่าสังเกตซึ่งต้องการให้สแต็กรวมค่าที่ไม่ได้ใช้เพิ่มเติมไว้บนสุดของสแต็กที่ไม่เกี่ยวข้องกับหลายลายเซ็นจริง',
+        spoiler: `มันเป็นสคริปต์หลายลายเซ็นที่ต้องการลายเซ็นสองลายเซ็น และค่าบนสุดของสแต็กเป็นตัวแทนสำหรับความแปลกประหลาดในการดำเนินการ CHECKMULTISIG`,
       },
       opcodes_nine: {
-        timelock_heading: 'Timelock opcodes',
+        timelock_heading: 'รหัสคำสั่งล็อกเวลา',
         timelock_paragraph:
-          'Bitcoin script can read the current block height allowing transactions to be locked based on bitcoin blocks in the future. the exact semantics of the actual <span className="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKLOCKTIMEVERIFY</span> can be found',
+          'สคริปต์บิตคอยน์สามารถอ่านความสูงของบล็อกปัจจุบัน ทำให้ธุรกรรมถูกล็อกตามบล็อกบิตคอยน์ในอนาคต ความหมายที่แน่นอนของ <span class="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKLOCKTIMEVERIFY</span> สามารถพบได้',
         timelock_link:
-          '<Link target="_blank" href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki" className="underline">here</Link>.',
-        spoiler: ` The script locks spending until a specific block height and then verifies the signature in the initial stack.`,
+          '<Link target="_blank" href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki" class="underline">ที่นี่</Link>.',
+        spoiler: `สคริปต์ล็อกการใช้จ่ายจนกว่าจะถึงความสูงของบล็อกที่กำหนดและจากนั้นตรวจสอบลายเซ็นในสแต็กเริ่มต้น`,
       },
       opcodes_ten: {
-        conditionals_heading: 'Opcode logic',
+        conditionals_heading: 'ตรรกะรหัสคำสั่ง',
         conditionals_paragraph:
-          'Conditional opcodes allow for some basic programming logic branches.  While the conditional logic allows for a broad range of additional possibilities in bitcoin script, it is still limited in comparison to a traditional programming language.',
-        spoiler: `The sum of the first two values on the intial stack is false, so the script follows the OP_ELSE branch.`,
+          'รหัสคำสั่งตามเงื่อนไขอนุญาตให้มีสาขาตรรกะการเขียนโปรแกรมพื้นฐาน แม้ว่าตรรกะตามเงื่อนไขจะอนุญาตให้มีความเป็นไปได้เพิ่มเติมในสคริปต์บิตคอยน์ แต่ก็ยังจำกัดเมื่อเทียบกับภาษาโปรแกรมแบบดั้งเดิม',
+        spoiler: `ผลรวมของค่าสองค่าบนสแต็กเริ่มต้นเป็นเท็จ ดังนั้นสคริปต์จึงตามสาขา OP_ELSE`,
       },
       proposal_two: {
-        making_script_heading: 'Making script',
+        making_script_heading: 'การสร้างสคริปต์',
         making_script_paragraph:
-          'Remember that scripts can only be validated if the finish with a single truthy value on the stack. some versions allow any truthy value but our script editor only allows for values equal to 1 or true.',
-        tip: 'Don\'t forget about the bug in <span className="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> that requires the extra unused value on the stack!',
-        spoiler: `Script Hint: This multisig arrangement needs both participants to sign. The script specifies that two signatures are required and includes both public keys.
-Stack Hint: To satisfy the script, you need to provide both signatures. The 0 on the stack accounts for a specific behavior of the CHECKMULTISIG operation.`,
+          'จำไว้ว่าสคริปต์สามารถตรวจสอบได้ก็ต่อเมื่อสิ้นสุดด้วยค่าความจริงเพียงค่าเดียวบนสแต็ก บางเวอร์ชันอนุญาตให้ใช้ค่าความจริงใดๆ แต่ตัวแก้ไขสคริปต์ของเราอนุญาตให้ใช้ค่าเท่ากับ 1 หรือจริงเท่านั้น',
+        tip: 'อย่าลืมเกี่ยวกับบั๊กใน <span class="text-[#3DCFEF] rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> ที่ต้องการค่าที่ไม่ได้ใช้เพิ่มเติมบนสแต็ก!',
+        spoiler: `คำแนะนำสคริปต์: การจัดการหลายลายเซ็นนี้ต้องการให้ผู้เข้าร่วมทั้งสองลงนาม สคริปต์ระบุว่าต้องการลายเซ็นสองลายเซ็นและรวมคีย์สาธารณะทั้งสอง
+    คำแนะนำสแต็ก: เพื่อตอบสนองสคริปต์ คุณต้องให้ลายเซ็นทั้งสอง ค่าศูนย์บนสแต็กเป็นตัวแทนสำหรับพฤติกรรมเฉพาะของการดำเนินการ CHECKMULTISIG`,
       },
       proposal_three: {
-        tip: "Let's think about combining a conditional with some timelock to separate Vanderpoole's signature from yours.",
-        spoiler: `Script Hint: The script allows spending under two conditions: before block 6930300 or after. Before the block, Vanderpoole can spend; after the block, you can.
-
-Stack Hint: To spend before the specified block, Vanderpoole uses his signature. After the block, you use your signature and need to provide a 0 because the script has moved past the locktime verification.`,
+        tip: 'ลองคิดเกี่ยวกับการรวมเงื่อนไขกับการล็อกเวลาเพื่อแยกลายเซ็นของแวนเดอร์พูลออกจากของคุณ',
+        spoiler: `คำแนะนำสคริปต์: สคริปต์อนุญาตให้ใช้จ่ายภายใต้สองเงื่อนไข: ก่อนบล็อก 6930300 หรือหลังจากนั้น ก่อนบล็อก แวนเดอร์พูลสามารถใช้จ่ายได้ หลังบล็อก คุณสามารถใช้จ่ายได้
+    
+    คำแนะนำสแต็ก: เพื่อใช้จ่ายก่อนบล็อกที่ระบุ แวนเดอร์พูลใช้ลายเซ็นของเขา หลังบล็อก คุณใช้ลายเซ็นของคุณและต้องให้ค่า 0 เพราะสคริปต์ได้ผ่านการตรวจสอบล็อกเวลาแล้ว`,
       },
       proposal_four: {
-        tip: 'The preimage will be revealed after an unknown amount of time so no need for using timelocks.',
-        spoiler: `Script Hint: The script allows spending under two conditions: before the secret has been revealed or after. Before the block, Vanderpoole can spend; after the block, you both can.
-
-Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signature. After the secret is revealed, you use your signature, a hash of the secret, and provide a 0 because the script has moved past the unrevealed verification.`,
+        tip: 'ภาพล่วงหน้าจะถูกเปิดเผยหลังจากเวลาที่ไม่ทราบ ดังนั้นไม่จำเป็นต้องใช้การล็อกเวลา',
+        spoiler: `คำแนะนำสคริปต์: สคริปต์อนุญาตให้ใช้จ่ายภายใต้สองเงื่อนไข: ก่อนที่ความลับจะถูกเปิดเผยหรือหลังจากนั้น ก่อนบล็อก แวนเดอร์พูลสามารถใช้จ่ายได้ หลังบล็อก คุณทั้งคู่สามารถใช้จ่ายได้
+    
+    คำแนะนำสแต็ก: เพื่อใช้จ่ายก่อนที่ความลับจะถูกเปิดเผย แวนเดอร์พูลใช้ลายเซ็นของเขา หลังจากความลับถูกเปิดเผย คุณใช้ลายเซ็นของคุณ แฮชของความลับ และให้ค่า 0 เพราะสคริปต์ได้ผ่านการตรวจสอบที่ยังไม่เปิดเผยแล้ว`,
       },
     },
   },
 
   chapter_ten: {
-    title: '10 billion connections',
-    paragraph_one: `The ON-AIR light in the TV studio goes dark. Stagehands shut off their hover-cameras and start filing out after a long day. Mike Ramen puts his hand on your shoulder and says "Great work today! Now let's celebrate. I know a bar across the street that accepts bitcoin -- and what better way to honor Satoshi's vision of digital cash for the internet than exchanging some for beer!"`,
+    title: 'หมื่นล้านการเชื่อมต่อ',
+    paragraph_one: `ไฟ ON-AIR ในสตูดิโอทีวีดับลง คนงานบนเวทีปิดกล้องโฮเวอร์และเริ่มออกไปหลังจากวันที่ยาวนาน ไมค์ ราเมน วางมือบนไหล่ของคุณและพูดว่า "ทำได้ดีมากวันนี้! ตอนนี้มาฉลองกัน ฉันรู้จักบาร์ข้างถนนที่รับบิตคอยน์ -- และมีวิธีใดที่ดีกว่าในการให้เกียรติวิสัยทัศน์ของซาโตชิในการใช้เงินดิจิทัลสำหรับอินเทอร์เน็ตมากกว่าการแลกเปลี่ยนบางส่วนเพื่อเบียร์!"`,
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Intro',
-      paragraph_one: `But something is different now. After your worldwide TV appearance, the rate of transactions on the bitcoin network has shot up, filling up blocks and increasing fees for miners. That's a good thing for a sustainable network of course, but it wouldn't feel quite right if you had to pay a $5 fee just to buy a $10 beer.`,
-      paragraph_two: `The bar is called The Public Key Pub. The owner and bartender, Laszlo, welcomes you and Mike in with a big smile. Mike and Laszlo pull out their solar-powered mini cyber pads and tap a few holo-buttons each, then Laszlo pours a beer and hands it to Mike. As Mike raises the glass to you he says "no miner fees for off-chain payments! I bought this beer without confirming a transaction on the blockchain!" What?! How?!`,
-      paragraph_three: `Laszlo says "You're smart enough to debug mining software and validate blocks, I bet you can figure out how to send bitcoin off-chain. I'll just guide you a little bit. We will set up a payment channel between you and me so you can buy some drinks."`,
+      title: 'บทนำ',
+      nav_title: 'บทนำ',
+      paragraph_one: `แต่ตอนนี้มีบางอย่างที่แตกต่างออกไป หลังจากการปรากฏตัวทางทีวีทั่วโลกของคุณ อัตราการทำธุรกรรมบนเครือข่ายบิตคอยน์พุ่งสูงขึ้น ทำให้บล็อกเต็มและเพิ่มค่าธรรมเนียมสำหรับคนขุดแร่ นั่นเป็นสิ่งที่ดีสำหรับเครือข่ายที่ยั่งยืนแน่นอน แต่คงไม่รู้สึกดีนักหากคุณต้องจ่ายค่าธรรมเนียม $5 เพียงเพื่อซื้อเบียร์ $10`,
+      paragraph_two: `บาร์นี้ชื่อว่า The Public Key Pub เจ้าของและบาร์เทนเดอร์ ลาสโล ต้อนรับคุณและไมค์ด้วยรอยยิ้มกว้าง ไมค์และลาสโลดึงแผ่นไซเบอร์ขนาดเล็กที่ใช้พลังงานแสงอาทิตย์ออกมาและแตะปุ่มโฮโลแต่ละปุ่ม จากนั้นลาสโลเทเบียร์และส่งให้ไมค์ ขณะที่ไมค์ยกแก้วขึ้นให้คุณ เขาพูดว่า "ไม่มีค่าธรรมเนียมคนขุดแร่สำหรับการชำระเงินนอกเครือข่าย! ฉันซื้อเบียร์นี้โดยไม่ยืนยันธุรกรรมบนบล็อกเชน!" อะไรนะ?! อย่างไร?!`,
+      paragraph_three: `ลาสโลพูดว่า "คุณฉลาดพอที่จะดีบักซอฟต์แวร์การขุดและตรวจสอบบล็อก ฉันพนันได้เลยว่าคุณสามารถหาวิธีส่งบิตคอยน์นอกเครือข่ายได้ ฉันจะแนะนำคุณเล็กน้อย เราจะตั้งค่าช่องทางการชำระเงินระหว่างคุณกับฉันเพื่อให้คุณสามารถซื้อเครื่องดื่มได้"`,
     },
     intro_two: {
-      title: 'Initial funds',
-      nav_title: 'Initial Funds',
-      heading_one: 'The initial funds',
+      title: 'เงินเริ่มต้น',
+      nav_title: 'เงินเริ่มต้น',
+      heading_one: 'เงินเริ่มต้น',
       paragraph_one:
-        'You have a confirmed UTXO in the blockchain for 100000 satoshis. Seems pretty simple to make an off-chain payment, right?',
+        'คุณมี UTXO ที่ยืนยันแล้วในบล็อกเชนสำหรับ 100000 ซาโตชิ ดูเหมือนจะง่ายมากที่จะทำการชำระเงินนอกเครือข่ายใช่ไหม?',
       paragraph_two:
-        'Your UTXO is output 0 of some transaction you were sent in the past. You will spend that UTXO in input 0 of the transaction you are about to create',
+        'UTXO ของคุณคือผลลัพธ์ 0 ของธุรกรรมบางอย่างที่คุณได้รับในอดีต คุณจะใช้จ่าย UTXO นั้นในอินพุต 0 ของธุรกรรมที่คุณกำลังจะสร้าง',
       paragraph_three:
-        'Note how the tabs now represent transactions instead of code languages. You will interact with multiple transactions as you go through this chapter.',
+        'สังเกตว่าตอนนี้แท็บแสดงถึงธุรกรรมแทนที่จะเป็นภาษารหัส คุณจะโต้ตอบกับธุรกรรมหลายรายการขณะที่คุณผ่านบทนี้',
     },
   },
 
   ///CHALLENGE PAGE
   challenge_list: {
-    coming_soon: 'Coming soon. Hang tight.',
+    coming_soon: 'เร็วๆ นี้. อดใจรอ.',
   },
 
   chapter: {
-    chapter_locked_one: 'Complete Chapter',
-    chapter_locked_two: 'to unlock.',
-    coming_soon: 'Coming soon. Hang tight.',
+    chapter_locked_one: 'ทำบทให้เสร็จ',
+    chapter_locked_two: 'เพื่อปลดล็อก.',
+    coming_soon: 'เร็วๆ นี้. อดใจรอ.',
     description:
-      'Explore the mysteries of Satoshi and learn about bitcoin along the way.',
+      'สำรวจความลึกลับของซาโตชิและเรียนรู้เกี่ยวกับบิตคอยน์ไปพร้อมกัน.',
   },
 
   hero: {
-    title: 'Saving Satoshi',
-    description: 'Code your way through the mysteries of bitcoin.',
-    start_journey: 'Start',
-    tell_more: 'Tell me more',
+    title: 'การช่วยเหลือซาโตชิ',
+    description: 'เขียนโค้ดของคุณผ่านความลึกลับของบิตคอยน์.',
+    start_journey: 'เริ่ม',
+    tell_more: 'บอกฉันเพิ่มเติม',
   },
 
   footer: {
-    paragraph_one: 'An open-source production by the bitcoin community.',
-    link: 'Check the code',
+    paragraph_one: 'การผลิตโอเพ่นซอร์สโดยชุมชนบิตคอยน์.',
+    link: 'ตรวจสอบโค้ด',
   },
 
   navbar: {
-    intro: 'Intro',
-    chapter: 'Chapter',
-    chapter_complete: 'Chapter complete',
-    challenge: 'Challenge',
-    help_tooltip: 'Need help?',
+    intro: 'บทนำ',
+    chapter: 'บท',
+    chapter_complete: 'บทเสร็จสมบูรณ์',
+    challenge: 'ความท้าทาย',
+    help_tooltip: 'ต้องการความช่วยเหลือ?',
   },
 
   modal_signin: {
-    heading: 'Sign in',
+    heading: 'เข้าสู่ระบบ',
     pre_signin_paragraph_one:
-      'Enter your private key below to restore your account and progress.',
+      'กรุณาใส่กุญแจส่วนตัวของคุณด้านล่างเพื่อกู้คืนบัญชีและความก้าวหน้าของคุณ.',
     post_signin_paragraph_one:
-      'Nice to see you return to save Satoshi! You can go directly to your last lesson from here.',
-    prompt: 'Enter your private key',
-    confirm: 'Sign in',
-    create_account: 'Don’t have an account?',
-    login: 'Log in',
-    welcome_back: 'Welcome back!',
-    progress_redirect: 'Take me to where I left off',
+      'ยินดีที่ได้เห็นคุณกลับมาช่วยซาโตชิ! คุณสามารถไปยังบทเรียนล่าสุดของคุณได้จากที่นี่.',
+    prompt: 'กรุณาใส่กุญแจส่วนตัวของคุณ',
+    confirm: 'เข้าสู่ระบบ',
+    create_account: 'ยังไม่มีบัญชี?',
+    login: 'เข้าสู่ระบบ',
+    welcome_back: 'ยินดีต้อนรับกลับ!',
+    progress_redirect: 'พาฉันไปยังที่ที่ฉันค้างไว้',
   },
 
   modal_logout: {
-    heading: 'You are logged in',
+    heading: 'คุณเข้าสู่ระบบแล้ว',
     paragraph_one:
-      'Your session will remain active until you sign out using the button below.',
-    private_key: 'Your private key',
-    signout: 'Sign out',
+      'เซสชันของคุณจะยังคงใช้งานได้จนกว่าคุณจะออกจากระบบโดยใช้ปุ่มด้านล่าง.',
+    private_key: 'กุญแจส่วนตัวของคุณ',
+    signout: 'ออกจากระบบ',
   },
 
   modal_signup: {
-    heading: 'Save your progress',
+    heading: 'บันทึกความก้าวหน้าของคุณ',
     paragraph_one:
-      'Copy and store a simple code to save and load your progress in this browser. If you already have a code, load your progress here.',
-    subheading_one: 'Choose an avatar',
-    subheading_two: 'Back up your private key',
+      'คัดลอกและจัดเก็บรหัสง่ายๆ เพื่อบันทึกและโหลดความก้าวหน้าของคุณในเบราว์เซอร์นี้. หากคุณมีรหัสอยู่แล้ว ให้โหลดความก้าวหน้าของคุณที่นี่.',
+    subheading_one: 'เลือกอวาตาร์',
+    subheading_two: 'สำรองกุญแจส่วนตัวของคุณ',
     generate:
-      'All set? Code copied and backed-up? Make sure your do, as it can’t be recovered if you lose it.',
-    confirm: 'Done',
+      'พร้อมหรือยัง? คัดลอกรหัสและสำรองข้อมูลแล้วหรือยัง? ตรวจสอบให้แน่ใจว่าคุณทำแล้ว เพราะไม่สามารถกู้คืนได้หากคุณสูญเสียมัน.',
+    confirm: 'เสร็จสิ้น',
     acknowledged:
-      'I acknowledge I have saved this private key and know that I will need it for challenges in the future.',
+      'ฉันรับทราบว่าฉันได้บันทึกกุญแจส่วนตัวนี้แล้วและรู้ว่าฉันจะต้องใช้มันสำหรับความท้าทายในอนาคต.',
   },
 
   difficulty_selection: {
-    NORMAL: 'Enable hard mode to increase the difficulty of the challenges.',
-    HARD: 'Disable hard mode to decrease the difficulty of the challenges.',
+    NORMAL: 'เปิดโหมดยากเพื่อเพิ่มความยากของความท้าทาย.',
+    HARD: 'ปิดโหมดยากเพื่อลดความยากของความท้าทาย.',
   },
 
   social: {
-    twitter_share: 'Share via X',
-    nostr_share: 'Share via nostr',
-    sharing: 'Sharing...',
-    shared: 'Shared!',
-    share_error: 'Failed to share',
+    twitter_share: 'แชร์ผ่าน X',
+    nostr_share: 'แชร์ผ่าน nostr',
+    sharing: 'กำลังแชร์...',
+    shared: 'แชร์แล้ว!',
+    share_error: 'การแชร์ล้มเหลว',
   },
 
   disclaimer: {
     description:
-      'We’re excited for you to dive in. Note that some challenges require basic programming experience (tips are available). Give it a try and share your <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform?usp=sf_link" className="underline">feedback</Link>',
+      'เรารู้สึกตื่นเต้นที่คุณจะได้เข้าร่วม. โปรดทราบว่าบางความท้าทายต้องการประสบการณ์การเขียนโปรแกรมพื้นฐาน (มีเคล็ดลับให้). ลองดูและแชร์ <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform?usp=sf_link" className="underline">ความคิดเห็นของคุณ</Link>',
   },
 
   opcode: {
-    run: 'Run the Script',
-    reset: 'Reset',
+    run: 'รันสคริปต์',
+    reset: 'รีเซ็ต',
   },
 
   status_bar: {
-    begin_message: 'Complete the challenge above to continue...',
-    error_message: 'Hm... that is not quite right yet...',
-    in_progress_message: 'Looking good so far...',
-    success_message: 'Nicely done!',
-    next_step_message: 'Looks good now lets move on to the next step.',
-    try_again: 'Try again',
-    next: 'Next',
+    begin_message: 'ทำความท้าทายด้านบนให้เสร็จเพื่อดำเนินการต่อ...',
+    error_message: 'อืม... นั่นยังไม่ค่อยถูกต้อง...',
+    in_progress_message: 'ดูดีมากจนถึงตอนนี้...',
+    success_message: 'ทำได้ดีมาก!',
+    next_step_message: 'ดูดีแล้ว ไปยังขั้นตอนต่อไปกันเถอะ.',
+    try_again: 'ลองอีกครั้ง',
+    next: 'ถัดไป',
   },
-
   hasher: {
-    placeholder: 'Type here...',
-    return_hash: 'Below you will see your input converted to a hash',
+    placeholder: 'พิมพ์ที่นี่...',
+    return_hash: 'ด้านล่างคุณจะเห็นข้อมูลที่คุณป้อนถูกแปลงเป็นแฮช',
   },
-
   hashrate: {
-    start: 'Start',
-    running: 'Running',
-    blocks_found: 'Blocks found',
-    hashrate: 'Hashrate',
-    partial_solutions: 'Partial solutions',
+    start: 'เริ่ม',
+    running: 'กำลังทำงาน',
+    blocks_found: 'บล็อกที่พบ',
+    hashrate: 'อัตราแฮช',
+    partial_solutions: 'วิธีแก้ปัญหาบางส่วน',
   },
-
   runner: {
-    run: 'Run the script',
-    running: 'Running',
-    pause: 'Pause',
-    result: 'Result',
-    computing: 'Computing...',
-    evaluation: 'Evaluation',
-    script_output: 'Script output',
-    waiting: 'Waiting for your input above...',
-    poor: "This is valid code but it's not quite what we are looking for. Try again.",
-    good: 'Good job, its not quite perfect but still considered correct. Keep working or continue, your choice.',
-    success: 'Great work your code looks great!',
+    run: 'รันสคริปต์',
+    running: 'กำลังทำงาน',
+    pause: 'หยุดชั่วคราว',
+    result: 'ผลลัพธ์',
+    computing: 'กำลังคำนวณ...',
+    evaluation: 'การประเมิน',
+    script_output: 'ผลลัพธ์ของสคริปต์',
+    waiting: 'รอการป้อนข้อมูลของคุณด้านบน...',
+    poor: 'นี่เป็นโค้ดที่ถูกต้องแต่ยังไม่ใช่สิ่งที่เรากำลังมองหา. ลองอีกครั้ง.',
+    good: 'ทำได้ดี, ยังไม่สมบูรณ์แบบแต่ยังถือว่าถูกต้อง. ทำงานต่อหรือดำเนินการต่อ, ขึ้นอยู่กับคุณ.',
+    success: 'ทำได้ดีมาก โค้ดของคุณดูดีมาก!',
     language_tabs: {
-      locked: "Language disabled since you've started this chapter in",
-      reset: 'Reset the terminal',
+      locked: 'ภาษาถูกปิดใช้งานเนื่องจากคุณเริ่มบทนี้ใน',
+      reset: 'รีเซ็ตเทอร์มินัล',
     },
   },
   notfound: {
-    first: 'Hmm...where are we?',
-    second: 'It’s not quite clear where or what this place is.',
-    third: 'We might have gotten lost in space (or time).',
-    back_safety: 'Back to safety',
+    first: 'อืม...เราอยู่ที่ไหน?',
+    second: 'ไม่ค่อยชัดเจนว่าเราหรือสถานที่นี้คืออะไร.',
+    third: 'เราอาจหลงทางในอวกาศ (หรือเวลา).',
+    back_safety: 'กลับไปยังที่ปลอดภัย',
   },
   error: {
-    first: 'Something is wrong!',
-    second: 'Holocat may have chewed on some cables again. Bad cat!',
-    reload: 'Retry',
+    first: 'มีบางอย่างผิดพลาด!',
+    second: 'Holocat อาจเคี้ยวสายเคเบิลอีกครั้ง. แมวไม่ดี!',
+    reload: 'ลองใหม่',
   },
   help_page: {
-    main_heading: 'Learning Resources',
+    main_heading: 'แหล่งข้อมูลการเรียนรู้',
     main_subheading:
-      'What helpful info and resources can we provide for further learning?',
-    tips_heading: 'Tips',
-    tips_subheading:
-      'What specific tips can/do we want to give learners if they are stuck?',
-    spoilers_heading: 'Spoilers',
-    spoilers_confirm: 'Yes, I want to see the solution',
-    pseudo_confirm: 'Yes, I want to see the pseudocode',
-    solution: 'Solution to this challenge',
-    pseudo_solution: 'Pseudocode solution to this challenge',
-    solution_one: 'Solution to part one of this challenge',
+      'ข้อมูลและแหล่งข้อมูลที่เป็นประโยชน์ที่เราสามารถให้เพื่อการเรียนรู้เพิ่มเติม?',
+    tips_heading: 'เคล็ดลับ',
+    tips_subheading: 'เคล็ดลับเฉพาะที่เราต้องการให้ผู้เรียนหากพวกเขาติดขัด?',
+    spoilers_heading: 'สปอยเลอร์',
+    spoilers_confirm: 'ใช่, ฉันต้องการดูวิธีแก้ปัญหา',
+    pseudo_confirm: 'ใช่, ฉันต้องการดูรหัสเทียม',
+    solution: 'วิธีแก้ปัญหาสำหรับความท้าทายนี้',
+    pseudo_solution: 'รหัสเทียมสำหรับความท้าทายนี้',
+    solution_one: 'วิธีแก้ปัญหาสำหรับส่วนหนึ่งของความท้าทายนี้',
     feedback:
-      'Your feedback is valuable and helps us in enhancing our work more, please give us feedback using <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform" target="_blank" rel="noreferrer">this link</a>. ',
+      'ความคิดเห็นของคุณมีค่าและช่วยเราในการปรับปรุงงานของเรา, กรุณาให้ข้อเสนอแนะโดยใช้ <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1xpNqUYJyvYL5IZDnxy78273pkqzfYW2Hf91H4Do4KHgy9g/viewform" target="_blank" rel="noreferrer">ลิงก์นี้</a>.',
     help_suggestion:
-      'If you\'re ever stuck, press the "?" button in the top-right corner. It provides helpful resources and tips.',
+      'หากคุณติดขัด, กดปุ่ม "?" ที่มุมขวาบน. มันมีแหล่งข้อมูลและเคล็ดลับที่เป็นประโยชน์.',
   },
 }
 export default translations
