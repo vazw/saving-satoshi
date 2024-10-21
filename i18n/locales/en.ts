@@ -13,6 +13,7 @@ const translations = {
     coming_soon: 'Coming soon',
     start_chapter: 'Start chapter',
     back: 'Back',
+    end: 'End',
     close: 'Close',
     poweroff: 'Back to chapter selection',
     loading: 'Loading',
@@ -98,7 +99,7 @@ const translations = {
       title: 'Intro',
       nav_title: 'Miner protest',
       paragraph_one: `Moments later, your Hover Screen activates.`,
-      paragraph_two: `—Deborah Chunk: “Thomas Vanderpoole. As the well-dressed CEO of BitRey, you run one of the largest bitcoin mining pools in the world. You also manufacture bitcoin mining machines. What is happening? Is bitcoin dying?”`,
+      paragraph_two: `—Deborah Chunk: “Thomas Vanderpoole. As the well-dressed CEO of BitRey, you run, by far, the largest bitcoin mining pool in the world. You also manufacture bitcoin mining machines. What is happening? Is bitcoin dying?”`,
       paragraph_three: `—Vanderpoole: “Let’s start from the top. Yes, I am, Deborah, and yes, I do. The Vanderpooles—my well-dressed daddy and his well-dressed daddy before him—have been mining since block 21,000. That’s why I can confidently say that miners across the world are causing these delays by turning off their machines. This is a protest. No one wants bitcoin to stop being issued at 21 million. Miners cannot survive on fees alone.”`,
       start: 'Continue',
     },
@@ -279,7 +280,7 @@ const translations = {
       paragraph_two:
         'You land, steady yourself, and search for a point of ingress. There, that broken window should do the trick. You take out what’s left of the window with a brick, and hop inside. The building is filled with thousands of dusty, well-preserved bitcoin miners.',
       paragraph_three: {
-        a: '—HOLOCAT: “This isn’t a warehouse; this is a museum. I think these are old Vanderpoole family ASIC miners. In bitcoin’s early days, miners would use general purpose computers to mine bitcoin. But after a few years, miners realized they could use machines with a special chip called an Application-Specific Integrated Circuit, or ',
+        a: '—HOLOCAT: “This isn’t a warehouse; this is a museum. I think these are old Vanderpoole family mining devices. In bitcoin’s early days, miners would use general purpose computers to mine bitcoin. But after a few years, miners realized they could use machines with a special chip called an Application-Specific Integrated Circuit, or ',
         b: ' for short. These chips do only one thing: mine bitcoin. Their narrow focus increases their efficiency and allows miners to spend less energy on mining, giving them an edge. Can you believe that people mined with their laptops at one point?"',
       },
       paragraph_four:
@@ -474,7 +475,7 @@ const translations = {
       nav_title: 'Chapter complete',
       heading: 'Great Job!',
       paragraph_one:
-        'The machines roar to life. Everything seems to be working. A map appears on the old monitor that shows the locations of other warehouses filled with ASICs that have come online across the world. Looks like they were activated when you completed the mining challenge!',
+        'The machines roar to life. Everything seems to be working. A map appears on the old monitor that shows the locations of other warehouses filled with old Vanderpoole family mining devices that have come online across the world. Looks like they were activated when you completed the mining challenge!',
       paragraph_two: '—HOLOCAT: “Look, there’s a message.”',
       paragraph_three:
         '“Good work. This will help bitcoin get back to one block every ten minutes.” – Satoshi Nakamoto',
@@ -525,7 +526,7 @@ const translations = {
         difficulty_paragraph:
           'The mining difficulty is what allows the block to remain at an average of 10 minutes between each new block.',
         spoiler:
-          'Nothing to spoil! Just go ahead and read through this lesson. There will be more opportunities to show off your   mining knowledge in future lessons!',
+          'Nothing to spoil! Just go ahead and read through this lesson. There will be more opportunities to show off your  mining knowledge in future lessons!',
       },
     },
   },
@@ -542,25 +543,25 @@ const translations = {
       title: 'Intro',
       nav_title: 'Hashing it out',
       paragraph_one:
-        '—SATOSHI NAKAMOTO: “Hey, you! Yeah, you! Remember me? Bitcoin is being targeted with a 51% attack! Vanderpoole used a backdoor on the standard ASIC firmware to bend existing mining pools to his goals. He’s using them to mine empty blocks to hold the bitcoin ecosystem hostage and force people to support increasing bitcoin’s supply. Do something, dingdong!”',
+        '—SATOSHI NAKAMOTO: “Hey, you! Yeah, you! Remember me? Bitcoin is being hit with a 51% attack right now! After you brought those mining devices online, Vanderpoole turned BitRey’s ASICs back on and is mining empty blocks. The problem is it’s not just his machines. He used a backdoor on the standard ASIC firmware to infect existing miners with a virus that prevents them from mining anything but empty blocks. He’s trying to hold the bitcoin ecosystem hostage and force people to support the idea of increasing bitcoin’s supply. Do something, dingdong!”',
       paragraph_two:
-        'The old computer coughs a cloud of dust, then produces a wad of data called a “spreadsheet” that contains contact info for some of the largest bitcoin pool operators, as well as a patch to the virus that is letting BitRey control miners. Send the file to the pool operators so that they can regain control of their machines fight BitRey.',
+        'The old computer coughs up a cloud of dust, then produces a wad of data called a “spreadsheet” that contains contact info for some of the largest bitcoin miners, as well as a patch for the virus. The sooner you can get the patch to other miners, the sooner they can regain control of their machines and join your fight against BitRey.',
       paragraph_three:
         '—HOLOCAT: “We’ve got more work to do. Well, you do. I’m gonna run through walls and scare mice.”',
     },
 
     solo_one: {
-      title: 'You vs. Bitrey',
+      title: 'You vs. BitRey',
       nav_title: 'Mining alone',
       step_zero_heading: 'Let’s give it a try',
       step_zero_paragraph_one:
-        'While you’re waiting for the pool operators you reached out to, you decide to see if BitRey can be fended off alone. Here’s how your hash rate stacks up. How do you think this will go?',
+        'While you’re waiting for the miners you reached out to, you decide to see if BitRey can be fended off alone. Maybe you can put an end to the empty blocks without any help. Here’s how your hash rate stacks up. How do you think this will go?',
       step_one_heading: 'We’re off to the races',
       step_one_paragraph_one:
         'We’re now mining 100 blocks to see how many you stack up against BitRey.',
       step_two_heading: `That didn't go well!`,
       step_two_paragraph_one:
-        'Yikes, we just don’t have enough hashpower to compete with BitRey and the virus-controlled pools. Let’s see if we can defeat BitRey for the next 100 blocks with the other pool operators. Bitcoin has been running for over a century and it’s not going down without a fight.',
+        'Yikes, we just don’t have enough hashpower to compete with BitRey and the virus-controlled miners. Let’s see if we can defeat BitRey for the next 100 blocks with the other miners. Bitcoin has been running for over a century and it’s not going down without a fight.',
     },
 
     pool_one: {
@@ -579,10 +580,10 @@ const translations = {
       nav_title: 'Mining together',
       step_zero_heading: 'Here we go',
       step_zero_paragraph_one:
-        'By combining your hashrate with the other pool operators, can you stand up to BitRey?',
+        'By pooling your hashrate with the other miners, can you stand up to BitRey?',
       step_two_heading: 'Another defeat!',
       step_two_paragraph_one:
-        'Something is wrong. Only Hash Hoppers found blocks. Why do you think that might be?',
+        'Something is wrong. Only Hashrate Hoppers found blocks. Why do you think that might be?',
     },
 
     coop_one: {
@@ -590,7 +591,7 @@ const translations = {
       nav_title: 'Something went wrong',
       heading: 'Something is not quite right yet.',
       paragraph_one:
-        'Hash Hoppers, the one with the most hash power, is finding all your blocks but others find nothing.',
+        'Hashrate Hoppers, the one with the most hash power, is finding all your blocks but others find nothing.',
       paragraph_two:
         'The problem is that everyone is checking the same nonces while they’re mining. How can you better coordinate?',
       paragraph_three:
@@ -623,7 +624,7 @@ const translations = {
         'Let’s see if we stand a chance against BitRey now with our improved strategy of dividing the nonce space.',
       step_two_heading: 'You did it!',
       step_two_paragraph_one:
-        'Together you and the other pool operators held back BitRey’s attempt to overtake the network.',
+        'Together you and the other miners held back BitRey’s attempt to overtake the network.',
     },
 
     split_one: {
@@ -672,7 +673,7 @@ const translations = {
       nav_title: 'Chapter complete',
       heading: 'Take that, Vanderpoole! ',
       paragraph_one:
-        'Great work! You and the other operators were able to fend off Vanderpoole’s 51% attack by pooling your resources. Empty blocks are no longer being submitted and it looks like he’s given up.',
+        'Great work! You and the other miners were able to fend off Vanderpoole’s 51% attack by pooling your resources. Empty blocks are no longer being submitted and it looks like he’s given up.',
       paragraph_two:
         'It’s time to reap your rewards! Go to the next chapter to withdraw your bitcoin.',
     },
@@ -726,7 +727,7 @@ const translations = {
       title: 'Intro',
       nav_title: 'Securing the bag',
       paragraph_one:
-        '—HOLOCAT: “One of us better sleep. You need to start contacting the mining pools. They’ll want to know even more than the world will.”',
+        '—HOLOCAT: “One of us better sleep. You need to start contacting the rest of the miners. They’ll want to know even more than the world will.”',
       paragraph_two:
         'As you settle at your ButtLift Hover Desk, you replay the day’s events. Vanderpoole. BitRey. The revelation that miners never agreed to shut down in protest. Could it all be true? Was this all staged? And how much longer are you supposed to look after this cat? (In the distance, something meows.)',
       paragraph_three:
@@ -2098,7 +2099,7 @@ const translations = {
     intro_three: {
       nav_title: 'Correcting the software',
       paragraph_one:
-        "But you can't just leave the crippled mining code on Vanderpoole's server to keep infecting all the mining pools. You have to fix it! As you read through the code, Holocat shows you a mempool display and it is filling up with unconfirmed transactions. The sooner this code gets fixed, the better.",
+        "But you can't just leave the crippled mining code on Vanderpoole's server. It will keep infecting miners. You have to fix it! As you read through the code, Holocat shows you a mempool display that is filling with unconfirmed transactions. The sooner this code gets fixed, the better.",
     },
     mempool_transaction_one: {
       title: 'Building blocks',
@@ -2184,7 +2185,7 @@ const translations = {
       title: 'Intro',
       nav_title: `Vanderpoole's Deception`,
       paragraph_one: `—DEBORAH CHUNK: “These documents expose the alleged lies of Thomas Vanderpoole in a way that is certainly historic, scandalous even. The first thing people will most want to know is whether you acted alone. The second is where you got your information.”`,
-      paragraph_two: `You tell her about Holocat and Holocat only. You lie and say the information was delivered directly to you and Mika 3000 by someone claiming to be Satoshi Nakamoto, who you suspect is actually a hacker collective. This last point causes Thomas Vanderpoole to call directly into the show.`,
+      paragraph_two: `You tell her about Holocat and Holocat only. You say the information was delivered directly to you and Mika 3000 by someone claiming to be Satoshi Nakamoto, who you suspect is actually a hacker collective. This last point causes Thomas Vanderpoole to call directly into the show.`,
     },
     intro_two: {
       title: `Intro`,
@@ -2292,7 +2293,7 @@ const translations = {
       heading_one: 'Showtime!',
       paragraph_one: `The cameras are rolling, two billion humans worldwide are tuned in to the live stream. Only a few minutes remain until the next commercial break. Deborah Chunk is sweating. Somehow, Holocat is also sweating. Somewhere on the other end of the call, Vanderpoole must be sweating, too. This is your moment.`,
       paragraph_two: `Starting with the valid block just before the one you found at height 6929851, find the longest chain of valid blocks you can. Store the chain as an array of block hashes. While you're at it, maintain an array of every invalid block you find as well, just to show the world how hard Vanderpoole tried to break bitcoin. It doesn't matter what order these invalid block hashes are in, but your valid chain MUST start with the hash of block 6929850 followed by one block hash at each height all the way up to the chain tip.`,
-      paragraph_three: `Vanderpoole is sneaky! He mined valid blocks on top of invalid blocks, and invalid blocks on top of short valid blocks! It's a maze, a minefield, out there. You may need to keep track of several valid branches as you traverse the tree. There will be valid blocks with valid parents that are not in the longest chain! In the end, there will be only one valid leaf with a greater height than all the others.`,
+      paragraph_three: `Vanderpoole is sneaky! He mined valid blocks on top of invalid blocks, and invalid blocks on top of short chains of valid blocks! It's a maze, a minefield, out there. You may need to keep track of several valid branches as you traverse the tree. There will be valid blocks with valid parents that are not in the longest chain! In the end, there will be only one valid leaf with a greater height than all the others.`,
       paragraph_four: `Remember: Block objects returned by the JSON API have a property "prev" which identifies that block's parent by its hash:`,
       heading_two: `A block is ONLY valid if:`,
       paragraph_five: `Its coinbase output value is equal to the expected block subsidy plus the total transaction fees in the block.`,
@@ -2306,7 +2307,7 @@ const translations = {
       nav_title: 'Chapter complete',
       heading: "We're doing it live!",
       paragraph_one:
-        "You found the longest chain and proved it to everyone! You are one step closer to discrediting Vanderpoole. Needless to say he didn't answer anymore of Ms. Chunk's questions.",
+        "You found the longest chain and proved it to everyone! The list of invalid blocks you found is impressively long. Vanderpoole went to great lengths to try to get people to accept his blocks containing subsidies, but he couldn’t do anything to change the rules of bitcoin. As we observed, just because a block is part of a chain, it does not necessarily mean that it is valid. Now, you are one step closer to discrediting Vanderpoole. Needless to say, he didn't answer the remainder of Ms. Chunk's questions.",
     },
     resources: {
       building_blocks_three: {
@@ -2347,25 +2348,28 @@ const translations = {
 
   chapter_nine: {
     title: `Don't trust, verify.`,
-    paragraph_one: `You demonstrated Vanderpoole’s invalid blocks and proved the most work chain, just in time. Its commercial break.`,
-    paragraph_two: `Just then, Vanderpoole himself walks into the studio! He starts complaining that you have ruined his business and slandered his good family name.`,
+    paragraph_one: `Just in time, you proved to the world that Vanderpoole has been attempting to confuse the bitcoin network with invalid blocks. As a commercial break airs, the studio’s television crew prepares for the next segment.`,
     intro_one: {
       title: 'Intro',
       nav_title: 'Threats',
       paragraph_one:
-        'Everyone is celebrating your success. You are smiling, the crew is smiling, Deborah Chunk is smiling. But there is one man on set who is not happy. A tall grey-haired man standing by the wall. The crowd parts and you see him face to face, for the first time: Vanderpoole! He is there!',
+        'Everyone is celebrating; everyone is smiling. But there is one man on set who isn’t happy: a tall, well-dressed, gray-haired man who you recognize immediately. The crowd parts, and you see him face to face for the first time: Vanderpoole!',
       paragraph_two:
-        'He starts shouting at you. You have ruined his business and slandered his good family name. He threatens to sue you in court with all his might for the rest of your days.',
+        'His fists are clenched. You have ruined his business and exposed his family’s long con. The first thing out of his mouth is a threat to sue you every day for the rest of your life "times infinity".',
     },
     intro_two: {
       title: 'Intro',
       nav_title: 'Coming to terms',
       paragraph_one:
-        'Just then, a TV network producer walks in and tells you and Deborah that viewers are calling in from all around the world that want to support your cause! You have lots of fans now and they all want to donate bitcoin to you! Deborah asks if you could provide a wallet address that they can broadcast on the air.',
+        'As Vanderpoole rants, a producer walks in and tells you that viewers from around the world want to support your cause by donating bitcoin and calzones to you for... some reason! Deborah asks you to provide their viewership with a wallet address.',
       paragraph_two:
-        'This makes Vanderpoole even more furious. He demands that you split the incoming donations with him or he will carry out his threat of endless lawsuits. Satisfy him, however, and he will leave you alone.',
+        'This makes Vanderpoole even more furious. He demands that you split the incoming donations with him, or he’ll drown you in even more lawsuits, as if there can be more than infinity lawsuits.',
       paragraph_three:
-        'Your task is to create a bitcoin script contract with this untrustable counterparty, and make sure you (and Vanderpoole) can spend from it how and when you agree to.',
+        'Sharing donations with Vanderpoole doesn’t make much sense. The money is coming from people that want to thank you for exposing Vanderpoole’s efforts to undermine bitcoin. It dawns on you that this demand is more about him losing than wanting money. For a moment, you even start to feel bad for him. He’s backed himself into a corner with no way out.',
+      paragraph_four:
+        'As if she could read your mind, Deborah Chunk steps in. She asks if there is a charity Vanderpoole would like to see a portion of the donations go to. To your surprise, he enthusiastically names the Lil Bits Foundation, a non-profit dedicated to helping children.',
+      paragraph_five:
+        'Vanderpoole’s complexion calms from radish red to beet purple. You start creating a bitcoin script contract between you and Vanderpoole. He is responsible for getting the funds to the Lil Bits Foundation. This script contract is what you will use to derive the donation address. It will treat Vanderpoole as an untrustable counterparty and ensure you both can spend from it how and when you agree.',
     },
     opcodes_one: {
       title: 'OpCodes',
@@ -2382,7 +2386,7 @@ const translations = {
       nav_title: 'Bitcoin stack',
       heading: 'The stack',
       paragraph_one:
-        "Think of a stack of books 📚. If you want to add a book, you have to place it on top of the stack, there's nowhere else for it to go. If you want to read a book, the only one you can access is the one on top of the stack. Even if you want more than one you have start at the top of the stack and work your way down. In computing terms, a stack is like an array of data items with two operations:",
+        "Think of a stack of books 📚. If you want to add a book, you have to place it on top of the stack. There's nowhere else for it to go. If you want to read a book, the only one you can access is the one on top of the stack. Even if you want more than one you have start at the top of the stack and work your way down. In computing terms, a stack is like an array of data items with two operations:",
       paragraph_two:
         '<span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_PUSH</span> Add an item to the "top" of the stack.',
       paragraph_three:
@@ -2399,16 +2403,16 @@ const translations = {
       paragraph_four:
         'Notice that the first item pushed on to the stack will be the last item popped off the stack, so it will be the last item processed by the script. For this reason the stack has an "upside down" or "backwards" feel to it, and the first thing you see on the stack will likely be the solution required at the end of script processing.',
       paragraph_five:
-        'When spending a bitcoin transaction output, the elements required by the spender are provided in the witness of the spending transaction input (see chapter 6!) and those elements get pushed on to the stack before any script processing begins. We will refer to those items as the INITIAL STACK. They are important because they are literally the data that unlocks the script and allows the spender to spend coins!',
+        "When spending a bitcoin transaction output, the elements required by the spender are provided in the witness section of the spending transaction's input (see chapter 6) and those elements get pushed on to the stack before any script processing begins. We will refer to those items as the INITIAL STACK. They are important because they are literally the data that unlocks a script and allows coins to be spent!",
     },
     opcodes_three: {
       title: 'OpCodes',
       nav_title: 'OpCodes',
       heading: 'OpCodes',
       paragraph_one:
-        'Script is a linear series of commands that are executed one by one, manipulating items on the stack. When the end of the script has been reached, there must be EXACTLY ONE NON-ZERO (NON-FALSE) ITEM remaining on the stack, or the entire operation is invalid and so is your bitcoin transaction. There are over 100 commands in the bitcoin script language, called "opcodes". We are only going to use a handful of them for this challenge.  ',
+        'Script is a linear series of commands that are executed one by one, manipulating items on the stack. When the end of the script is reached, there must be EXACTLY ONE NON-ZERO (NON-FALSE) ITEM remaining on the stack, or the entire operation is invalid and so is your bitcoin transaction. There are over 100 commands in the bitcoin script language, called "opcodes". We are only going to use a handful of them for this challenge.  ',
       paragraph_two:
-        "Let's demonstrate an example where we lock up a bitcoin with the math problem 1 + 2 = ?. Whoever knows the answer to this math problem can spend the coins.",
+        "Let's demonstrate an example where we lock up a bitcoin with the math problem 1 + 2 = ? Whoever knows the answer to this math problem can spend the coins.",
       paragraph_three: 'The script would look like this:',
       paragraph_four:
         '<span className="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_1 OP_2 OP_ADD OP_EQUAL</span>',
@@ -2420,7 +2424,7 @@ const translations = {
       nav_title: 'The stack solution',
       heading: 'The stack solution',
       paragraph_one:
-        "The stack solution would look like this: [3]. This is what the spending transaction would need in the witness of its input spending these coins. Let's step through it:",
+        "The stack solution would look like this and the spending transaction needs to contain all these elements. They go in the witness section of the input that is trying to spend these coins. Let's step through it:",
       table_one: {
         headings: {
           item_one: 'Step',
@@ -2442,7 +2446,7 @@ const translations = {
       paragraph_two:
         'Now we have reached the end of the script and there is only a single TRUE item left on the stack - the coins are spent!',
       paragraph_three:
-        "Hopefully it's obvious that if we started this example with a 4 on the stack, we would not be able to spend the coins. For these challenges we are going to use a very limited set of opcodes, which we will introduce by category",
+        'If we started this example with a 4 on the stack, we would not be able to spend the coins because the OP_EQUAL would evaluate to FALSE. For these challenges we are going to use a very limited set of opcodes, which we will introduce by category.',
     },
     opcodes_five: {
       title: 'OpCodes',
@@ -2513,7 +2517,7 @@ const translations = {
       paragraph_two:
         'Holocat appears with a pre-recorded message from Satoshi Nakamoto!',
       paragraph_three:
-        'Hi. I accidentally wrote a bug when I implemented <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span>. It pops an extra item off the stack that isn\'t used at all. UMMMMmmmmmm... WHOOPSIE! Sorry. That code is consensus-critical so every <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> operation in bitcoin\'s past, present, and future will be forced to include a "dummy" element. Don\'t forget it! Or you won\'t be able to spend your multisig coins.',
+        'Hi. I accidentally wrote a bug when I implemented <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span>. It pops an extra item off the stack that isn\'t used at all. So, uh, whoops. Sorry. That code is consensus-critical so every <span className="text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_CHECKMULTISIG</span> operation in bitcoin\'s past, present, and future will be forced to include a "dummy" element. Don\'t forget it or you won\'t be able to spend your multisig coins!',
     },
     opcodes_eight: {
       title: 'OpCodes',
@@ -2537,7 +2541,7 @@ const translations = {
       multisig_list_seven:
         'If all public keys have been tested and there are any signatures remaining, the operation fails.',
       multisig_list_eight:
-        'Once all signatures have been removed the operation can finish early with success, even if more public keys are remaining.',
+        'Once all signatures have been removed the operation can finish early with success, even if more public keys remain.',
       paragraph_one:
         'Note that m <= n. There may be more public keys than signatures but never more signatures than public keys. Also note that the keys and signatures MUST be in the same order, even if some keys are not used to sign.',
       paragraph_two: 'Provide the initial stack to spend from the script.',
@@ -2547,7 +2551,7 @@ const translations = {
       nav_title: 'Wait to unlock',
       heading: 'Time Locks',
       paragraph_one:
-        "Way back in the last century a document entitled BIP 65 proposed a new opcode to bitcoin which was eventually added to the consensus rules. It is used to require that the nLocktime of a transaction is at or above a value specified by the script. Bitcoin's consensus rules already prohibit including a transaction in a block if that block's height is greater than the transaction's nLocktime. In other words, this opcode makes a transaction unspendable until a the blockchain reaches a certain height some time in the future. Because it was added with a soft fork, it does NOT actually pop anything off the stack, meaning most uses will also require an <span className=\"text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm\">OP_DROP</span> as well.. If the opcode determines it is too early to include this transaction in a block, script evaluation stops immediately with an error.",
+        "Way back in the last century a document entitled BIP 65 proposed a new opcode to bitcoin which was eventually added to the consensus rules. It is used to require that the nLocktime of a transaction is at or above a value specified by the script. Bitcoin's consensus rules already prohibit including a transaction in a block if that block's height is greater than the transaction's nLocktime. In other words, this opcode makes a transaction unspendable until a the blockchain reaches a certain height some time in the future. Because it was added with a soft fork, it does NOT actually pop anything off the stack, meaning most uses will also require an <span className=\"text-[#3DCFEF] rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm\">OP_DROP</span> as well. If the opcode determines it is too early to include this transaction in a block, script evaluation stops immediately with an error.",
       subheading_one: 'Opcodes that do block timelocks',
       optimelock_list_one_heading:
         '<span className="flex items-center text-[#3DCFEF] w-fit rounded-sm px-1.5 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">OP_DROP</span>',
@@ -2574,14 +2578,14 @@ const translations = {
       title: 'Advanced',
       nav_title: 'Back to The Story',
       heading: 'Back to The Story!',
-      paragraph_one: `Nice Work! We've gone over most of the basic opcodes you will need when building the scripts for basic transactions. Now let's put them to the test in some scenarios.`,
+      paragraph_one: `Nice Work! We've gone over most of the opcodes you will need when building scripts for basic transactions. Now let's put them to the test.`,
       paragraph_two: `For each contract proposal you discuss, provide a bitcoin script and one valid spending stack.`,
     },
     proposal_two: {
       title: '2 of 2 multisig',
       nav_title: 'Sign cooperatively',
       heading: '2 of 2 multisig',
-      paragraph_one: `The first thing Vanderpoole suggests is a 2-of-2 multisig. All funds that get donated will be split by you and him 50/50, which will be managed by you both signing all spending transactions from the donation address, so you will have to agree on all "withdraws"`,
+      paragraph_one: `The first thing Vanderpoole suggests is a 2-of-2 multisig. All donations will be split between you and the Lil Bits Foundation 50/50. This will be managed by you both, with each of you signing all spending transactions from the donation address. This means you will have to agree on all withdrawals from the donation address.`,
       paragraph_two: `Vanderpoole hands you his public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
       paragraph_three: 'Provide the initial stack to spend from the script.',
       next_step_message: 'Looks good! Now lets try with your own signature.',
@@ -2590,8 +2594,8 @@ const translations = {
       title: 'Conditional time locked transaction',
       nav_title: 'Make him wait',
       heading: 'Conditional time locked transaction',
-      paragraph_one: `Wait a minute, that doesn't make sense -- you don't want to deal with him forever! The new deal is, you get all donations for the next two hours while you are still on TV. After that, he can have whatever else trickles in. You take a look at The Bitcoin Block Clock on the wall in the studio and agree that block height 6930300 will be probably be mined in about two hours`,
-      paragraph_two: `Remember Vanderpoole's public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
+      paragraph_one: `Wait a minute, that doesn't make sense—you don't want to deal with him forever! The new deal is you get all donations for the next two hours while you are still on TV. The Lil Bits Foundation gets anything that comes in afterwards. You look at the bitcoin block block on the wall in the studio and agree that block height 6930300 will probably be mined in about two hours.`,
+      paragraph_two: `Remember Vanderpoole's public key is PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
       paragraph_three: 'Provide the initial stack to spend from the script.',
       next_step_message: 'Looks good! Now lets try with your own signature.',
     },
@@ -2600,22 +2604,29 @@ const translations = {
       nav_title: 'Work with an oracle',
       heading: 'Secret preimage locked transaction',
       paragraph_one:
-        "Vanderpoole changes his mind again. He doesn't like that deal because of the unknowns. He decides he wants the first 1.0 BTC of total donations, and then you can spend the rest after that.",
+        "Vanderpoole changes his mind again. He doesn't like that deal because of the unknowns. He decides he wants the Lil Bits foundation to get the first 1.0 BTC of total donations, and you can spend the rest afterward.",
       paragraph_two:
         'There is no way to check a total balance across multiple UTXOs in bitcoin script so you agree on an unbiased third-party oracle: Deborah Chunk! She will monitor the total donation amount on the blockchain and once they add up to at least 1.0 BTC she will announce, live on TV, the preimage to a hash value you will commit to in the script.',
-      paragraph_three:
-        'She generates a secure random nonce in private, then hands you the hash digest: <span className="text-[#3DCFEF] w-fit rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">HASH256(FD3771E8)</span>. You can spend all the coins you receive once she reveals this secret, and not one satoshi one second earlier!',
-      paragraph_four: `Remember Vanderpoole's public key, it's PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
+      paragraph_three: {
+        a: 'She generates a secure random nonce in private, then hands you the hash digest: <span className="text-[#3DCFEF] w-fit rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-sm">HASH256(FD3771E8)</span>. You can spend all the coins you receive once she reveals this secret, and not one ',
+        b: ' one second earlier!',
+      },
+      paragraph_four: `Remember Vanderpoole's public key is PUBKEY(vanderpoole) and yours is PUBKEY(me).`,
       paragraph_five: 'Provide the initial stack to spend from the script.',
+      tooltip_one: {
+        question: 'What is a satoshi?',
+        link: 'https://chat.bitcoinsearch.xyz/?author=holocat&question=What%2520is%2520a%2520satoshi%253F',
+        highlighted: 'satoshi',
+      },
       next_step_message:
         "Let's see if we used our signature with the preimage correctly.",
     },
     outro_one: {
       title: 'Outro',
       nav_title: 'Chapter Complete',
-      heading: 'Coming to terms',
+      heading: 'Way to go!',
       paragraph_one:
-        "Nice, you were able to come to an agreement that seems to make everyone happy. Let's go ahead and broadcast this transaction to set it in stone.",
+        "The donations have now been distributed to you and the Lil Bits Foundation and many viewers thank you for shining a light on Vanderpoole’s actions. While the decentralized nature of bitcoin makes it difficult to overtake the network, it doesn’t stop people like him from trying. You're relieved the truth is finally out, especially after all the effort it took to get here.",
     },
 
     resources: {
@@ -2678,8 +2689,8 @@ Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signatu
     title: '10 billion connections',
     paragraph_one: `The ON-AIR light in the TV studio goes dark. Stagehands shut off their hover-cameras and start filing out after a long day. Mike Ramen puts his hand on your shoulder and says "Great work today! Now let's celebrate. I know a bar across the street that accepts bitcoin -- and what better way to honor Satoshi's vision of digital cash for the internet than exchanging some for beer!"`,
     intro_one: {
-      title: 'Intro',
-      nav_title: 'Intro',
+      title: 'Celebration',
+      nav_title: 'Celebration',
       paragraph_one: `“You did it! You pulled it off!” she exclaims as you high-five and head for the door. You step outside. Everything is as it used to be. But something feels different. A ziptaxi deposits its passengers and zooms off. Someone buys dinner from a halal cart. A child exits a store with her holodog and a carton of milk. These are regular scenes, but you see how important money is to the world you live in.`,
       paragraph_two: `“Why are you just standing there?” Mika 3000’s question snaps you out of your dream state.`,
       paragraph_three: `“Have you ever thought about money? Like, how does bitcoin work?” you stammer.`,
@@ -2687,8 +2698,8 @@ Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signatu
       paragraph_five: `“Let’s get something to drink,” you request and insist at the same time.`,
     },
     intro_two: {
-      title: 'Intro',
-      nav_title: 'Intro',
+      title: 'Getting drinks',
+      nav_title: 'Getting drinks',
       paragraph_one: `You step into a bar called The Public Key Pub. The bartender, a friendly guy with the name tag Laszlo, welcomes you and Mika 3000 in with a big smile.`,
       paragraph_two: '“I’m in the mood for pizza,” Mika 3000 tells Laszlo.',
       paragraph_three:
@@ -2698,8 +2709,8 @@ Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signatu
       paragraph_five: `“That’s so cool. Well, pizza with a Laszlo would have been perfect, but I’ll settle for a [DRINK CHOICE].”`,
     },
     intro_three: {
-      title: 'Intro',
-      nav_title: 'Intro',
+      title: 'Off-chain?',
+      nav_title: 'Off-chain?',
       paragraph_one: `Mika 3000 and Laszlo pull out their solar-powered ePhone 114s and start tapping buttons. Laszlo pours a beer and hands it to Mika 3000. She raises the glass to you and says, "Your little stunt back there did a number on miner fees. Good thing we’ve got off-chain payments.”`,
       paragraph_two: `You must have seen a million bitcoin payments in your life. But you’ve never really thought about it. That couple getting out of the robotaxi, the halal cart, the kid with her holodog, this beer. Of course, these aren’t on-chain payments. But how?`,
       paragraph_three: `“You’ve got that glazed-over look again,” Mika 3000 whispers.`,
@@ -2765,8 +2776,8 @@ Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signatu
       hint_one: `Output 0 is spent by you with <span className="rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-base"> SIG(You) </span>`,
     },
     updating_the_state_two: {
-      title: 'Revoking Refunds to Secure Payment in Multi-Sig',
-      nav_title: 'Revoking Refunds to Secure Payment in Multi-Sig',
+      title: 'Securing Payments',
+      nav_title: 'Securing Payments',
       paragraph_one: `Laszlo says, "OK, nice, I'll sign this and send it back to you, and then you can sign that funding transaction.`,
       paragraph_two: `Hey, wait a minute, though. If I sign this, we're back where we started: You can broadcast this transaction even after I give you a beer, and I won't get paid`,
       paragraph_three:
@@ -2942,6 +2953,49 @@ Stack Hint: To spend before the secret is revealed, Vanderpoole uses his signatu
       hint_one: `You, after 700 blocks:  <span className="rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-base"> SIG(YOU) 1 </span>`,
       hint_two: `Laszlo:  <span className="rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-base"> 0 SIG(REVOCATION_YOU_3) SIG(LASZLO) 0 </span> `,
       paragraph_five: `Output 1 is spent by Laszlo <span className="rounded-sm px-1.5 py-1 h-[28px] font-mono bg-[#0000004D] m-0.5 text-base"> SIG(LASZLO) </span> `,
+    },
+
+    outro_one: {
+      title: 'Outro',
+      nav_title: 'Going all night',
+      paragraph_one:
+        'You can do this all night long! Well. Until your 100,000 satoshis have all been sent to Laszlo anyway',
+      paragraph_two: "Don't forget to drink some water!",
+    },
+
+    outro_two: {
+      title: 'Outro',
+      nav_title: 'Heading home',
+      paragraph_one: `After a long day, you pay for your drinks and head home,. but as you open the door to your 3D printed house, you—oh, crap! It’s Vanderpoole again! Is this really happening or did you have one too many Mempool Margaritas? Despite a small cadre of holocats flanking him on every side, he isn’t looking for a fight`,
+      paragraph_two: `—VANDERPOOLE: “We don’t really know one another, even though, as my grandpappy used to say, the fates of strangers are often intertwined.. I need you to hear me. All of the Satoshi Nakamoto stuff was me trying to save my family’s business. You can’t imagine how much mining meant to us. I guess I wasn’t ready for change and wanted to keep things more or less the same.”`,
+    },
+
+    outro_three: {
+      title: 'Outro',
+      nav_title: 'Bitcoin community',
+      paragraph_one: `You ask why the name mattered so much to him.`,
+      paragraph_two: `—VANDERPOOLE: “It’s the only name in bitcoin bigger than Bitrey and Vanderpoole. Someone using the name Satoshi Nakamoto once told me that bitcoin had moved far beyond its creator’s control over a century ago. This is why, to salvage the Vanderpoole name, I tried to claim a more prominent name. You can’t understand the thrill of minting new coins. It was magic to me then; it is magic to me now.”`,
+      paragraph_three: `—VANDERPOOLE: "I realize now that even if I were Satoshi’s great-grandson, bitcoin isn’t defined by leaders. It’s defined by its community. Not even Satoshi could change what bitcoin has become. That has always been what made bitcoin great and why the millions of other coins made in bitcoin’s image never lasted.”`,
+    },
+
+    outro_four: {
+      title: 'Outro',
+      nav_title: "Vanderpoole's villainy",
+      paragraph_one: `Vanderpoole picks up your holocat, and it begins to pur. People are complicated, and no one knows that better than cats, holo or otherwise`,
+      paragraph_two: `—HOLOCAT: “You’re not a villain, Mr. Vanderpoole. But you maybe, just maybe, might have cared too much.”`,
+      paragraph_three: `—VANDERPOOLE: Ain’t that the truth.`,
+    },
+
+    outro_five: {
+      title: 'You did it!!!',
+      nav_title: 'You did it!!!',
+      heading_one: 'You did it!!!',
+      paragraph_one: `Like Satoshi, you were a nobody, but your ideas had merit, so people followed you. Satoshi is gone, but his spirit and ideas live on. Armed with your newfound bitcoin dev coding skills, a healthy dose of humility, and some good old-fashioned persistence, you can leave an enduring mark on this elegant system that has united the world under permissionless, censorship-resistant money for more than 100 years. New adventures await you in the code and the open market of ideas. bitcoin only survives because people like you contribute what theycan. That’s why we are all Satoshi.`,
+    },
+
+    outro_six: {
+      title: 'Beyond Saving Satoshi',
+      nav_title: 'Moving beyond Saving Satoshi',
     },
   },
 
